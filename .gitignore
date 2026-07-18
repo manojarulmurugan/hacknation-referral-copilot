@@ -1,0 +1,45 @@
+# Data — keep samples local; never commit the full dump
+data/*
+!data/.gitkeep
+!data/README.md
+!data/samples/
+data/samples/*
+!data/samples/.gitkeep
+
+# Databricks
+.databricks/
+.databricks*
+
+# Secrets / env
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+.eggs/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*~
