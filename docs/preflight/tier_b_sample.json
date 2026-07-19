@@ -1,0 +1,2098 @@
+[
+  {
+    "unique_id": "14fb1802-6ba6-443b-ae3c-6cac18dea466",
+    "name": "Cardion Hospital",
+    "address_city": "Nagpur",
+    "description": "A one stop destination for the advanced Heart Health and Medical requirements of the citizens of Nagpur, Central India and across the globe.",
+    "confidence_bucket": "borderline (generic single-word/numeric match only)",
+    "flagged_bullets": [
+      {
+        "source_field": "capability",
+        "bullet_position": 0,
+        "bullet_text": "Cardion Hospital is listed as a popular hospital for cardiac problems in Nagpur",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 8,
+        "bullet_text": "Hospital started in 2020 in Nagpur",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 9,
+        "bullet_text": "Dr Suryaprakash Asawa is an interventional cardiologist practicing at Cardion Hospital",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 11,
+        "bullet_text": "Cardion Hospital is categorized as a Cardiologist facility type on the American Health Tourism directory",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 12,
+        "bullet_text": "Cardion Hospital listing status on the American Health Tourism directory is Unclaimed",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 14,
+        "bullet_text": "Describes itself as the best heart and super specialty hospital in Nagpur, Maharashtra",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 18,
+        "bullet_text": "Cardion Hospital is a unit of Cardion Hospital Health Care Pvt. Ltd.",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 19,
+        "bullet_text": "Cardion Hospital is located in Nagpur, Maharashtra",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "procedure",
+        "bullet_position": 9,
+        "bullet_text": "Cardion Hospital is a unit of Cardion Hospital Health Care Pvt. Ltd.",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      }
+    ]
+  },
+  {
+    "unique_id": "76291067-1c82-4c02-8160-f17e72d84e65",
+    "name": "Varanasi Hospital",
+    "address_city": "Varanasi",
+    "description": "Varanasi Hospital (NABH ACCREDITED) is a Multi-Specialty Hospital which was established by Dr. Baijnath Prasad, senior most surgeon of the region, working since 1964. It is the most renowned centre for laparoscopic surgery headed by Dr Manish Jindal.",
+    "confidence_bucket": "borderline (generic single-word/numeric match only)",
+    "flagged_bullets": [
+      {
+        "source_field": "capability",
+        "bullet_position": 1,
+        "bullet_text": "Multi-Specialty hospital",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 4,
+        "bullet_text": "Specialty hospital in eastern Uttar Pradesh",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      }
+    ]
+  },
+  {
+    "unique_id": "34c1fc06-d8fc-4c14-991d-5d3f94c4159b",
+    "name": "Calcutta Medical Centre",
+    "address_city": "Kolkata",
+    "description": "Calcutta Medical Centre is an Internal Medicine Clinic in Minto Park, Kolkata.",
+    "confidence_bucket": "borderline (generic single-word/numeric match only)",
+    "flagged_bullets": [
+      {
+        "source_field": "capability",
+        "bullet_position": 0,
+        "bullet_text": "Hospital activities (NIC code 8511) including general and specialized hospitals, sanatoria, asylums, rehabilitation centres, dental centres and other health institutions with accommodation facilities.",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 1,
+        "bullet_text": "Calcutta Medical Centre is a hospital in Kolkata.",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      }
+    ]
+  },
+  {
+    "unique_id": "cf328ef3-97c1-4e5d-8ce5-8f75132f6a0c",
+    "name": "Wadhwa Pathology Lab",
+    "address_city": "Sonipat",
+    "description": "Free Home Sample Collection",
+    "confidence_bucket": "obvious (city or specific-org mismatch)",
+    "flagged_bullets": [
+      {
+        "source_field": "capability",
+        "bullet_position": 2,
+        "bullet_text": "Provides pathology laboratory testing services in Palwal Rural, Haryana",
+        "foreign_cities_mentioned": [
+          "palwal"
+        ],
+        "foreign_orgs_mentioned": []
+      }
+    ]
+  },
+  {
+    "unique_id": "0548e4f4-cfd5-4822-ac49-10ec1ee8eb25",
+    "name": "Sai Multispeciality Hospital Washim",
+    "address_city": "Washim",
+    "description": "Hospital",
+    "confidence_bucket": "borderline (generic single-word/numeric match only)",
+    "flagged_bullets": [
+      {
+        "source_field": "capability",
+        "bullet_position": 0,
+        "bullet_text": "Sai Multispeciality Hospital Washim is listed as a hospital in Washim district on the District Washim government site (Hospital section).",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 1,
+        "bullet_text": "First hospital in Washim district to have modular operation theatre",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "equipment",
+        "bullet_position": 0,
+        "bullet_text": "Has modular operation theatre at Sai Multispeciality Hospital, Washim district",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      }
+    ]
+  },
+  {
+    "unique_id": "1d3f5f2e-e990-4bd8-abef-bd6c2b2b8d84",
+    "name": "Dr. Jairaj's Hospital - 2nd Floor, Om Chanakya Complex, Sector 6, CBD Belapur, Navi Mumbai, Maharashtra 400614",
+    "address_city": "Navi Mumbai",
+    "description": "Welcome to Dr. Jairaj's Hospital, a leading multispeciality healthcare institution located in Belapur, Navi Mumbai. Specialties include Orthopaedic, General Medicine, Gynecology, Laparoscopic Surgery, Maternity, Critical Care.",
+    "confidence_bucket": "obvious (city or specific-org mismatch)",
+    "flagged_bullets": [
+      {
+        "source_field": "capability",
+        "bullet_position": 3,
+        "bullet_text": "Multispeciality hospital offering services across orthopedics, general medicine, critical care, cardiology, general & laparoscopic surgery, gastroenterology, neurology, gynecology, pediatrics, dermatology, and urology",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 8,
+        "bullet_text": "Private hospital in Navi Mumbai, Maharashtra",
+        "foreign_cities_mentioned": [
+          "mumbai"
+        ],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 16,
+        "bullet_text": "Located in Navi Mumbai",
+        "foreign_cities_mentioned": [
+          "mumbai"
+        ],
+        "foreign_orgs_mentioned": []
+      }
+    ]
+  },
+  {
+    "unique_id": "08c8f9bb-2e33-468e-8b09-0b1d235ce426",
+    "name": "Saravana Hospital",
+    "address_city": "Kuttalam",
+    "description": "SARAVANA HOSPITAL in Madurai, India.",
+    "confidence_bucket": "obvious (city or specific-org mismatch)",
+    "flagged_bullets": [
+      {
+        "source_field": "capability",
+        "bullet_position": 0,
+        "bullet_text": "Located in Madurai",
+        "foreign_cities_mentioned": [
+          "madurai"
+        ],
+        "foreign_orgs_mentioned": []
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 1,
+        "bullet_text": "Saravana Hospital is listed as a hospital in Kalimedu, Mohanur Block, Namakkal District, Tamil Nadu",
+        "foreign_cities_mentioned": [
+          "namakkal"
+        ],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 2,
+        "bullet_text": "Saravana Hospital is located in Madurai",
+        "foreign_cities_mentioned": [
+          "madurai"
+        ],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 6,
+        "bullet_text": "Located in Madurai, India",
+        "foreign_cities_mentioned": [
+          "madurai"
+        ],
+        "foreign_orgs_mentioned": []
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 7,
+        "bullet_text": "Saravana Hospital is listed in Medindia's directory as a hospital in Chennai, Tamil Nadu.",
+        "foreign_cities_mentioned": [
+          "chennai"
+        ],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 8,
+        "bullet_text": "Listed in Medindia's Chennai, Tamil Nadu hospital directory as Saravana Hospital",
+        "foreign_cities_mentioned": [
+          "chennai"
+        ],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 9,
+        "bullet_text": "Saravana Hospital is listed in Medindia's hospital directory as a hospital in Coimbatore, Tamil Nadu",
+        "foreign_cities_mentioned": [
+          "coimbatore"
+        ],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 10,
+        "bullet_text": "Shree Mahavir Multispeciality Hospital Pvt. Ltd. operates as a multispeciality hospital.",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 11,
+        "bullet_text": "Located in AHMEDABAD, Gujarat.",
+        "foreign_cities_mentioned": [
+          "ahmedabad"
+        ],
+        "foreign_orgs_mentioned": []
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 14,
+        "bullet_text": "Saravana Hospital is located in Madurai.",
+        "foreign_cities_mentioned": [
+          "madurai"
+        ],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 15,
+        "bullet_text": "Located in Madurai, India",
+        "foreign_cities_mentioned": [
+          "madurai"
+        ],
+        "foreign_orgs_mentioned": []
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 16,
+        "bullet_text": "Established in 2004 in Madurai, Tamil Nadu",
+        "foreign_cities_mentioned": [
+          "madurai"
+        ],
+        "foreign_orgs_mentioned": []
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 17,
+        "bullet_text": "Multi-speciality hospital",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 26,
+        "bullet_text": "Listed in Medindia's hospital directory as Saravana Hospital in Chennai, Tamil Nadu",
+        "foreign_cities_mentioned": [
+          "chennai"
+        ],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 27,
+        "bullet_text": "Listed in Medindia's Chennai, Tamil Nadu hospital directory",
+        "foreign_cities_mentioned": [
+          "chennai"
+        ],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 28,
+        "bullet_text": "Listed in Medindia's directory as a hospital in Coimbatore, Tamil Nadu",
+        "foreign_cities_mentioned": [
+          "coimbatore"
+        ],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 29,
+        "bullet_text": "Located in Namakkal, Tamil Nadu, India",
+        "foreign_cities_mentioned": [
+          "namakkal"
+        ],
+        "foreign_orgs_mentioned": []
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 30,
+        "bullet_text": "Saravana Hospital is listed in Medindia's hospital directory as a hospital in Coimbatore, Tamil Nadu.",
+        "foreign_cities_mentioned": [
+          "coimbatore"
+        ],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 31,
+        "bullet_text": "Listed in Medindia's hospital directory for Chennai, Tamil Nadu as Saravana Hospital",
+        "foreign_cities_mentioned": [
+          "chennai"
+        ],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 32,
+        "bullet_text": "Hospital located in Coimbatore, Tamil Nadu",
+        "foreign_cities_mentioned": [
+          "coimbatore"
+        ],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 33,
+        "bullet_text": "Listed in Medindia's hospital directory for Coimbatore, Tamil Nadu",
+        "foreign_cities_mentioned": [
+          "coimbatore"
+        ],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 34,
+        "bullet_text": "Listed in Medindia Hospital Directory for Chennai, Tamil Nadu",
+        "foreign_cities_mentioned": [
+          "chennai"
+        ],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 35,
+        "bullet_text": "Saravana Hospital is listed in Medindia's directory as a hospital in Chennai, Tamil Nadu.",
+        "foreign_cities_mentioned": [
+          "chennai"
+        ],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 36,
+        "bullet_text": "Saravana Hospital is listed in Medindia's directory as a hospital in Chennai, Tamil Nadu, India.",
+        "foreign_cities_mentioned": [
+          "chennai"
+        ],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 39,
+        "bullet_text": "Listed as a government hospital in Madurai on Sulekha",
+        "foreign_cities_mentioned": [
+          "madurai"
+        ],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 40,
+        "bullet_text": "Located in Athikulam, Madurai",
+        "foreign_cities_mentioned": [
+          "madurai"
+        ],
+        "foreign_orgs_mentioned": []
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 41,
+        "bullet_text": "Listed in Medindia's hospital directory as Saravana Hospital in Chennai, Tamil Nadu",
+        "foreign_cities_mentioned": [
+          "chennai"
+        ],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 42,
+        "bullet_text": "Listed in Medindia's Coimbatore hospital directory",
+        "foreign_cities_mentioned": [
+          "coimbatore"
+        ],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 43,
+        "bullet_text": "Saravana Hospital is located in Coimbatore, Tamil Nadu, India.",
+        "foreign_cities_mentioned": [
+          "coimbatore"
+        ],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 44,
+        "bullet_text": "Listed in Medindia's hospital directory as Saravana Hospital in Coimbatore, Tamil Nadu.",
+        "foreign_cities_mentioned": [
+          "coimbatore"
+        ],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 45,
+        "bullet_text": "Listed in Medindia's hospital directory as Saravana Hospital in Coimbatore, Tamil Nadu.",
+        "foreign_cities_mentioned": [
+          "coimbatore"
+        ],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      }
+    ]
+  },
+  {
+    "unique_id": "202c3520-fc99-4391-a6e1-fad7e062e679",
+    "name": "Jaya Dental Clinic",
+    "address_city": "Chennai",
+    "description": "Dental Clinic in Ramanathapuram",
+    "confidence_bucket": "obvious (city or specific-org mismatch)",
+    "flagged_bullets": [
+      {
+        "source_field": "capability",
+        "bullet_position": 0,
+        "bullet_text": "Outpatient dental clinic",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "dental clinic"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 1,
+        "bullet_text": "Multispeciality dental clinic",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "dental clinic",
+          "multispeciality dental clinic"
+        ]
+      }
+    ]
+  },
+  {
+    "unique_id": "a0081495-bbdd-49d9-92f2-2cc6a28e4ca0",
+    "name": "Sadamangalam Ayurvedic Panchakarma Clinic & Fertiveda",
+    "address_city": "Kolhapur",
+    "description": "Sadamangalam Ayurvedic Panchakarma Clinic & Fertiveda",
+    "confidence_bucket": "obvious (city or specific-org mismatch)",
+    "flagged_bullets": [
+      {
+        "source_field": "capability",
+        "bullet_position": 1,
+        "bullet_text": "Affiliated physician: Dr. Sachin Ganeshwadi, MD, with 15+ years of Ayurveda experience, practicing at the clinic since August 2010",
+        "foreign_cities_mentioned": [
+          "sachin"
+        ],
+        "foreign_orgs_mentioned": []
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 11,
+        "bullet_text": "Has 2 Ayurveda doctors on staff.",
+        "foreign_cities_mentioned": [
+          "2"
+        ],
+        "foreign_orgs_mentioned": []
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 12,
+        "bullet_text": "Dr. Sachin Sadashiv Ganeshwadi provides Ayurveda consultations; consultation fee 500 INR.",
+        "foreign_cities_mentioned": [
+          "sachin"
+        ],
+        "foreign_orgs_mentioned": []
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 13,
+        "bullet_text": "Dr. Prajakta Sachin Ganeshwadi provides Ayurveda consultations; consultation fee 500 INR.",
+        "foreign_cities_mentioned": [
+          "sachin"
+        ],
+        "foreign_orgs_mentioned": []
+      }
+    ]
+  },
+  {
+    "unique_id": "e517f93d-ff0f-4c90-b6ae-4b85343a1f25",
+    "name": "Redent Dental Clinic",
+    "address_city": "Ahmedabad",
+    "description": "Dental clinic",
+    "confidence_bucket": "obvious (city or specific-org mismatch)",
+    "flagged_bullets": [
+      {
+        "source_field": "capability",
+        "bullet_position": 0,
+        "bullet_text": "Redent Dental Clinic is a dental clinic located in Ahmedabad, Gujarat",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "dental clinic"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 1,
+        "bullet_text": "Dr. Vanali Umrania is a dentist specializing in Dentistry and practices at Redent Dental Clinic",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "dental clinic"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 2,
+        "bullet_text": "Dr. Vanali Umrania is listed on Medindia's directory as a dentist associated with Redent Dental Clinic in Ahmedabad, Gujarat",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "dental clinic"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 3,
+        "bullet_text": "Dental clinic offering outpatient dental consultations",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "dental clinic"
+        ]
+      }
+    ]
+  },
+  {
+    "unique_id": "06bdf654-fc15-49eb-89c5-e3c14010ebe1",
+    "name": "Rela Hospital",
+    "address_city": "Chennai",
+    "description": "Rela Hospital is a 30-bed multispeciality hospital at Oragadam, Chennai, with ICU, Mini-OT, and 24x7 Ambulance and Pharmacy Services.",
+    "confidence_bucket": "obvious (city or specific-org mismatch)",
+    "flagged_bullets": [
+      {
+        "source_field": "capability",
+        "bullet_position": 2,
+        "bullet_text": "Rela Hospital has 30 beds including ICU",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 3,
+        "bullet_text": "Rela Hospital is a multispeciality hospital located at Oragadam within the Hiranandani Parks Oragadam township",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 4,
+        "bullet_text": "Rela Hospital provides 24x7 ambulance services",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 5,
+        "bullet_text": "Rela Hospital provides 24x7 pharmacy services",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 6,
+        "bullet_text": "30-bed multi-speciality hospital with ICU and OT facilities",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 12,
+        "bullet_text": "Rela Hospital is located in Chromepet, Chennai",
+        "foreign_cities_mentioned": [
+          "chromepet"
+        ],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 13,
+        "bullet_text": "Rela Hospital is listed as a clinic option for Dr. Sukanya Mathupal (ENT Specialist) in Chennai",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 14,
+        "bullet_text": "Rela Hospital is a Chennai-based hospital.",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 15,
+        "bullet_text": "Rela Hospital is located in Chennai, India.",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 16,
+        "bullet_text": "Rela Hospital is listed in Innayat Medical's hospital network.",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 17,
+        "bullet_text": "Quaternary care hospital",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "care hospital",
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 26,
+        "bullet_text": "First hospital in South Asia to perform pediatric auxiliary liver transplant",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 29,
+        "bullet_text": "Rela Hospital is located in Chennai, India",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 30,
+        "bullet_text": "Rela Hospital is listed as a related hospital in Innayat Medical's hospital network",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 46,
+        "bullet_text": "SARS-CoV-2 Real-time RT-PCR testing capability",
+        "foreign_cities_mentioned": [
+          "2"
+        ],
+        "foreign_orgs_mentioned": []
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 47,
+        "bullet_text": "CBNAAT (Cepheid Xpert Xpress) SARS-CoV-2 testing capability",
+        "foreign_cities_mentioned": [
+          "2"
+        ],
+        "foreign_orgs_mentioned": []
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 48,
+        "bullet_text": "SARS-CoV-2 IgG antibody testing capability",
+        "foreign_cities_mentioned": [
+          "2"
+        ],
+        "foreign_orgs_mentioned": []
+      },
+      {
+        "source_field": "procedure",
+        "bullet_position": 20,
+        "bullet_text": "Microbiology and Serology with MALDI-TOF, BacT Alert, Vitek 2, CMIA/ELFA/ELISA, MGIT, Real-time PCR for Virology, CBNAAT for SARS-CoV-2",
+        "foreign_cities_mentioned": [
+          "2"
+        ],
+        "foreign_orgs_mentioned": []
+      },
+      {
+        "source_field": "procedure",
+        "bullet_position": 31,
+        "bullet_text": "Intracytoplasmic Sperm Injection (ICSI)",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "icsi"
+        ]
+      },
+      {
+        "source_field": "equipment",
+        "bullet_position": 17,
+        "bullet_text": "BioMerieux MALDI-TOF and culture systems (BacT Alert, Vitek 2)",
+        "foreign_cities_mentioned": [
+          "2"
+        ],
+        "foreign_orgs_mentioned": []
+      },
+      {
+        "source_field": "equipment",
+        "bullet_position": 21,
+        "bullet_text": "CBNAAT (Cepheid Xpert Xpress) for SARS-CoV-2",
+        "foreign_cities_mentioned": [
+          "2"
+        ],
+        "foreign_orgs_mentioned": []
+      }
+    ]
+  },
+  {
+    "unique_id": "4d3a82b0-8b69-4918-b15f-58d7f579818c",
+    "name": "My Smile Dental Clinic",
+    "address_city": "Mumbai",
+    "description": "Located in Mumbai, My Smile Dental Clinic offers comprehensive dental care with a focus on patient comfort, including preventive, restorative, cosmetic dentistry, orthodontics, pediatric dentistry, and oral surgery.",
+    "confidence_bucket": "obvious (city or specific-org mismatch)",
+    "flagged_bullets": [
+      {
+        "source_field": "capability",
+        "bullet_position": 0,
+        "bullet_text": "Outpatient dental clinic",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "dental clinic"
+        ]
+      }
+    ]
+  },
+  {
+    "unique_id": "77edbf49-532f-4e03-a2d1-04bc2b34cbd6",
+    "name": "Upasana Hospital",
+    "address_city": "Kollam",
+    "description": "Upasana Hospital",
+    "confidence_bucket": "obvious (city or specific-org mismatch)",
+    "flagged_bullets": [
+      {
+        "source_field": "capability",
+        "bullet_position": 2,
+        "bullet_text": "Listed as Upasana Hospital in the OneFiveNine directory of hospitals in Kollam district",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 3,
+        "bullet_text": "Located in Anchal, Kollam, Kerala, India",
+        "foreign_cities_mentioned": [
+          "anchal"
+        ],
+        "foreign_orgs_mentioned": []
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 5,
+        "bullet_text": "Located in Pathanapuram, Kollam district, Kerala, India",
+        "foreign_cities_mentioned": [
+          "pathanapuram"
+        ],
+        "foreign_orgs_mentioned": []
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 8,
+        "bullet_text": "Multispecialty hospital",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 13,
+        "bullet_text": "Upasana Hospital is listed as a hospital in Kollam district.",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 16,
+        "bullet_text": "Upasana Hospital is located in Kollam",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 17,
+        "bullet_text": "Upasana Hospital has official website upasanahospital.com",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 18,
+        "bullet_text": "Upasana Hospital is listed on MedicalKerala as Upasana Hospital",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 23,
+        "bullet_text": "Upasana Hospital has website www.upasanahospital.com",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 24,
+        "bullet_text": "Upasana Hospital is located in Kollam",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 25,
+        "bullet_text": "Listed among Top Hospitals In Thiruvananthapuram on Practo",
+        "foreign_cities_mentioned": [
+          "thiruvananthapuram"
+        ],
+        "foreign_orgs_mentioned": []
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 26,
+        "bullet_text": "Located in Idukki district, Kerala, India",
+        "foreign_cities_mentioned": [
+          "idukki"
+        ],
+        "foreign_orgs_mentioned": []
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 29,
+        "bullet_text": "Upasana Hospital is described as a Medical centre on its unofficial Facebook page",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 30,
+        "bullet_text": "Facebook page for Upasana Hospital is labeled as unofficial",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 31,
+        "bullet_text": "Upasana Hospital is a multi-specialty hospital",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 33,
+        "bullet_text": "Upasana Hospital is a multi-specialty hospital located in Chamkkada, Kollam",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 36,
+        "bullet_text": "Upasana Hospital is listed among top hospitals in Thiruvananthapuram on Practo",
+        "foreign_cities_mentioned": [
+          "thiruvananthapuram"
+        ],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 37,
+        "bullet_text": "Upasana Hospital is located in Thiruvananthapuram",
+        "foreign_cities_mentioned": [
+          "thiruvananthapuram"
+        ],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 38,
+        "bullet_text": "Upasana Hospital is listed among Top General Physician Hospitals in Thiruvananthapuram on Practo",
+        "foreign_cities_mentioned": [
+          "thiruvananthapuram"
+        ],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 39,
+        "bullet_text": "Listed among Top Hospitals In Thiruvananthapuram",
+        "foreign_cities_mentioned": [
+          "thiruvananthapuram"
+        ],
+        "foreign_orgs_mentioned": []
+      },
+      {
+        "source_field": "procedure",
+        "bullet_position": 0,
+        "bullet_text": "Upasana Hospital is a multi-specialty hospital.",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      }
+    ]
+  },
+  {
+    "unique_id": "83e6bce6-4fea-4d64-b059-cf4a052ba00d",
+    "name": "Rohilkhand Medical College and Hospital",
+    "address_city": "Bareilly",
+    "description": "Rohilkhand Medical College and Hospital, established in 2006, is a private medical college and hospital in Bareilly, Uttar Pradesh, India. It offers MBBS and postgraduate degrees, nursing and para-medical courses. The yearly undergraduate intake is 250. It is affiliated with Bareilly International University and recognized by the National Medical Commission. Principal: Dr. Dig Vijay Singh.",
+    "confidence_bucket": "borderline (generic single-word/numeric match only)",
+    "flagged_bullets": [
+      {
+        "source_field": "capability",
+        "bullet_position": 0,
+        "bullet_text": "Private medical college and hospital",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 36,
+        "bullet_text": "Rohilkhand Medical College and Hospital operates as a medical college and hospital in Bareilly, Uttar Pradesh",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 37,
+        "bullet_text": "Private medical college and hospital in Bareilly, Uttar Pradesh",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 38,
+        "bullet_text": "Listed in UP NEET-UG 2024-25 private medical college fees structure as Rohilkhand Medical College & Hospital, Bareilly",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 39,
+        "bullet_text": "Rohilkhand Medical College and Hospital is a private medical college and hospital affiliated with Bareilly International University",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 45,
+        "bullet_text": "Placement rating: 3.6 for MBBS program",
+        "foreign_cities_mentioned": [
+          "6"
+        ],
+        "foreign_orgs_mentioned": []
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 47,
+        "bullet_text": "Private medical college and hospital",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "procedure",
+        "bullet_position": 7,
+        "bullet_text": "Performs fine-needle aspiration cytology (FNAC) of cervical lymph nodes; a published study from Rohilkhand Medical College and Hospital analyzed 290 cases (Nov 2016\u2013Oct 2017) showing reactive lymphadenopathy as most common cytology, followed by granulomatous lymphadenitis, necrotizing lymphadenitis, and tuberculous lymphadenitis.",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      }
+    ]
+  },
+  {
+    "unique_id": "e47ec8f1-74c2-418a-88cd-73967f0f1fc5",
+    "name": "Satya Aesthetics & Hair Solutions - Delhi",
+    "address_city": "Delhi",
+    "description": "World's leading aesthetic and hair restoration Centre. Where Science meets Art.",
+    "confidence_bucket": "obvious (city or specific-org mismatch)",
+    "flagged_bullets": [
+      {
+        "source_field": "capability",
+        "bullet_position": 6,
+        "bullet_text": "Operates Delhi and Gurugram clinics",
+        "foreign_cities_mentioned": [
+          "gurugram"
+        ],
+        "foreign_orgs_mentioned": []
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 9,
+        "bullet_text": "Operates two clinics in Delhi and Gurugram",
+        "foreign_cities_mentioned": [
+          "gurugram"
+        ],
+        "foreign_orgs_mentioned": []
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 16,
+        "bullet_text": "Operates in Delhi and Gurgaon",
+        "foreign_cities_mentioned": [
+          "gurgaon"
+        ],
+        "foreign_orgs_mentioned": []
+      },
+      {
+        "source_field": "procedure",
+        "bullet_position": 23,
+        "bullet_text": "Performs Dermapen 4 microneedling",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "4"
+        ]
+      },
+      {
+        "source_field": "procedure",
+        "bullet_position": 42,
+        "bullet_text": "Dermapen 4 microneedling",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "4"
+        ]
+      },
+      {
+        "source_field": "equipment",
+        "bullet_position": 6,
+        "bullet_text": "Dermapen 4 microneedling device",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "4"
+        ]
+      },
+      {
+        "source_field": "equipment",
+        "bullet_position": 10,
+        "bullet_text": "Dermapen 4 microneedling device",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "4"
+        ]
+      }
+    ]
+  },
+  {
+    "unique_id": "44d05b85-41b3-471a-ac6d-ceec8f9e96eb",
+    "name": "Anantshree Hospital",
+    "address_city": "Bhopal",
+    "description": "Owner: Dr. Navin Batra",
+    "confidence_bucket": "obvious (city or specific-org mismatch)",
+    "flagged_bullets": [
+      {
+        "source_field": "capability",
+        "bullet_position": 1,
+        "bullet_text": "Listed as a top hospital in Bhopal on Practo",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 3,
+        "bullet_text": "Listed in Medicine India hospital directory",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital",
+          "india hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 6,
+        "bullet_text": "Aditya Birla Health Insurance network hospital in Bhopal",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 13,
+        "bullet_text": "Anantshree Hospital is listed among top hospitals in Bhopal on Practo.",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 14,
+        "bullet_text": "Anantshree Hospital is listed among top clinics in Gulmohar Colony, Bhopal",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 15,
+        "bullet_text": "Listed as a top hospital in Karond, Bhopal",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 16,
+        "bullet_text": "Anantshree Hospital is listed as a top clinic in Gulmohar Colony, Bhopal on Practo",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 20,
+        "bullet_text": "Anantshree Hospital is listed as a Bajaj General Network Hospital in Bhopal, Madhya Pradesh",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 21,
+        "bullet_text": "Anantshree Hospital is listed in Bajaj Allianz network hospitals in Bhopal",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      }
+    ]
+  },
+  {
+    "unique_id": "c15da265-c0a5-4986-ae91-7f8421abe308",
+    "name": "Nizam's Institute of Medical Sciences",
+    "address_city": "Hyderabad",
+    "description": "Mentioned as a healthcare-related organization in Hyderabad, Telangana, India, in Telangana's industrial context.",
+    "confidence_bucket": "obvious (city or specific-org mismatch)",
+    "flagged_bullets": [
+      {
+        "source_field": "capability",
+        "bullet_position": 3,
+        "bullet_text": "Tertiary-care hospital with a Department of Medical Gastroenterology",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "care hospital",
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 33,
+        "bullet_text": "Nizam's Institute of Medical Sciences is a public hospital and state university located in Hyderabad, Telangana, India",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 41,
+        "bullet_text": "Expanded in 2013 with two blocks: a 300-bed Super Specialty Hospital and a 200-bed Accident & Trauma Hospital",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 42,
+        "bullet_text": "In November 2022, Telangana government approved expansion to add 2,000 beds, including 500 ICU beds, and increasing departments to 42",
+        "foreign_cities_mentioned": [
+          "2"
+        ],
+        "foreign_orgs_mentioned": []
+      },
+      {
+        "source_field": "procedure",
+        "bullet_position": 7,
+        "bullet_text": "Reports HBV vaccination coverage among health-care workers (80.4% uptake: 33/41) as part of occupational exposure management",
+        "foreign_cities_mentioned": [
+          "33"
+        ],
+        "foreign_orgs_mentioned": [
+          "4"
+        ]
+      },
+      {
+        "source_field": "procedure",
+        "bullet_position": 8,
+        "bullet_text": "Monitors health-care workers for chronic HBV/HCV infection during at least 6 months of follow-up after exposure",
+        "foreign_cities_mentioned": [
+          "6"
+        ],
+        "foreign_orgs_mentioned": []
+      },
+      {
+        "source_field": "procedure",
+        "bullet_position": 27,
+        "bullet_text": "Originated as Nizam's Orthopaedic Hospital in Hyderabad.",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "procedure",
+        "bullet_position": 38,
+        "bullet_text": "Participates in a multi-centre study evaluating hospital environment for presence of Mucorales during COVID-19-associated mucormycosis outbreak in India",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "equipment",
+        "bullet_position": 6,
+        "bullet_text": "First CT scanner in a state-run hospital installed at NIMS during Dr. Raja Reddy's directorship (1990\u20131993)",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "equipment",
+        "bullet_position": 14,
+        "bullet_text": "Link corridor connects floors 2, 3, 4 & 5 to ensure quick access between operating theatres (OTs), diagnostic services and wards.",
+        "foreign_cities_mentioned": [
+          "2"
+        ],
+        "foreign_orgs_mentioned": [
+          "4"
+        ]
+      },
+      {
+        "source_field": "equipment",
+        "bullet_position": 15,
+        "bullet_text": "Two separate buildings are connected by a link corridor at upper floor levels to allow easy access between the Specialty Hospital and the Emergency Hospital within the complex.",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "equipment",
+        "bullet_position": 18,
+        "bullet_text": "Cardiac imaging services provided by Care Hospital include cardiac MRI, cardiac CT, nuclear cardiology, and 2D/3D echocardiography",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "care hospital",
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "equipment",
+        "bullet_position": 19,
+        "bullet_text": "Care Hospital installed the first dual-source CT in South India",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "care hospital",
+          "hospital"
+        ]
+      }
+    ]
+  },
+  {
+    "unique_id": "e3279475-58c3-451b-b37b-5f9333d83380",
+    "name": "Nahar Medical Centre",
+    "address_city": "Mumbai",
+    "description": "Welcome to Nahar Medical Centre, a premier state-of-the-art medical and diagnostic facility located in Chandivali, Mumbai. At Nahar Medical Centre, your well-being is our top priority. From the moment you step in, you are greeted with warmth, hospitality, and a commitment to helping you return to optimal health.Our center offers a serene and calming atmosphere, designed to put you at ease. We provide comprehensive care with the support of a professional and confident team, ensuring a comfortable experience for all our patients. Our facility includes modern amenities such as Wi-Fi-enabled lounges and an in-house coffee shop, delivering a blend of healthcare and comfort.Part of the esteemed Nahar Group, a leading name in real estate since 1973, Nahar Medical Centre extends the Group\u2019s commitment to quality and excellence into the healthcare sector. The Nahar Group, known for its top-tier residential and industrial developments, now brings the same dedication to improving the quality of life through superior healthcare services.Our team is focused on addressing your concerns with expert medical consultancy and empathetic interactions. Experience top-notch healthcare in a facility designed to make every patient feel comfortable and cared for. Our facility has state-of-the-art equipment's and forms the basis for all our diagnostic and medical reports , prayer room.The calm, serene atmosphere; the confident and professional staff, WIFI enabled lounges, the coffee shop, are all part of the 'Nahar Medical Center design'.",
+    "confidence_bucket": "obvious (city or specific-org mismatch)",
+    "flagged_bullets": [
+      {
+        "source_field": "capability",
+        "bullet_position": 4,
+        "bullet_text": "Located in Andheri East, Mumbai",
+        "foreign_cities_mentioned": [
+          "andheri",
+          "andheri east"
+        ],
+        "foreign_orgs_mentioned": []
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 6,
+        "bullet_text": "Offers IVF, ICSI, IUI and other ART services including sperm wash, blastocyst culture, embryo cryopreservation, embryo donation, surrogacy, laser assisted hatching, and surgical sperm retrieval",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "icsi"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 15,
+        "bullet_text": "Opening hours: Mon to Sat 8:00 am\u20138:00 pm; Sunday 8:00 am\u20134:00 pm",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "4"
+        ]
+      },
+      {
+        "source_field": "procedure",
+        "bullet_position": 12,
+        "bullet_text": "Intra Cytoplasmic Sperm Injection (ICSI)",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "icsi"
+        ]
+      }
+    ]
+  },
+  {
+    "unique_id": "b0d5a919-d6ff-4137-b0d6-8503a64c1f30",
+    "name": "Divine Touch Dental Hospital & Amp Research Centre",
+    "address_city": "Prayagraj",
+    "description": "Divine Touch Dental Hospital & Research Centre. Director: Krishn Singh.",
+    "confidence_bucket": "obvious (city or specific-org mismatch)",
+    "flagged_bullets": [
+      {
+        "source_field": "capability",
+        "bullet_position": 0,
+        "bullet_text": "Operates as a dental hospital and research centre",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 2,
+        "bullet_text": "Divine Touch Dental Hospital & Research Centre is a dental hospital and research centre",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 3,
+        "bullet_text": "Located in Allahabad, Uttar Pradesh, India",
+        "foreign_cities_mentioned": [
+          "allahabad"
+        ],
+        "foreign_orgs_mentioned": []
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 7,
+        "bullet_text": "Markets itself as the biggest and number one dental hospital in the state of Uttar Pradesh",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 8,
+        "bullet_text": "Divine Touch Dental Hospital & Research Centre is a dental hospital and research centre located in Allahabad, Uttar Pradesh, India.",
+        "foreign_cities_mentioned": [
+          "allahabad"
+        ],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 9,
+        "bullet_text": "It claims to be the biggest and number one dental hospital in the state of Uttar Pradesh.",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      }
+    ]
+  },
+  {
+    "unique_id": "2844da4b-b15d-4173-aaff-11ca0ae02dd3",
+    "name": "Tulsi Dental Clinic, Tulsi Complex, Ramganj, Ajmer-305001",
+    "address_city": "Ajmer",
+    "description": "Tulsi Dental Clinic provides complete dental services in Ajmer, including general care, cosmetic dentistry and dental implants, with emphasis on prevention and personalized attention. The page notes two locations in Ajmer.",
+    "confidence_bucket": "obvious (city or specific-org mismatch)",
+    "flagged_bullets": [
+      {
+        "source_field": "capability",
+        "bullet_position": 16,
+        "bullet_text": "Has 2 locations in Ajmer",
+        "foreign_cities_mentioned": [
+          "2"
+        ],
+        "foreign_orgs_mentioned": []
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 20,
+        "bullet_text": "Tulsi Dental Clinic is RGHS empaneled hospital in Ajmer",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "dental clinic",
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 22,
+        "bullet_text": "OPD facility available under RGHS at Tulsi Dental Clinic",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "dental clinic"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 23,
+        "bullet_text": "Listed in RGHS Hospital List Ajmer",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      }
+    ]
+  },
+  {
+    "unique_id": "189f7645-d64a-4340-8715-852c1e40f414",
+    "name": "Prem Hospital Super Speciality & Trauma Centre",
+    "address_city": "Jwalapur",
+    "description": "Prem Hospital Super Specialty & Trauma Center is one of the leading Super-Specialty Hospitals in Haridwar, Uttarakhand headed by Dr. Sandhya Sharma (Sr. gynecologists\u2019) & Dr.Shourya Sharma (Radiologist). Our state-of-the-art hospital focuses on providing World Class Services with modern amenities and infrastructure, We have 24/7 availability of anesthesia, ambulances, hygienic ICU, clean private wards, doctors, and nurses who provide timely personalized services. Departments include Cardiology, Gastro Science, Gynaecologist Laparoscopic, I.V.F, Neonatology, Nephrology, Neurosurgery, Oncology, Urology, Women\u2019s and Obstetrics.",
+    "confidence_bucket": "obvious (city or specific-org mismatch)",
+    "flagged_bullets": [
+      {
+        "source_field": "capability",
+        "bullet_position": 0,
+        "bullet_text": "Super-specialty hospital",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 4,
+        "bullet_text": "Operates as a Trauma Center in Haridwar",
+        "foreign_cities_mentioned": [
+          "haridwar"
+        ],
+        "foreign_orgs_mentioned": []
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 8,
+        "bullet_text": "Operates as a multispeciality hospital with departments in Neurology, Cardiology, Gynecology, Urology, and Laparoscopic Surgery",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 11,
+        "bullet_text": "Operates as a super specialty hospital with a trauma centre",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 12,
+        "bullet_text": "Located in Haridwar, Uttarakhand, India",
+        "foreign_cities_mentioned": [
+          "haridwar"
+        ],
+        "foreign_orgs_mentioned": []
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 20,
+        "bullet_text": "Multispeciality hospital with departments including Cardiology, Neonatology, Nephrology, Neurosurgery, Oncology, Urology, Women\u2019s and Obstetrics, I.V.F, Gastro Science, and Gynaecologist Laparoscopic",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      }
+    ]
+  },
+  {
+    "unique_id": "082b8d1b-e9b8-49e8-99d1-b22652a54e57",
+    "name": "Cosmos Hospital",
+    "address_city": "Moradabad",
+    "description": "Renowned hematology-oncology institute offering specialized medical services by expert doctors.",
+    "confidence_bucket": "obvious (city or specific-org mismatch)",
+    "flagged_bullets": [
+      {
+        "source_field": "capability",
+        "bullet_position": 0,
+        "bullet_text": "Cosmos Hospital is a hospital in Moradabad",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 1,
+        "bullet_text": "Cosmos Hospital has a JustDial rating of 4.4 based on 1,665 ratings",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "4",
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 2,
+        "bullet_text": "Cosmos Hospital is listed as Available Now on JustDial",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 3,
+        "bullet_text": "25 people recently enquired about Cosmos Hospital",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 8,
+        "bullet_text": "Cosmos Hospital is a network hospital in Moradabad under Royal Sundaram Network Hospitals",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 9,
+        "bullet_text": "Cosmos Hospital is one of 14 cashless Royal Sundaram network hospitals in Moradabad",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 11,
+        "bullet_text": "COSMOS Hospital is a 120-bed multi-speciality hospital located in Moradabad, Uttar Pradesh, India",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 17,
+        "bullet_text": "Cosmos Hospital employs a senior neurosurgeon, Dr. Sanjay Gupta.",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 18,
+        "bullet_text": "Cosmos Hospital is located in Prem Nagar, Moradabad, near Kothiwal Dental College.",
+        "foreign_cities_mentioned": [
+          "nagar"
+        ],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 19,
+        "bullet_text": "Dr. Gaurav Agarwal is a neonatologist affiliated with Cosmos Hospital.",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 21,
+        "bullet_text": "Cosmos Hospital is located in Moradabad, Uttar Pradesh, India.",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 23,
+        "bullet_text": "Located in Meerut, Uttar Pradesh",
+        "foreign_cities_mentioned": [
+          "meerut"
+        ],
+        "foreign_orgs_mentioned": []
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 24,
+        "bullet_text": "Dr. Ankit Jain is listed as a rheumatologist at Cosmos Hospital",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 35,
+        "bullet_text": "Cosmos Hospital provides General Surgery services",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 36,
+        "bullet_text": "Cosmos Hospital provides ENT services",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 37,
+        "bullet_text": "Cosmos Hospital provides Neurology services",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 38,
+        "bullet_text": "Cosmos Hospital provides Neurosurgery services",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 39,
+        "bullet_text": "Cosmos Hospital provides Radiology services",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 40,
+        "bullet_text": "Cosmos Hospital provides pediatric care",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 41,
+        "bullet_text": "Cosmos Hospital is a hospital located in Moradabad, Uttar Pradesh",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 42,
+        "bullet_text": "Cosmos Hospital coordinates are 28.8941550, 78.7291995",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 45,
+        "bullet_text": "Cosmos Hospital provides orthopedic services",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 46,
+        "bullet_text": "Dr Anurag Aggarwal is an orthopedic surgeon at Cosmos Hospital in Moradabad",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "hospital"
+        ]
+      }
+    ]
+  },
+  {
+    "unique_id": "3817a9c6-5019-458f-859b-9368f53bc31f",
+    "name": "Inspiria Laparoscopy & IVF Research Centre",
+    "address_city": "Rahata (shirdi)",
+    "description": "Inspiria Laparoscopy & IVF Research Centre provides laparoscopic surgeries, hysteroscopic surgeries, and infertility treatments including IVF, with an Infertility Department and Laparoscopy services.",
+    "confidence_bucket": "borderline (generic single-word/numeric match only)",
+    "flagged_bullets": [
+      {
+        "source_field": "capability",
+        "bullet_position": 4,
+        "bullet_text": "Ultra Modern IVF Lab with laminar air flow, stereo zoom microscope, and ICSI machine",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "icsi"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 12,
+        "bullet_text": "Laminar flow IVF lab with AHU and ICSI capability",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "icsi"
+        ]
+      },
+      {
+        "source_field": "procedure",
+        "bullet_position": 1,
+        "bullet_text": "Grade 4 Endometriosis treated",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "4"
+        ]
+      },
+      {
+        "source_field": "procedure",
+        "bullet_position": 27,
+        "bullet_text": "Provides IVF with ICSI",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "icsi"
+        ]
+      },
+      {
+        "source_field": "equipment",
+        "bullet_position": 0,
+        "bullet_text": "3D Laparoscopy Camera Einstein vision 3.0",
+        "foreign_cities_mentioned": [
+          "0"
+        ],
+        "foreign_orgs_mentioned": []
+      },
+      {
+        "source_field": "equipment",
+        "bullet_position": 2,
+        "bullet_text": "Latest ICSI machine",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "icsi"
+        ]
+      },
+      {
+        "source_field": "equipment",
+        "bullet_position": 5,
+        "bullet_text": "3D Laparoscopy camera (Einstein Vision 3.0) used for gynecologic endoscopic procedures",
+        "foreign_cities_mentioned": [
+          "0"
+        ],
+        "foreign_orgs_mentioned": []
+      },
+      {
+        "source_field": "equipment",
+        "bullet_position": 7,
+        "bullet_text": "ICSI machine in the IVF lab",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "icsi"
+        ]
+      }
+    ]
+  },
+  {
+    "unique_id": "8c2726fb-32b9-4edb-be98-dc6aede7fc3b",
+    "name": "Ratnagiri Test Tube Baby & Research Center",
+    "address_city": "Ratnagiri",
+    "description": "Started Ratnagiri Test Tube Baby & Research Center with IVF and ICSI Technology",
+    "confidence_bucket": "borderline (generic single-word/numeric match only)",
+    "flagged_bullets": [
+      {
+        "source_field": "capability",
+        "bullet_position": 1,
+        "bullet_text": "ICSI program",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "icsi"
+        ]
+      },
+      {
+        "source_field": "procedure",
+        "bullet_position": 0,
+        "bullet_text": "Performs Intra Cytoplasmic Sperm Injection (ICSI)",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "icsi"
+        ]
+      }
+    ]
+  },
+  {
+    "unique_id": "3e8efbf0-c7db-48bc-87e7-2897af0fecc3",
+    "name": "Kids Dental Clinic",
+    "address_city": "Ahmedabad",
+    "description": "Dental clinic offering dental consultations and procedures including RCT (root canal treatment), pulpectomy, and extractions, with services such as dental consultation and conservative dentistry.",
+    "confidence_bucket": "obvious (city or specific-org mismatch)",
+    "flagged_bullets": [
+      {
+        "source_field": "capability",
+        "bullet_position": 0,
+        "bullet_text": "Located in Titanium City Center Mall, Satellite, Ahmedabad, Gujarat, India",
+        "foreign_cities_mentioned": [
+          "satellite"
+        ],
+        "foreign_orgs_mentioned": []
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 5,
+        "bullet_text": "Outpatient dental clinic",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "dental clinic"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 7,
+        "bullet_text": "Dr Akash Patodia is the pediatric dentist at Kids Dental Clinic",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "dental clinic"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 9,
+        "bullet_text": "Dental clinic",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "dental clinic"
+        ]
+      },
+      {
+        "source_field": "capability",
+        "bullet_position": 11,
+        "bullet_text": "Specialty dental clinic exclusively for children",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "dental clinic"
+        ]
+      },
+      {
+        "source_field": "equipment",
+        "bullet_position": 3,
+        "bullet_text": "Modern clinic interior with white cabinetry and dental equipment (Kids Dental Clinic)",
+        "foreign_cities_mentioned": [],
+        "foreign_orgs_mentioned": [
+          "dental clinic"
+        ]
+      }
+    ]
+  }
+]

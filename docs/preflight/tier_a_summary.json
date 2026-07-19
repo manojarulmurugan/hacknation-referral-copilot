@@ -1,0 +1,12 @@
+{
+  "total_rows": 10088,
+  "flagged_rows_raw": 8640,
+  "pct_flagged_raw": 85.6463,
+  "flagged_rows_strong": 6652,
+  "pct_flagged_strong": 65.9397,
+  "flagged_bullet_count": 71720,
+  "city_vocab_size": 1643,
+  "org_vocab_size": 9512,
+  "single_token_org_vocab_size": 47,
+  "duplicate_unique_id_count": 11
+}
