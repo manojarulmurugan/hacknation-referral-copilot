@@ -1,0 +1,289 @@
+# Stage 4 capability taxonomy — SARA-style tracer items grouped by domain,
+# with deterministic include/exclude rules for evidence bullets.
+#
+# Method note (see docs/taxonomy/stage4_findings.md for full citations):
+# every tracer item below is confirmed against official IPHS 2022 / WHO SARA
+# documentation, not invented. The scoring FORMULA (Stage 5) follows WHO SARA;
+# the SERVICE LIST (these 10 capabilities and their tracer items) follows
+# India's IPHS 2022 District Hospital guidelines, which explicitly name all 10.
+#
+# Patterns are case-insensitive Python regular expressions. They deliberately
+# prefer precise medical phrases over broad synonyms. "does_not_count" remains
+# human-readable rationale; exclude_patterns are the executable guardrails.
+
+version: 1
+domains: [staff, equipment, procedures, diagnostics]
+
+capabilities:
+
+  dialysis:
+    staff:
+      - tracer_id: nephrologist
+        description: "A nephrologist (kidney specialist) is on staff, named, or the facility has a nephrology department."
+        include_patterns: ['\bnephrologists?\b', '\bkidney specialists?\b']
+        source_fields: [capability, procedure]
+    equipment:
+      - tracer_id: dialysis_machine
+        description: "A dialysis machine or dialysis unit is present."
+        include_patterns: ['\bdialysis (?:machines?|units?|stations?)\b', '\bhemodialysis machines?\b']
+      - tracer_id: ro_water_plant
+        description: "A reverse-osmosis / ultra-purified water treatment plant for dialysis is present."
+        include_patterns: ['\breverse[- ]osmosis (?:water )?(?:plant|system)\b', '\bRO (?:water )?plant\b', '\bultra[- ]purified water (?:plant|system)\b']
+        context_patterns: ['\bdialysis\b', '\brenal\b', '\breverse[- ]osmosis\b']
+    procedures:
+      - tracer_id: hemodialysis
+        description: "The facility performs hemodialysis (or haemodialysis)."
+        include_patterns: ['\bha?emodialysis\b']
+      - tracer_id: peritoneal_dialysis
+        description: "The facility performs peritoneal dialysis."
+        include_patterns: ['\bperitoneal dialysis\b']
+      - tracer_id: crrt
+        description: "The facility performs CRRT (continuous renal replacement therapy)."
+        include_patterns: ['\bCRRT\b', '\bcontinuous renal replacement therap(?:y|ies)\b']
+    diagnostics:
+      - tracer_id: renal_function_test
+        description: "The facility performs kidney/renal function testing (e.g. serum creatinine)."
+        include_patterns: ['\b(?:renal|kidney) function tests?\b', '\bserum creatinine\b']
+
+  icu:
+    staff:
+      - tracer_id: intensivist
+        description: "An intensivist or critical-care physician/specialist is on staff."
+        include_patterns: ['\bintensivists?\b', '\bcritical[- ]care (?:physicians?|specialists?)\b']
+        source_fields: [capability, procedure]
+    equipment:
+      - tracer_id: ventilator
+        description: "A mechanical ventilator (invasive) is present as ICU/critical-care equipment."
+        include_patterns: ['\bmechanical ventilators?\b', '\binvasive ventilators?\b', '\bventilator (?:beds?|support|facility|machines?)\b']
+        exclude_patterns: ['\bambulances?\b', '\btransport ventilators?\b', '\bneonatal\b']
+      - tracer_id: patient_monitor
+        description: "A multiparameter/patient/cardiac monitor for continuous vitals monitoring is present."
+        include_patterns: ['\bmulti[- ]?para(?:meter)? monitors?\b', '\bpatient monitors?\b', '\bcardiac monitors?\b']
+        exclude_patterns: ['\bfetal\b']
+      - tracer_id: infusion_pump
+        description: "An infusion pump or syringe pump is present."
+        include_patterns: ['\binfusion pumps?\b', '\bsyringe pumps?\b']
+    procedures:
+      - tracer_id: icu_service
+        description: "The facility operates an actual ICU / critical care unit as a named unit or service."
+        does_not_count: "The bare adjective phrase 'intensive care' used loosely, e.g. an 'intensive care ambulance' — that is an ambulance service, not an ICU unit."
+        include_patterns: ['\bICUs?\b', '\bintensive care units?\b', '\bcritical care units?\b']
+        exclude_patterns: ['\bambulances?\b']
+      - tracer_id: mechanical_ventilation
+        description: "The facility provides mechanical/invasive ventilation as a treatment, not just owns the machine."
+        include_patterns: ['\bmechanical ventilation\b', '(?<!non-)(?<!non )\binvasive ventilation\b', '\bventilator support\b']
+        exclude_patterns: ['\bambulances?\b', '\btransport\b', '\bneonatal\b']
+    diagnostics:
+      - tracer_id: arterial_blood_gas
+        description: "The facility performs ABG (arterial blood gas) testing."
+        include_patterns: ['\bABG(?: analysis| analyzer| testing| test)?\b', '\barterial blood gas(?: analysis| analyzer| testing| test)?\b']
+
+  maternity:
+    staff:
+      - tracer_id: obstetrician
+        description: "An obstetrician/gynaecologist (OB-GYN) is on staff or named."
+        include_patterns: ['\bobstetricians?\b', '\bgyn(?:a)?ecologists?\b', '\bOB[- ]?GYNs?\b']
+        source_fields: [capability, procedure]
+    equipment:
+      - tracer_id: ldr_suite
+        description: "A Labour-Delivery-Recovery (LDR) room, suite, or complex is present."
+        does_not_count: "'LDR' as a radiation-dose-rate term in cancer/brachytherapy contexts, e.g. 'HDR and LDR techniques for cancers of the cervix' — that is an oncology radiotherapy term, not a maternity facility."
+        include_patterns: ['\blabou?r[ -]delivery[ -]recovery (?:rooms?|suites?|complex)\b', '\bLDR (?:rooms?|suites?|complex)\b']
+        exclude_patterns: ['\b(?:brachytherapy|radiotherapy|radiation|cancer|tumou?r|HDR)\b']
+      - tracer_id: fetal_monitor
+        description: "A fetal monitor or cardiotocography (CTG) machine is present."
+        include_patterns: ['\bf[oe]tal monitors?\b', '\bcardiotocograph(?:y|s| machines?)\b', '\bCTG machines?\b']
+    procedures:
+      - tracer_id: maternity_service
+        description: "The facility has a maternity, obstetrics, or gynaecology department/service named, even without further detail (e.g. just 'Gynaecology Department')."
+        include_patterns: ['\bmaternity (?:department|service|unit|ward|care)\b', '\bobstetrics?(?: and gyn(?:a)?ecology)? (?:department|service|unit|ward)\b', '\bgyn(?:a)?ecology (?:department|service|unit|ward)\b']
+      - tracer_id: delivery_service
+        description: "The facility performs deliveries (normal/vaginal delivery or C-section/caesarean)."
+        include_patterns: ['\bnormal (?:vaginal )?deliver(?:y|ies)\b', '\bvaginal deliver(?:y|ies)\b', '\bC[- ]?sections?\b', '\bcaesarean (?:sections?|deliver(?:y|ies))\b']
+    diagnostics:
+      - tracer_id: obstetric_ultrasound
+        description: "The facility performs obstetric/antenatal ultrasound (e.g. anomaly scan)."
+        include_patterns: ['\bobstetric ultrasounds?\b', '\bantenatal ultrasounds?\b', '\banomaly scans?\b']
+
+  nicu:
+    staff:
+      - tracer_id: neonatologist
+        description: "A neonatologist is on staff or the facility has a neonatology department."
+        include_patterns: ['\bneonatologists?\b']
+        source_fields: [capability, procedure]
+    equipment:
+      - tracer_id: infant_incubator
+        description: "An infant/neonatal incubator or radiant warmer is present."
+        include_patterns: ['\b(?:infant|neonatal|newborn) incubators?\b', '\bradiant warmers?\b']
+      - tracer_id: neonatal_ventilator
+        description: "A neonatal ventilator or neonatal CPAP device is present."
+        include_patterns: ['\bneonatal ventilators?\b', '\bneonatal CPAP\b', '\b(?:bubble )?CPAP (?:machines?|devices?)\b']
+    procedures:
+      - tracer_id: nicu_service
+        description: "The facility has a NICU or neonatology department/service named, even without further detail (e.g. just 'Neonatology Department')."
+        include_patterns: ['\bNICUs?\b', '\bneonatal intensive care units?\b', '\bneonatology (?:department|service|unit|ward)\b', '\bspecial newborn care units?\b']
+      - tracer_id: neonatal_resuscitation
+        description: "The facility performs neonatal/newborn resuscitation."
+        include_patterns: ['\b(?:neonatal|newborn) resuscitation\b']
+      - tracer_id: neonatal_phototherapy
+        description: "The facility provides phototherapy for newborn jaundice."
+        does_not_count: "Phototherapy for skin conditions in adults (e.g. psoriasis, vitiligo) — that is dermatology, not neonatal care."
+        include_patterns: ['\b(?:neonatal|newborn|infant) phototherapy\b', '\bphototherapy (?:unit|service|treatment).*?\b(?:newborn|neonatal|jaundice)\b']
+        exclude_patterns: ['\b(?:psoriasis|vitiligo|dermatology|skin)\b']
+    diagnostics:
+      - tracer_id: newborn_screening
+        description: "The facility performs newborn/neonatal screening tests."
+        include_patterns: ['\bnewborn screening\b', '\bneonatal screening\b']
+
+  emergency:
+    staff:
+      - tracer_id: emergency_physician
+        description: "An emergency physician, emergency medicine specialist, or casualty medical officer is on staff."
+        include_patterns: ['\bemergency physicians?\b', '\bemergency medicine specialists?\b', '\bcasualty medical officers?\b']
+        source_fields: [capability, procedure]
+    equipment:
+      - tracer_id: defibrillator
+        description: "A defibrillator is present."
+        include_patterns: ['\bdefibrillators?\b', '\bAEDs?\b']
+        exclude_patterns: ['\bimplantable cardioverter[- ]defibrillators?\b']
+      - tracer_id: ambulance_service
+        description: "The facility operates or has access to an ambulance service."
+        include_patterns: ['\bambulance services?\b', '\bambulances?\b']
+    procedures:
+      - tracer_id: emergency_service
+        description: "The facility provides 24x7/round-the-clock emergency care, an emergency department/room, or a casualty department."
+        include_patterns: ['\b24\s*[xX×]\s*7 emergency (?:care|services?)\b', '\bround[- ]the[- ]clock emergency (?:care|services?)\b', '\bemergency (?:department|room|service|unit|care)\b', '\bcasualty (?:department|room|service|unit)\b']
+
+  trauma:
+    staff:
+      - tracer_id: trauma_surgeon
+        description: "A trauma surgeon or orthopaedic surgeon is on staff."
+        include_patterns: ['\btrauma surgeons?\b', '\borthop(?:a)?edic surgeons?\b']
+        source_fields: [capability, procedure]
+    equipment:
+      - tracer_id: trauma_bay
+        description: "A dedicated trauma bay or resuscitation trolley is present."
+        include_patterns: ['\btrauma bays?\b', '\bresuscitation trolleys?\b']
+    procedures:
+      - tracer_id: trauma_care_service
+        description: "The facility provides trauma care as a named service, unit, ward, or centre (including a Polytrauma Unit)."
+        does_not_count: "Any incidental mention of the word 'trauma' unrelated to a trauma-care service, e.g. 'management of dental trauma' — that is dentistry, not a trauma centre."
+        include_patterns: ['\btrauma (?:care|cent(?:re|er)|units?|wards?|services?)\b', '\bpolytrauma (?:care|cent(?:re|er)|units?|wards?|services?)\b']
+        exclude_patterns: ['\b(?:dental|tooth|teeth|psychological|emotional|birth) trauma\b']
+    diagnostics:
+      - tracer_id: trauma_imaging
+        description: "The facility performs a FAST scan (Focused Assessment with Sonography for Trauma)."
+        include_patterns: ['\bFAST scans?\b', '\bfocused assessment with sonography (?:for|in) trauma\b']
+
+  oncology:
+    staff:
+      - tracer_id: oncologist
+        description: "An oncologist (medical, surgical, or radiation oncologist) is on staff."
+        include_patterns: ['\boncologists?\b', '\b(?:medical|surgical|radiation) oncologists?\b']
+        source_fields: [capability, procedure]
+    equipment:
+      - tracer_id: linear_accelerator
+        description: "A linear accelerator (LINAC) for radiotherapy is present."
+        include_patterns: ['\blinear accelerators?\b', '\bLINACs?\b']
+      - tracer_id: pet_ct
+        description: "A PET-CT scanner is present."
+        include_patterns: ['\bPET[- /]?CT(?: scanners?)?\b', '\bpositron emission tomography[- /]computed tomography\b']
+    procedures:
+      - tracer_id: chemotherapy
+        description: "The facility provides chemotherapy."
+        include_patterns: ['\bchemotherap(?:y|ies)\b', '\bchemo (?:unit|day care|services?)\b']
+      - tracer_id: radiotherapy
+        description: "The facility provides radiotherapy/radiation therapy."
+        include_patterns: ['\bradiotherap(?:y|ies)\b', '\bradiation therap(?:y|ies)\b', '\bbrachytherap(?:y|ies)\b']
+      - tracer_id: cancer_surgery
+        description: "The facility performs cancer/tumour surgery (oncosurgery, tumour resection)."
+        include_patterns: ['\bonco[- ]?surg(?:ery|eries)\b', '\b(?:cancer|tumou?r) (?:surgery|surgeries|resection)\b', '\btumou?r resections?\b']
+    diagnostics:
+      - tracer_id: cancer_diagnostics
+        description: "The facility performs biopsy or histopathology for cancer diagnosis."
+        include_patterns: ['\bcancer biops(?:y|ies)\b', '\boncolog(?:y|ical) biops(?:y|ies)\b', '\bhistopatholog(?:y|ical).*?\b(?:cancer|tumou?r|malignan)\w*\b']
+
+  cardiac:
+    staff:
+      - tracer_id: cardiologist
+        description: "A cardiologist or cardiac/cardiothoracic surgeon is on staff."
+        include_patterns: ['\bcardiologists?\b', '\bcardiac surgeons?\b', '\bcardiothoracic surgeons?\b']
+        source_fields: [capability, procedure]
+    equipment:
+      - tracer_id: cath_lab
+        description: "A cardiac catheterization lab (cath lab) is present."
+        include_patterns: ['\bcath(?:eteri[sz]ation)? labs?\b', '\bcardiac catheteri[sz]ation laborator(?:y|ies)\b']
+      - tracer_id: ecg_echo
+        description: "ECG (electrocardiogram) or echocardiography equipment is present."
+        include_patterns: ['\bECG(?: machines?| equipment| facility)?\b', '\belectrocardiograph(?:s|y| machines?)\b', '\bechocardiograph(?:s|y| machines?)\b', '\b2D[- ]?ECHO\b']
+    procedures:
+      - tracer_id: angioplasty
+        description: "The facility performs coronary angioplasty."
+        include_patterns: ['\bcoronary angioplast(?:y|ies)\b', '\bPTCA\b']
+      - tracer_id: angiography
+        description: "The facility performs coronary angiography."
+        include_patterns: ['\bcoronary angiograph(?:y|ies)\b']
+      - tracer_id: cardiac_surgery
+        description: "The facility performs cardiac/bypass surgery (CABG)."
+        include_patterns: ['\bcardiac surger(?:y|ies)\b', '\bcoronary artery bypass graft(?:ing|s)?\b', '\bCABG\b', '\bbypass surger(?:y|ies)\b']
+    diagnostics:
+      - tracer_id: cardiac_stress_test
+        description: "The facility performs a cardiac stress test / treadmill test (TMT)."
+        include_patterns: ['\bcardiac stress tests?\b', '\btreadmill tests?\b', '\bTMT(?: tests?)?\b']
+
+  general_surgery:
+    staff:
+      - tracer_id: general_surgeon
+        description: "A general surgeon (specifically general surgery, not another surgical specialty) is on staff."
+        does_not_count: "Any surgeon of a different specialty, e.g. 'neurosurgeon', 'liver transplant surgeon', 'cardiac surgeon' — those are evidence for a different capability (or none of our 10), not general surgery."
+        include_patterns: ['\bgeneral surgeons?\b']
+        source_fields: [capability, procedure]
+      - tracer_id: anaesthesiologist
+        description: "An anaesthesiologist/anaesthetist is on staff."
+        include_patterns: ['\ban[ae]sthesiologists?\b', '\ban[ae]sthetists?\b']
+        source_fields: [capability, procedure]
+    equipment:
+      - tracer_id: operation_theatre
+        description: "An operation theatre (OT), including a modular OT, is present."
+        include_patterns: ['\b(?:operation|operating|modular) theat(?:re|er)s?\b', '\bOT (?:complex|rooms?|facilit(?:y|ies))\b']
+        exclude_patterns: ['\b(?:ENT|dental|cardiac|neuro|ophthalmic|eye) (?:operation|operating|modular)? ?theat(?:re|er)s?\b']
+      - tracer_id: laparoscopy_equipment
+        description: "Laparoscopy equipment (laparoscope, laparoscopy tower) is present."
+        include_patterns: ['\blaparoscop(?:e|es|ic equipment|y tower)s?\b']
+    procedures:
+      - tracer_id: general_surgery_service
+        description: "The facility provides general surgery as a named service or department."
+        include_patterns: ['\bgeneral surgery (?:department|service|unit|ward)\b']
+      - tracer_id: hernia_repair
+        description: "The facility performs hernia repair surgery."
+        include_patterns: ['\bhernia (?:repair|surgery|surgeries)\b', '\bhernioplast(?:y|ies)\b']
+      - tracer_id: appendectomy
+        description: "The facility performs appendectomy."
+        include_patterns: ['\bappendectom(?:y|ies)\b', '\bappendicectom(?:y|ies)\b']
+      - tracer_id: cholecystectomy
+        description: "The facility performs cholecystectomy (gallbladder removal)."
+        include_patterns: ['\bcholecystectom(?:y|ies)\b', '\bgallbladder removals?\b']
+
+  blood_bank:
+    staff:
+      - tracer_id: transfusion_specialist
+        description: "A transfusion medicine specialist or blood bank medical officer is on staff."
+        include_patterns: ['\btransfusion medicine specialists?\b', '\bblood bank medical officers?\b']
+        exclude_patterns: ['\btraining cent(?:re|er)\b']
+        source_fields: [capability, procedure]
+    equipment:
+      - tracer_id: blood_bank_unit
+        description: "A blood bank is present at the facility."
+        include_patterns: ['\bblood banks?\b']
+        exclude_patterns: ['\b(?:near|nearby|external|outsourced|tie[- ]?up with|referr(?:al|ed) to) (?:a )?blood banks?\b']
+      - tracer_id: blood_storage
+        description: "A blood storage unit/centre or blood component separator is present."
+        include_patterns: ['\bblood storage (?:units?|cent(?:re|er)s?|facilit(?:y|ies))\b', '\bblood component separators?\b']
+    procedures:
+      - tracer_id: blood_transfusion_service
+        description: "The facility provides blood transfusion services, including cross-matching or blood component separation."
+        include_patterns: ['\bblood transfusion services?\b', '\bblood cross[- ]?match(?:ing)?\b', '\bblood component separation\b']
+    diagnostics:
+      - tracer_id: blood_grouping
+        description: "The facility performs blood grouping/typing (including Rh typing)."
+        include_patterns: ['\bblood group(?:ing| tests?)\b', '\bblood typing\b', '\bRh typing\b']

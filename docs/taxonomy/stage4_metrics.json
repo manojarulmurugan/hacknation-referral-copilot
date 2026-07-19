@@ -1,0 +1,460 @@
+{
+  "status": "complete",
+  "method": "deterministic distinct-text regex mapping",
+  "taxonomy_version": 1,
+  "total_input_bullets": 451110,
+  "distinct_bullet_texts": 285967,
+  "input_bullets": 451110,
+  "distinct_texts_scanned": 285967,
+  "distinct_texts_expected": 285967,
+  "distinct_texts_with_matches": 21269,
+  "complete_distinct_text_coverage": true,
+  "matched_output_rows": 36763,
+  "bullets_with_at_least_one_match": 34291,
+  "facilities_with_at_least_one_match": 5220,
+  "matched_rows_excluded_by_stage3": 139,
+  "counts_by_capability": [
+    {
+      "capability_id": "blood_bank",
+      "match_rows": 1249
+    },
+    {
+      "capability_id": "cardiac",
+      "match_rows": 6944
+    },
+    {
+      "capability_id": "dialysis",
+      "match_rows": 1597
+    },
+    {
+      "capability_id": "emergency",
+      "match_rows": 5756
+    },
+    {
+      "capability_id": "general_surgery",
+      "match_rows": 5792
+    },
+    {
+      "capability_id": "icu",
+      "match_rows": 5212
+    },
+    {
+      "capability_id": "maternity",
+      "match_rows": 2689
+    },
+    {
+      "capability_id": "nicu",
+      "match_rows": 1714
+    },
+    {
+      "capability_id": "oncology",
+      "match_rows": 3808
+    },
+    {
+      "capability_id": "trauma",
+      "match_rows": 2002
+    }
+  ],
+  "counts_by_domain": [
+    {
+      "domain": "diagnostics",
+      "match_rows": 1135
+    },
+    {
+      "domain": "equipment",
+      "match_rows": 13764
+    },
+    {
+      "domain": "procedures",
+      "match_rows": 18796
+    },
+    {
+      "domain": "staff",
+      "match_rows": 3068
+    }
+  ],
+  "counts_by_tracer": [
+    {
+      "capability_id": "blood_bank",
+      "domain": "diagnostics",
+      "tracer_id": "blood_grouping",
+      "match_rows": 59
+    },
+    {
+      "capability_id": "blood_bank",
+      "domain": "equipment",
+      "tracer_id": "blood_bank_unit",
+      "match_rows": 1108
+    },
+    {
+      "capability_id": "blood_bank",
+      "domain": "equipment",
+      "tracer_id": "blood_storage",
+      "match_rows": 40
+    },
+    {
+      "capability_id": "blood_bank",
+      "domain": "procedures",
+      "tracer_id": "blood_transfusion_service",
+      "match_rows": 41
+    },
+    {
+      "capability_id": "blood_bank",
+      "domain": "staff",
+      "tracer_id": "transfusion_specialist",
+      "match_rows": 1
+    },
+    {
+      "capability_id": "cardiac",
+      "domain": "diagnostics",
+      "tracer_id": "cardiac_stress_test",
+      "match_rows": 637
+    },
+    {
+      "capability_id": "cardiac",
+      "domain": "equipment",
+      "tracer_id": "cath_lab",
+      "match_rows": 939
+    },
+    {
+      "capability_id": "cardiac",
+      "domain": "equipment",
+      "tracer_id": "ecg_echo",
+      "match_rows": 3576
+    },
+    {
+      "capability_id": "cardiac",
+      "domain": "procedures",
+      "tracer_id": "angiography",
+      "match_rows": 249
+    },
+    {
+      "capability_id": "cardiac",
+      "domain": "procedures",
+      "tracer_id": "angioplasty",
+      "match_rows": 212
+    },
+    {
+      "capability_id": "cardiac",
+      "domain": "procedures",
+      "tracer_id": "cardiac_surgery",
+      "match_rows": 828
+    },
+    {
+      "capability_id": "cardiac",
+      "domain": "staff",
+      "tracer_id": "cardiologist",
+      "match_rows": 503
+    },
+    {
+      "capability_id": "dialysis",
+      "domain": "diagnostics",
+      "tracer_id": "renal_function_test",
+      "match_rows": 166
+    },
+    {
+      "capability_id": "dialysis",
+      "domain": "equipment",
+      "tracer_id": "dialysis_machine",
+      "match_rows": 566
+    },
+    {
+      "capability_id": "dialysis",
+      "domain": "equipment",
+      "tracer_id": "ro_water_plant",
+      "match_rows": 8
+    },
+    {
+      "capability_id": "dialysis",
+      "domain": "procedures",
+      "tracer_id": "crrt",
+      "match_rows": 105
+    },
+    {
+      "capability_id": "dialysis",
+      "domain": "procedures",
+      "tracer_id": "hemodialysis",
+      "match_rows": 454
+    },
+    {
+      "capability_id": "dialysis",
+      "domain": "procedures",
+      "tracer_id": "peritoneal_dialysis",
+      "match_rows": 169
+    },
+    {
+      "capability_id": "dialysis",
+      "domain": "staff",
+      "tracer_id": "nephrologist",
+      "match_rows": 129
+    },
+    {
+      "capability_id": "emergency",
+      "domain": "equipment",
+      "tracer_id": "ambulance_service",
+      "match_rows": 1888
+    },
+    {
+      "capability_id": "emergency",
+      "domain": "equipment",
+      "tracer_id": "defibrillator",
+      "match_rows": 143
+    },
+    {
+      "capability_id": "emergency",
+      "domain": "procedures",
+      "tracer_id": "emergency_service",
+      "match_rows": 3707
+    },
+    {
+      "capability_id": "emergency",
+      "domain": "staff",
+      "tracer_id": "emergency_physician",
+      "match_rows": 18
+    },
+    {
+      "capability_id": "general_surgery",
+      "domain": "equipment",
+      "tracer_id": "laparoscopy_equipment",
+      "match_rows": 85
+    },
+    {
+      "capability_id": "general_surgery",
+      "domain": "equipment",
+      "tracer_id": "operation_theatre",
+      "match_rows": 3805
+    },
+    {
+      "capability_id": "general_surgery",
+      "domain": "procedures",
+      "tracer_id": "appendectomy",
+      "match_rows": 282
+    },
+    {
+      "capability_id": "general_surgery",
+      "domain": "procedures",
+      "tracer_id": "cholecystectomy",
+      "match_rows": 367
+    },
+    {
+      "capability_id": "general_surgery",
+      "domain": "procedures",
+      "tracer_id": "general_surgery_service",
+      "match_rows": 105
+    },
+    {
+      "capability_id": "general_surgery",
+      "domain": "procedures",
+      "tracer_id": "hernia_repair",
+      "match_rows": 771
+    },
+    {
+      "capability_id": "general_surgery",
+      "domain": "staff",
+      "tracer_id": "anaesthesiologist",
+      "match_rows": 99
+    },
+    {
+      "capability_id": "general_surgery",
+      "domain": "staff",
+      "tracer_id": "general_surgeon",
+      "match_rows": 278
+    },
+    {
+      "capability_id": "icu",
+      "domain": "diagnostics",
+      "tracer_id": "arterial_blood_gas",
+      "match_rows": 73
+    },
+    {
+      "capability_id": "icu",
+      "domain": "equipment",
+      "tracer_id": "infusion_pump",
+      "match_rows": 98
+    },
+    {
+      "capability_id": "icu",
+      "domain": "equipment",
+      "tracer_id": "patient_monitor",
+      "match_rows": 254
+    },
+    {
+      "capability_id": "icu",
+      "domain": "equipment",
+      "tracer_id": "ventilator",
+      "match_rows": 85
+    },
+    {
+      "capability_id": "icu",
+      "domain": "procedures",
+      "tracer_id": "icu_service",
+      "match_rows": 4457
+    },
+    {
+      "capability_id": "icu",
+      "domain": "procedures",
+      "tracer_id": "mechanical_ventilation",
+      "match_rows": 63
+    },
+    {
+      "capability_id": "icu",
+      "domain": "staff",
+      "tracer_id": "intensivist",
+      "match_rows": 182
+    },
+    {
+      "capability_id": "maternity",
+      "domain": "diagnostics",
+      "tracer_id": "obstetric_ultrasound",
+      "match_rows": 164
+    },
+    {
+      "capability_id": "maternity",
+      "domain": "equipment",
+      "tracer_id": "fetal_monitor",
+      "match_rows": 26
+    },
+    {
+      "capability_id": "maternity",
+      "domain": "equipment",
+      "tracer_id": "ldr_suite",
+      "match_rows": 9
+    },
+    {
+      "capability_id": "maternity",
+      "domain": "procedures",
+      "tracer_id": "delivery_service",
+      "match_rows": 765
+    },
+    {
+      "capability_id": "maternity",
+      "domain": "procedures",
+      "tracer_id": "maternity_service",
+      "match_rows": 643
+    },
+    {
+      "capability_id": "maternity",
+      "domain": "staff",
+      "tracer_id": "obstetrician",
+      "match_rows": 1082
+    },
+    {
+      "capability_id": "nicu",
+      "domain": "diagnostics",
+      "tracer_id": "newborn_screening",
+      "match_rows": 26
+    },
+    {
+      "capability_id": "nicu",
+      "domain": "equipment",
+      "tracer_id": "infant_incubator",
+      "match_rows": 78
+    },
+    {
+      "capability_id": "nicu",
+      "domain": "equipment",
+      "tracer_id": "neonatal_ventilator",
+      "match_rows": 34
+    },
+    {
+      "capability_id": "nicu",
+      "domain": "procedures",
+      "tracer_id": "neonatal_phototherapy",
+      "match_rows": 22
+    },
+    {
+      "capability_id": "nicu",
+      "domain": "procedures",
+      "tracer_id": "neonatal_resuscitation",
+      "match_rows": 9
+    },
+    {
+      "capability_id": "nicu",
+      "domain": "procedures",
+      "tracer_id": "nicu_service",
+      "match_rows": 1408
+    },
+    {
+      "capability_id": "nicu",
+      "domain": "staff",
+      "tracer_id": "neonatologist",
+      "match_rows": 137
+    },
+    {
+      "capability_id": "oncology",
+      "domain": "diagnostics",
+      "tracer_id": "cancer_diagnostics",
+      "match_rows": 9
+    },
+    {
+      "capability_id": "oncology",
+      "domain": "equipment",
+      "tracer_id": "linear_accelerator",
+      "match_rows": 240
+    },
+    {
+      "capability_id": "oncology",
+      "domain": "equipment",
+      "tracer_id": "pet_ct",
+      "match_rows": 780
+    },
+    {
+      "capability_id": "oncology",
+      "domain": "procedures",
+      "tracer_id": "cancer_surgery",
+      "match_rows": 1106
+    },
+    {
+      "capability_id": "oncology",
+      "domain": "procedures",
+      "tracer_id": "chemotherapy",
+      "match_rows": 636
+    },
+    {
+      "capability_id": "oncology",
+      "domain": "procedures",
+      "tracer_id": "radiotherapy",
+      "match_rows": 801
+    },
+    {
+      "capability_id": "oncology",
+      "domain": "staff",
+      "tracer_id": "oncologist",
+      "match_rows": 236
+    },
+    {
+      "capability_id": "trauma",
+      "domain": "diagnostics",
+      "tracer_id": "trauma_imaging",
+      "match_rows": 1
+    },
+    {
+      "capability_id": "trauma",
+      "domain": "equipment",
+      "tracer_id": "trauma_bay",
+      "match_rows": 2
+    },
+    {
+      "capability_id": "trauma",
+      "domain": "procedures",
+      "tracer_id": "trauma_care_service",
+      "match_rows": 1596
+    },
+    {
+      "capability_id": "trauma",
+      "domain": "staff",
+      "tracer_id": "trauma_surgeon",
+      "match_rows": 403
+    }
+  ],
+  "validation_sample_rows": 181,
+  "validation_sample_seed": 42,
+  "validation_sample_per_tracer_max": 3,
+  "validation_claim": "Bounded review sample for precision-oriented error inspection only; it does not establish population recall.",
+  "warnings": [
+    "blood_bank/blood_bank_unit contributes 88.7% of capability match rows; inspect for pattern dominance.",
+    "icu/icu_service contributes 85.5% of capability match rows; inspect for pattern dominance.",
+    "nicu/nicu_service contributes 82.1% of capability match rows; inspect for pattern dominance.",
+    "trauma/trauma_care_service contributes 79.7% of capability match rows; inspect for pattern dominance."
+  ]
+}

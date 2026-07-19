@@ -542,11 +542,29 @@ singletons and the remaining 11 are duplicate pairs. See `docs/provenance/stage3
 
 ### Stage 4 — Capability taxonomy and tracer items **[Manoj]**
 
+**✅ Complete.** Locked the 10th capability as `blood_bank`. All 10 tracer-item checklists
+are verified against official IPHS 2022 / WHO SARA documentation, not drafted from general
+knowledge (see `docs/taxonomy/stage4_findings.md`).
+
+The active method is the original **deterministic distinct-bullet mapper**. Executable,
+word-bounded include/exclude/context rules live with every tracer in
+`capability_taxonomy.yaml`. The local run evaluated all 451,110 bullets as 285,967 exact
+distinct strings, then broadcast matches back to bullet IDs. It produced 36,763 match rows
+across 34,291 bullets and 5,220 facilities. Exact supporting substrings and matched patterns
+are stored for auditability; Stage 3 rejected evidence stays visible with
+`exclude_from_scoring=true`.
+
+The attempted full-corpus Databricks LLM classifier is archived under `pipeline/experimental/`
+as a measured rejection: approximately 9,533 planned calls, substantial rate limiting/cached
+failures, and incomplete coverage. Its partial output and derived Stage 5 metrics are
+superseded and must not be reused.
+
 **Purpose.** Make SARA computable against our bullets. The intellectual core.
-**Method.** See §7 for the three-layer structure. For each of the **10 tracer-scored**
-capabilities (ICU, dialysis, maternity/obstetric, NICU, emergency, trauma, oncology, cardiac,
-general surgery, + one), define tracer items grouped by SARA domain. Match by regex + keyword
-against `distinct_bullets`.
+**Method.** See §7 for the three-layer structure. For each of the **10
+tracer-scored** capabilities (ICU, dialysis, maternity/obstetric, NICU, emergency, trauma,
+oncology, cardiac, general surgery, blood bank), define tracer items grouped by SARA domain.
+Match by precise regex + keyword rules against `distinct_bullets`, with explicit negative and
+context guards for known ambiguity traps.
 
 Worked example — **dialysis**:
 
@@ -557,10 +575,11 @@ Worked example — **dialysis**:
 | Procedures | hemodialysis, peritoneal dialysis |
 | Diagnostics | supporting laboratory |
 
-**Open question.** Recall of the patterns. Sample 100 bullets per capability and hand-check.
-Escalate **only ambiguous distinct bullets** to a bounded, capped LLM batch.
+**Validation.** A seeded tracer-stratified sample was generated and inspected once; five
+concrete false-positive classes were corrected in one tuning pass. Do not claim population
+recall from this bounded precision-oriented sample.
 **Deliverable.** `capability_taxonomy.yaml`, `normalization_vocab.json` (~100 terms),
-`bullet_capability_map`, and **a measured precision/recall table for the demo slide.**
+complete `bullet_capability_map`, metrics, and validation sample.
 **⚡ Ship `normalization_vocab.json` to Shivi early** — Stage 4b's cell key space needs it.
 
 ---
@@ -637,10 +656,11 @@ array + pandas DataFrame at app startup (~40 MB resident, ~zero query cost).
 
 ### Stage 8 — Query understanding and geo resolution **[Manoj]**
 
-**Purpose.** Free text in; structured intent + a point on the map out. **Target ~3 ms.**
-**Method.** **Deterministic first**: match against `normalization_vocab.json` and the gazetteer.
-LLM fallback **only** when ambiguous. The UI always shows the parse as editable fields, so a bad
-parse or slow endpoint never blocks the user.
+**Purpose.** Free text in; structured intent + a point on the map out.
+**Method.** Stage 8 is the only active LLM classification path: parse free text to a strict,
+schema-validated capability/location object, then resolve vocabulary and place aliases against
+`normalization_vocab.json` and the gazetteer. The UI always shows editable parsed fields and
+provides a manual deterministic fallback, so a bad parse or slow endpoint never blocks the user.
 **Depends on:** `gazetteer.json` (Stage 1, early handoff).
 **Open question.** Ambiguous place names. **Recommendation: return top candidates, user picks.**
 **Deliverable.** `parse_query()`, `resolve_location()`, with tests.
@@ -749,7 +769,7 @@ Four checks. ~45 minutes. **Each can change the shape of the night.**
 | Q1 | Contamination rate? | 3 | Manoj | ✅ | 15.04% conservative detector flag rate; not true prevalence |
 | Q2 | Enough distinct sources for truth discovery? | 6 | Manoj | 🔲 | 5-min query |
 | Q3 | Does `specialties` align with `capability`? | 2 | Manoj | 🔲 | 15-min check |
-| Q4 | Regex recall per capability? | 4 | Manoj | 🔲 | Hand-check 100 bullets each |
+| Q4 | Regex recall per capability? | 4 | Manoj | 🔨 | N/A — pivoted to LLM classification; precision/error-category validation sample pending full-run completion |
 | Q5 | ~118 facilities without coordinates | 1 | Shivi | 🔲 | Centroid + explicit flag |
 | Q6 | Contaminated bullets: exclude/downweight/warn? | 3 | Manoj | ✅ | Exclude high-confidence conflicts; retain review; show rejected evidence |
 | Q7 | SARA domain weighting | 5 | Manoj | 🔲 | Equal weights |
@@ -931,7 +951,7 @@ and detecting cold starts.
 | Manoj (on `fake_bullets`) | Status | Shivi | Status |
 |---|---|---|---|
 | Stage 3 · Provenance audit | ✅ | Stage 1 · Silver + gazetteer | 🔲 |
-| Stage 4 · Taxonomy + tracer items | 🔲 | Stage 2 · Bullet explosion | 🔲 |
+| Stage 4 · Taxonomy + tracer items | ✅ | Stage 2 · Bullet explosion | 🔲 |
 | | | Stage 13 · MLflow harness | 🔲 |
 | | | Stage 10b · App shell (early) | 🔲 |
 
@@ -944,14 +964,14 @@ and detecting cold starts.
 
 - [ ] 🔲 Shivi ships `evidence_bullets` + `distinct_bullets` conforming to C1
 - [ ] 🔲 Manoj swaps `fake_bullets` → real. **One import line.**
-- [ ] 🔨 Stage 3 complete on raw evidence arrays; Stage 4 still pending
+- [x] ✅ Stage 3 and complete deterministic Stage 4 map available on real evidence bullets
 - [x] ✅ **Decision point:** keep Stage 3 as a concise trust-layer demo beat; report the 15.04% detector flag rate with its limitation
 
 ### 13.6 Block 2 **[hour 3 → hour 7]**
 
 | Manoj | Status | Shivi (on `fake_readiness`) | Status |
 |---|---|---|---|
-| Stage 4 · finalize taxonomy + precision/recall table | 🔲 | Stage 4b · Cell precompute | 🔲 |
+| Stage 4 · complete taxonomy + bounded validation | ✅ | Stage 4b · Cell precompute | 🔲 |
 | Stage 5 · Readiness scoring | 🔲 | Stage 11 · Lakebase | 🔲 |
 | Stage 8 · Parse + resolve | 🔲 | Stage 10b · streaming contract | 🔲 |
 
