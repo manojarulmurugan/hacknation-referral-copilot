@@ -1,15 +1,11 @@
-"""Referral Copilot -- Dash app shell (Group A+B).
+"""Referral Copilot Dash application.
 
 Run: PYTHONPATH=. python -m app.app, then open http://127.0.0.1:8050
 (`python app/app.py` directly will NOT work -- it puts app/ itself on
 sys.path[0], which shadows the `app` package because app/app.py collides
 with the package name; `-m app.app` from the repo root avoids that.)
 
-NOTE for Group C: imports below are absolute (`app.store`, `pipeline...`)
-and assume PYTHONPATH=<repo root>. The deployed Databricks App's app.yaml
-currently just runs `python app.py` from within app/ -- reconciling that
-with these imports (PYTHONPATH env var in app.yaml, or restructuring) is
-part of Group C's deploy work, not solved here.
+The deployed app uses the repo-root gunicorn command in app.yaml.
 """
 
 from __future__ import annotations
