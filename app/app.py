@@ -1,4 +1,4 @@
-"""Referral Copilot Dash application.
+"""Indian Healthcare Referral Copilot Dash application.
 
 Run: PYTHONPATH=. python -m app.app, then open http://127.0.0.1:8050
 (`python app/app.py` directly will NOT work -- it puts app/ itself on
@@ -46,7 +46,7 @@ EXAMPLE_QUERIES = [
 ]
 
 app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
-app.title = "Referral Copilot"
+app.title = "Indian Healthcare Referral Copilot"
 server = app.server
 
 
@@ -57,7 +57,7 @@ app.layout = dbc.Container(
         dcc.Store(id="last-query-context", storage_type="memory"),
         html.Div(
             [
-                html.H1("Referral Copilot"),
+                html.H1("Indian Healthcare Referral Copilot"),
                 html.P(
                     "Evidence-attached facility search for care coordinators.",
                     className="subtitle",

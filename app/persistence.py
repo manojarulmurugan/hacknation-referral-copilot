@@ -1,4 +1,4 @@
-"""Thin, swappable shortlist persistence for the Referral Copilot app."""
+"""Thin, swappable shortlist persistence for the Indian Healthcare Referral Copilot app."""
 
 from __future__ import annotations
 

@@ -1,7 +1,7 @@
-# Referral Copilot — Project Brief v3
+# Indian Healthcare Referral Copilot — Project Brief v3
 
 **Challenge:** Databricks "Data Legend" (Challenge 04), Hack-Nation 6th Global AI Hackathon
-**Track:** Referral Copilot — *"Where should a patient or coordinator actually go?"*
+**Track:** Indian Healthcare Referral Copilot — *"Where should a patient or coordinator actually go?"*
 **Team:** Manoj, solo. *(Shivi is no longer on the project — see §14.5 below. All "Shivi" ownership
 tags throughout this document are historical context for design decisions already made, not
 live assignments.)*
@@ -174,7 +174,7 @@ S L Raheja Mumbai, Fortis Mulund.
 The schema contains `cluster_id`, `source_ids`, `source_content_id` — these rows are
 **entity-resolution clusters, and the clustering has over-merged.**
 
-For a Referral Copilot this is not cosmetic. It is precisely the harm the brief describes: a
+For an Indian Healthcare Referral Copilot this is not cosmetic. It is precisely the harm the brief describes: a
 coordinator sends a family to Nagpur for a procedure whose evidence belongs to a hospital in
 Mumbai. **A naive app built on this data actively causes the failure the challenge exists to
 prevent.**
@@ -1298,7 +1298,7 @@ narrative. Nothing here needs to be touched again except to be *displayed*.
 | Technical Execution | 25% | Group C (live Databricks App is a hard submission requirement) + Lakebase if time allows |
 | Ambition | 10% | The demo narrative itself: LLM→deterministic Stage 4 pivot measured and rejected, 80%→recalibrated threshold with real numbers, external-review fixes — "one thing we considered and rejected with data" is explicitly called out in the brief (§6) as the strongest kind of paragraph to have |
 
-Referral Copilot's own minimum workflow (Hackathon Prompt.pdf, "Pick Your Mission" table): *"User
+Indian Healthcare Referral Copilot's own minimum workflow (Hackathon Prompt.pdf, "Pick Your Mission" table): *"User
 enters a location and care need → receives an evidence-attached shortlist → each candidate shows
 distance, matching evidence, and gaps → user saves to a shortlist."* Groups A+B+C are exactly and
 only this — nothing scoped beyond the track's own stated minimum, per the brief's own instruction

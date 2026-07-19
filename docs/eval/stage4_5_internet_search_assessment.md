@@ -93,7 +93,7 @@ The Core Requirements say:
 
 > “Every important output your app produces must trace back to the facility text that supports it.”
 
-The Referral Copilot minimum workflow requires:
+The Indian Healthcare Referral Copilot minimum workflow requires:
 
 > “an evidence-attached shortlist” where each candidate shows “distance, matching evidence, and gaps.”
 

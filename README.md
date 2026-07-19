@@ -1,6 +1,6 @@
-# Referral Copilot
+# Indian Healthcare Referral Copilot
 
-Referral Copilot is an evidence-attached facility search app for care coordinators working with an incomplete, noisy dataset of about 10,000 Indian healthcare facilities. A user describes a care need and city in plain language; the app returns a ranked shortlist, the exact row-level text supporting each result, explicit evidence gaps, and data-quality warnings.
+Indian Healthcare Referral Copilot is an evidence-attached facility search app for care coordinators working with an incomplete, noisy dataset of about 10,000 Indian healthcare facilities. A user describes a care need and city in plain language; the app returns a ranked shortlist, the exact row-level text supporting each result, explicit evidence gaps, and data-quality warnings.
 
 Live app: https://data-legend-app-7474656737321234.aws.databricksapps.com
 
