@@ -2,17 +2,40 @@
 # with deterministic include/exclude rules for evidence bullets.
 #
 # Method note (see docs/taxonomy/stage4_findings.md for full citations):
-# every tracer item below is confirmed against official IPHS 2022 / WHO SARA
-# documentation, not invented. The scoring FORMULA (Stage 5) follows WHO SARA;
-# the SERVICE LIST (these 10 capabilities and their tracer items) follows
-# India's IPHS 2022 District Hospital guidelines, which explicitly name all 10.
+# the scoring FORMULA (Stage 5) follows WHO SARA and the service taxonomy is
+# aligned to India's IPHS 2022 District Hospital framework. The original 10
+# high-acuity capabilities were individually researched; the 10-capability
+# version-2 expansion is a time-boxed, corpus-supported referral taxonomy and
+# should not be presented as a regulatory certification checklist.
 #
 # Patterns are case-insensitive Python regular expressions. They deliberately
 # prefer precise medical phrases over broad synonyms. "does_not_count" remains
 # human-readable rationale; exclude_patterns are the executable guardrails.
 
-version: 1
+version: 2
 domains: [staff, equipment, procedures, diagnostics]
+
+display_names:
+  dialysis: "Dialysis"
+  icu: "Intensive care (ICU)"
+  maternity: "Maternity and obstetric care"
+  nicu: "Neonatal intensive care (NICU)"
+  emergency: "Emergency care"
+  trauma: "Trauma care"
+  oncology: "Cancer care"
+  cardiac: "Cardiac care"
+  general_surgery: "General surgery"
+  blood_bank: "Blood bank"
+  pediatric_intensive_care: "Pediatric intensive care (PICU)"
+  stroke_care: "Stroke care"
+  neurosurgery: "Neurosurgery"
+  orthopaedic_surgery: "Orthopaedic surgery"
+  respiratory_care: "Respiratory and pulmonology care"
+  gastroenterology: "Gastroenterology and endoscopy"
+  urology: "Urology"
+  ophthalmology: "Ophthalmology and eye surgery"
+  diagnostic_imaging: "Diagnostic imaging"
+  mental_health: "Mental health and psychiatry"
 
 capabilities:
 
@@ -287,3 +310,247 @@ capabilities:
       - tracer_id: blood_grouping
         description: "The facility performs blood grouping/typing (including Rh typing)."
         include_patterns: ['\bblood group(?:ing| tests?)\b', '\bblood typing\b', '\bRh typing\b']
+
+  pediatric_intensive_care:
+    staff:
+      - tracer_id: pediatric_intensivist
+        description: "A pediatric/paediatric intensivist is on staff."
+        include_patterns: ['\bp[ae]diatric intensivists?\b', '\bp[ae]diatric critical[- ]care (?:physicians?|specialists?)\b']
+        source_fields: [capability, procedure]
+    equipment:
+      - tracer_id: pediatric_ventilator
+        description: "A ventilator specifically for pediatric critical care is present."
+        include_patterns: ['\bp[ae]diatric ventilators?\b', '\bPICU ventilators?\b']
+      - tracer_id: picu_bed
+        description: "Dedicated PICU beds are present."
+        include_patterns: ['\bPICU beds?\b', '\bp[ae]diatric intensive care beds?\b']
+    procedures:
+      - tracer_id: picu_service
+        description: "The facility operates a pediatric intensive care unit."
+        include_patterns: ['\bPICUs?\b', '\bp[ae]diatric intensive care units?\b', '\bp[ae]diatric critical care units?\b']
+
+  stroke_care:
+    staff:
+      - tracer_id: neurologist
+        description: "A neurologist or stroke specialist is on staff."
+        include_patterns: ['\bneurologists?\b', '\bstroke specialists?\b']
+        source_fields: [capability, procedure]
+    equipment:
+      - tracer_id: stroke_unit
+        description: "A dedicated stroke unit is present."
+        include_patterns: ['\bstroke units?\b', '\bstroke cent(?:re|er)s?\b']
+    procedures:
+      - tracer_id: stroke_service
+        description: "The facility offers an organized stroke-care service."
+        include_patterns: ['\bstroke (?:care|services?|management programme|management program)\b']
+      - tracer_id: thrombolysis
+        description: "The facility performs thrombolysis for acute stroke."
+        include_patterns: ['\bstroke thrombolysis\b', '\bthrombolysis (?:for|in) (?:acute )?stroke\b', '\bintravenous thrombolysis\b']
+      - tracer_id: mechanical_thrombectomy
+        description: "The facility performs mechanical thrombectomy for stroke."
+        include_patterns: ['\bmechanical thrombectom(?:y|ies)\b', '\bstroke thrombectom(?:y|ies)\b']
+        context_patterns: ['\b(?:stroke|cerebr|brain|intracranial|ischemic)\w*\b']
+    diagnostics:
+      - tracer_id: stroke_imaging
+        description: "Brain CT/MRI or carotid imaging is explicitly available for stroke evaluation."
+        include_patterns: ['\b(?:CT|MRI) (?:brain|head) (?:for )?stroke\b', '\bcarotid doppler\b']
+
+  neurosurgery:
+    staff:
+      - tracer_id: neurosurgeon
+        description: "A neurosurgeon is on staff."
+        include_patterns: ['\bneurosurgeons?\b']
+        source_fields: [capability, procedure]
+    equipment:
+      - tracer_id: neuro_navigation
+        description: "Neuronavigation or a neurosurgical operating microscope is present."
+        include_patterns: ['\bneuro[- ]?navigation (?:system|equipment)?\b', '\bneurosurgical (?:operating )?microscopes?\b']
+    procedures:
+      - tracer_id: neurosurgery_service
+        description: "The facility offers neurosurgery as a named service."
+        include_patterns: ['\bneurosurgery (?:department|service|unit|programme|program)\b']
+      - tracer_id: craniotomy
+        description: "The facility performs craniotomy or brain surgery."
+        include_patterns: ['\bcraniotom(?:y|ies)\b', '\bbrain surger(?:y|ies)\b']
+      - tracer_id: spine_surgery
+        description: "The facility performs spine surgery explicitly in a neurosurgical context."
+        include_patterns: ['\bneurosurgical spine surger(?:y|ies)\b', '\bspine neurosurger(?:y|ies)\b', '\bspinal neurosurger(?:y|ies)\b']
+
+  orthopaedic_surgery:
+    staff:
+      - tracer_id: orthopaedic_surgeon
+        description: "An orthopaedic/orthopedic surgeon is on staff."
+        include_patterns: ['\borthop(?:a)?edic surgeons?\b']
+        source_fields: [capability, procedure]
+    equipment:
+      - tracer_id: orthopaedic_c_arm
+        description: "A C-arm is explicitly available for orthopaedic surgery."
+        include_patterns: ['\borthop(?:a)?edic C[- ]?arms?\b', '\bC[- ]?arm.*?\borthop(?:a)?edic\b']
+    procedures:
+      - tracer_id: orthopaedic_service
+        description: "The facility offers orthopaedic surgery as a service."
+        include_patterns: ['\borthop(?:a)?edic (?:surgery|department|service|unit)\b']
+      - tracer_id: joint_replacement
+        description: "The facility performs hip or knee joint replacement."
+        include_patterns: ['\bjoint replacements?\b', '\b(?:hip|knee) replacements?\b', '\b(?:hip|knee) arthroplast(?:y|ies)\b']
+      - tracer_id: fracture_fixation
+        description: "The facility performs fracture fixation."
+        include_patterns: ['\bfracture fixation\b', '\binternal fixation\b', '\bORIF\b']
+      - tracer_id: arthroscopy
+        description: "The facility performs arthroscopy."
+        include_patterns: ['\barthroscop(?:y|ies|ic surgery|ic surgeries)\b']
+
+  respiratory_care:
+    staff:
+      - tracer_id: pulmonologist
+        description: "A pulmonologist/chest physician is on staff."
+        include_patterns: ['\bpulmonologists?\b', '\bchest physicians?\b', '\brespiratory medicine specialists?\b']
+        source_fields: [capability, procedure]
+    equipment:
+      - tracer_id: bronchoscope
+        description: "Bronchoscopy equipment is present."
+        include_patterns: ['\bbronchoscopes?\b', '\bbronchoscopy equipment\b']
+      - tracer_id: spirometer
+        description: "Spirometry equipment is present."
+        include_patterns: ['\bspirometers?\b', '\bspirometry machines?\b']
+    procedures:
+      - tracer_id: respiratory_service
+        description: "The facility offers pulmonology/respiratory medicine."
+        include_patterns: ['\bpulmonology (?:department|service|unit)\b', '\brespiratory medicine (?:department|service|unit)\b']
+      - tracer_id: bronchoscopy
+        description: "The facility performs bronchoscopy."
+        include_patterns: ['\bbronchoscop(?:y|ies)\b']
+    diagnostics:
+      - tracer_id: pulmonary_function_test
+        description: "The facility performs pulmonary function testing."
+        include_patterns: ['\bpulmonary function tests?\b', '\bPFTs?\b', '\bspirometry tests?\b']
+
+  gastroenterology:
+    staff:
+      - tracer_id: gastroenterologist
+        description: "A gastroenterologist is on staff."
+        include_patterns: ['\bgastroenterologists?\b']
+        source_fields: [capability, procedure]
+    equipment:
+      - tracer_id: endoscopy_unit
+        description: "A dedicated endoscopy unit or endoscope is present."
+        include_patterns: ['\bendoscopy units?\b', '\bvideo endoscopes?\b', '\bendoscopy suites?\b']
+    procedures:
+      - tracer_id: gastroenterology_service
+        description: "The facility offers gastroenterology as a service."
+        include_patterns: ['\bgastroenterology (?:department|service|unit)\b']
+      - tracer_id: upper_gi_endoscopy
+        description: "The facility performs upper GI endoscopy."
+        include_patterns: ['\bupper GI endoscop(?:y|ies)\b', '\bgastroscop(?:y|ies)\b']
+      - tracer_id: colonoscopy
+        description: "The facility performs colonoscopy."
+        include_patterns: ['\bcolonoscop(?:y|ies)\b']
+      - tracer_id: ercp
+        description: "The facility performs ERCP."
+        include_patterns: ['\bERCP\b', '\bendoscopic retrograde cholangiopancreatograph(?:y|ies)\b']
+
+  urology:
+    staff:
+      - tracer_id: urologist
+        description: "A urologist is on staff."
+        include_patterns: ['\burologists?\b']
+        source_fields: [capability, procedure]
+    equipment:
+      - tracer_id: lithotripter
+        description: "Lithotripsy equipment is present."
+        include_patterns: ['\blithotripters?\b', '\blithotripsy machines?\b']
+    procedures:
+      - tracer_id: urology_service
+        description: "The facility offers urology as a named service."
+        include_patterns: ['\burology (?:department|service|unit)\b']
+      - tracer_id: turp
+        description: "The facility performs TURP."
+        include_patterns: ['\bTURP\b', '\btransurethral resection of (?:the )?prostate\b']
+      - tracer_id: pcnl
+        description: "The facility performs PCNL."
+        include_patterns: ['\bPCNL\b', '\bpercutaneous nephrolithotom(?:y|ies)\b']
+      - tracer_id: lithotripsy
+        description: "The facility performs lithotripsy."
+        include_patterns: ['\blithotrips(?:y|ies)\b', '\bESWL\b']
+    diagnostics:
+      - tracer_id: uroflowmetry
+        description: "The facility performs uroflowmetry."
+        include_patterns: ['\buroflowmetr(?:y|ies)\b']
+
+  ophthalmology:
+    staff:
+      - tracer_id: ophthalmologist
+        description: "An ophthalmologist is on staff."
+        include_patterns: ['\bophthalmologists?\b']
+        source_fields: [capability, procedure]
+    equipment:
+      - tracer_id: phaco_machine
+        description: "A phacoemulsification machine is present."
+        include_patterns: ['\bphaco(?:emulsification)? machines?\b']
+      - tracer_id: slit_lamp
+        description: "A slit lamp is present."
+        include_patterns: ['\bslit lamps?\b']
+    procedures:
+      - tracer_id: ophthalmology_service
+        description: "The facility offers ophthalmology/eye surgery."
+        include_patterns: ['\bophthalmology (?:department|service|unit)\b', '\beye surgery (?:department|service|unit)?\b']
+      - tracer_id: cataract_surgery
+        description: "The facility performs cataract surgery."
+        include_patterns: ['\bcataract surger(?:y|ies)\b', '\bphacoemulsification\b']
+      - tracer_id: lasik
+        description: "The facility performs LASIK."
+        include_patterns: ['\bLASIK\b', '\blaser vision correction\b']
+    diagnostics:
+      - tracer_id: retinal_imaging
+        description: "Retinal imaging or optical coherence tomography is available."
+        include_patterns: ['\bretinal imaging\b', '\boptical coherence tomography\b', '\bOCT scans?\b']
+
+  diagnostic_imaging:
+    staff:
+      - tracer_id: radiologist
+        description: "A radiologist is on staff."
+        include_patterns: ['\bradiologists?\b']
+        source_fields: [capability, procedure]
+    equipment:
+      - tracer_id: mri_scanner
+        description: "An MRI scanner is present."
+        include_patterns: ['\bMRI (?:scanners?|machines?|facility|facilities)\b', '\bmagnetic resonance imaging (?:scanners?|machines?|facility|facilities)\b']
+      - tracer_id: ct_scanner
+        description: "A CT scanner is present."
+        include_patterns: ['\bCT (?:scanners?|machines?|facility|facilities)\b', '\bcomputed tomography (?:scanners?|machines?|facility|facilities)\b']
+        exclude_patterns: ['\bPET[- /]?CT\b']
+      - tracer_id: ultrasound
+        description: "Diagnostic ultrasound equipment is present."
+        include_patterns: ['\bultrasound (?:machines?|equipment|facility|facilities)\b', '\bultrasonography (?:machines?|equipment|facility|facilities)\b']
+      - tracer_id: mammography
+        description: "Mammography equipment is present."
+        include_patterns: ['\bmammograph(?:y|ies) (?:machines?|equipment|facility|facilities)\b', '\bmammography units?\b']
+    procedures:
+      - tracer_id: radiology_service
+        description: "The facility offers diagnostic radiology/imaging."
+        include_patterns: ['\bradiology (?:department|service|unit)\b', '\bdiagnostic imaging (?:department|service|unit|services?)\b']
+
+  mental_health:
+    staff:
+      - tracer_id: psychiatrist
+        description: "A psychiatrist is on staff."
+        include_patterns: ['\bpsychiatrists?\b']
+        source_fields: [capability, procedure]
+      - tracer_id: clinical_psychologist
+        description: "A clinical psychologist is on staff."
+        include_patterns: ['\bclinical psychologists?\b']
+        source_fields: [capability, procedure]
+    procedures:
+      - tracer_id: psychiatry_service
+        description: "The facility offers psychiatry/mental-health services."
+        include_patterns: ['\bpsychiatry (?:department|service|unit)\b', '\bmental health (?:department|service|unit|services?)\b']
+      - tracer_id: psychotherapy
+        description: "The facility provides psychotherapy or structured psychological counselling."
+        include_patterns: ['\bpsychotherap(?:y|ies)\b', '\bpsychological counselling\b', '\bpsychological counseling\b']
+      - tracer_id: deaddiction_service
+        description: "The facility provides addiction/de-addiction treatment."
+        include_patterns: ['\bde[- ]?addiction (?:cent(?:re|er)|service|unit|treatment)\b', '\baddiction treatment (?:service|unit|programme|program)?\b']
+    diagnostics:
+      - tracer_id: psychiatric_assessment
+        description: "The facility performs psychiatric or psychological assessment."
+        include_patterns: ['\bpsychiatric assessments?\b', '\bpsychological assessments?\b']

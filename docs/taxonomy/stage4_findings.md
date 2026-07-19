@@ -3,9 +3,16 @@
 ## Status: COMPLETE
 
 Stage 4 now uses a complete, local deterministic mapper. It scanned all
-451,110 evidence bullets as 285,967 exact distinct strings and produced 36,763
-bullet/tracer match rows. The map covers 34,291 bullet IDs and 5,220 facilities.
+451,110 evidence bullets as 285,967 exact distinct strings and produced 60,666
+bullet/tracer match rows. The map covers 55,673 bullet IDs and 6,093 facilities.
 No model or external API is used.
+
+Taxonomy version 2 expands the original 10 high-acuity capabilities to 20.
+The additional set was chosen after a full-corpus prevalence scan: pediatric
+intensive care, stroke care, neurosurgery, orthopaedic surgery, respiratory
+care, gastroenterology/endoscopy, urology, ophthalmology, diagnostic imaging,
+and mental health. Human-facing `display_names` keep internal identifiers out
+of the app.
 
 The earlier count of 285,966 distinct texts came from `pandas.Series.nunique()`.
 Exact Python equality and `drop_duplicates()` identify 285,967; the former
@@ -14,7 +21,7 @@ exact deduplication.
 
 ## Active method
 
-`taxonomy/capability_taxonomy.yaml` defines the locked 10 capabilities, four
+`taxonomy/capability_taxonomy.yaml` defines the locked 20 capabilities, four
 SARA domains, and executable include/exclude/context rules for every tracer.
 `pipeline/stage4_taxonomy_mapping.py`:
 
@@ -37,7 +44,7 @@ normalization context, not an input to the Stage 4 matcher.
 
 ## Validation and one tuning pass
 
-The generated seeded, tracer-stratified sample contains 181 rows (up to three
+The generated seeded, tracer-stratified sample contains 358 rows (up to three
 per tracer). It is stored in `stage4_validation_sample.csv` with empty
 `review_label` and `review_notes` columns for human review.
 
@@ -54,11 +61,15 @@ The single permitted tuning pass fixed five concrete sample errors:
 
 Regression tests also cover specialty surgeons, dental trauma, oncology LDR,
 intensive-care ambulances, bare `OT`, department-vs-staff evidence, negation,
-verbatim quotes, exact Stage 3 flag passthrough, and duplicate output rows.
-All 21 tests pass.
+verbatim quotes, exact Stage 3 flag passthrough, duplicate output rows, and
+specific positive fixtures for all ten added capabilities.
+
+The expansion's bounded tuning pass removed generic spine surgery from
+neurosurgery and required stroke context for mechanical thrombectomy, preventing
+orthopaedic spine procedures and DVT thrombectomy from being mislabeled.
 
 This bounded sample is precision-oriented error inspection. It does not support
-a population-recall claim. The warning diagnostics identify four capability
+a population-recall claim. The warning diagnostics identify five capability
 maps dominated by their service/unit tracer; those counts are plausible but
 remain explicitly visible for later review.
 
@@ -66,11 +77,11 @@ remain explicitly visible for later review.
 
 - 451,110 input bullets
 - 285,967 exact distinct texts scanned (100% coverage)
-- 21,269 distinct texts with at least one match
-- 36,763 output match rows
-- 34,291 matched bullet IDs
-- 5,220 facilities with at least one match
-- 139 matched rows retained but excluded by Stage 3 provenance
+- 33,254 distinct texts with at least one match
+- 60,666 output match rows
+- 55,673 matched bullet IDs
+- 6,093 facilities with at least one match
+- 196 matched rows retained but excluded by Stage 3 provenance
 
 Per-capability, per-domain, and per-tracer counts and dominance warnings are in
 `stage4_metrics.json`.

@@ -48,7 +48,9 @@ class TaxonomyValidationTests(unittest.TestCase):
     def test_real_taxonomy_is_complete_and_compilable(self) -> None:
         taxonomy = load_taxonomy(TAXONOMY_PATH)
         validate_taxonomy(taxonomy)
-        self.assertGreater(len(compile_rules(taxonomy)), 50)
+        self.assertEqual(len(taxonomy["capabilities"]), 20)
+        self.assertEqual(set(taxonomy["display_names"]), LOCKED_CAPABILITY_IDS)
+        self.assertGreater(len(compile_rules(taxonomy)), 100)
 
     def test_every_tracer_has_executable_include_rules(self) -> None:
         taxonomy = load_taxonomy(TAXONOMY_PATH)
@@ -132,7 +134,27 @@ class AmbiguityGuardTests(unittest.TestCase):
         identities = self.identities("Gynaecology Department")
         self.assertIn(("maternity", "maternity_service"), identities)
         self.assertNotIn(("maternity", "obstetrician"), identities)
-        self.assertEqual(self.identities("Neurosurgery Department"), set())
+        neuro = self.identities("Neurosurgery Department")
+        self.assertIn(("neurosurgery", "neurosurgery_service"), neuro)
+        self.assertNotIn(("trauma", "trauma_surgeon"), neuro)
+        self.assertNotIn(("general_surgery", "general_surgeon"), neuro)
+
+    def test_expanded_capabilities_match_specific_evidence(self) -> None:
+        cases = [
+            ("Dedicated PICU beds", ("pediatric_intensive_care", "picu_bed")),
+            ("Mechanical thrombectomy for acute stroke", ("stroke_care", "mechanical_thrombectomy")),
+            ("Dr Rao is a Neurosurgeon", ("neurosurgery", "neurosurgeon")),
+            ("Total knee replacement", ("orthopaedic_surgery", "joint_replacement")),
+            ("Pulmonary function test laboratory", ("respiratory_care", "pulmonary_function_test")),
+            ("Colonoscopy and ERCP services", ("gastroenterology", "colonoscopy")),
+            ("PCNL for kidney stones", ("urology", "pcnl")),
+            ("Cataract surgery with phacoemulsification", ("ophthalmology", "cataract_surgery")),
+            ("MRI scanner available", ("diagnostic_imaging", "mri_scanner")),
+            ("Psychiatry department", ("mental_health", "psychiatry_service")),
+        ]
+        for text, identity in cases:
+            with self.subTest(text=text):
+                self.assertIn(identity, self.identities(text))
 
     def test_negated_capability_is_not_positive_evidence(self) -> None:
         self.assertNotIn(

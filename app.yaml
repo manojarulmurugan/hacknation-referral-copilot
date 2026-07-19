@@ -1,0 +1,22 @@
+command:
+  - gunicorn
+  - --bind
+  - 0.0.0.0:8000
+  - --workers
+  - "1"
+  - --timeout
+  - "120"
+  - app.app:server
+env:
+  - name: PYTHONPATH
+    value: "."
+  - name: REFERRAL_DATA_DIR
+    value: "./data"
+  - name: REFERRAL_TAXONOMY_DIR
+    value: "./taxonomy"
+  - name: REFERRAL_PERSISTENCE
+    value: "lakebase"
+  - name: ENDPOINT_NAME
+    valueFrom: postgres
+  - name: SERVING_ENDPOINT_NAME
+    valueFrom: serving-endpoint

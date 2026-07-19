@@ -1,121 +1,41 @@
 {
-  "status": "superseded",
-  "superseded": true,
-  "superseded_reason": "These readiness metrics were derived from the incomplete, error-heavy LLM Stage 4 map. Regenerate Stage 5 from the complete deterministic bullet_capability_map.parquet before using any verdict counts.",
-  "valid_for_demo_or_scoring": false,
-  "method": "WHO SARA-style domain mean with IPHS-inspired hybrid pass",
-  "facility_count": 10077,
-  "capability_count": 10,
-  "output_rows": 100770,
-  "readiness_threshold": 0.8,
-  "conditional_pass_rule": "readiness_index >= 0.80 and every defined domain > 0",
-  "corroborated_rule": "conditional_pass and at least 2 independent matched tracer items",
-  "invalid_stage4_rows_rejected": 0,
-  "stage4_partial_run": true,
-  "stage4_distinct_text_coverage_pct": 18.84,
-  "completeness_calibration": {
-    "dialysis": {
-      "floor": 1,
-      "reference": 1,
-      "positive_pair_count": 428
-    },
-    "icu": {
-      "floor": 1,
-      "reference": 1,
-      "positive_pair_count": 597
-    },
-    "maternity": {
-      "floor": 1,
-      "reference": 1,
-      "positive_pair_count": 1521
-    },
-    "nicu": {
-      "floor": 1,
-      "reference": 1,
-      "positive_pair_count": 308
-    },
-    "emergency": {
-      "floor": 1,
-      "reference": 1,
-      "positive_pair_count": 1789
-    },
-    "trauma": {
-      "floor": 1,
-      "reference": 1,
-      "positive_pair_count": 409
-    },
-    "oncology": {
-      "floor": 1,
-      "reference": 1,
-      "positive_pair_count": 615
-    },
-    "cardiac": {
-      "floor": 1,
-      "reference": 1,
-      "positive_pair_count": 1070
-    },
-    "general_surgery": {
-      "floor": 1,
-      "reference": 2,
-      "positive_pair_count": 2440
-    },
-    "blood_bank": {
-      "floor": 1,
-      "reference": 1,
-      "positive_pair_count": 307
-    }
+  "method": "deterministic aggregation over Stage 4 bullet_capability_map (contract C2)",
+  "total_facility_capability_pairs": 201540,
+  "capability_count": 20,
+  "note": "full facility x capability cross product -- every facility has a row for all 20 capabilities, including zero-match pairs",
+  "distinct_facilities": 10077,
+  "distinct_facilities_with_any_evidence_bullet": 9929,
+  "verdict_counts_full_population": {
+    "insufficient_evidence": 180259,
+    "claimed_only": 16960,
+    "corroborated": 4321
   },
-  "verdict_counts": {
-    "insufficient_evidence": 91286,
-    "claimed_only": 9452,
-    "corroborated": 32
+  "pct_corroborated_full_population": 2.14,
+  "pct_claimed_only_full_population": 8.42,
+  "pct_insufficient_evidence_full_population": 89.44,
+  "matched_pairs_only": {
+    "note": "restricted to pairs with >=1 Stage 4 tracer match, for comparability with pre-cross-product numbers",
+    "count": 21324,
+    "verdict_counts": {
+      "claimed_only": 16960,
+      "corroborated": 4321,
+      "insufficient_evidence": 43
+    },
+    "pct_corroborated": 20.26,
+    "pct_claimed_only": 79.53,
+    "pct_insufficient_evidence": 0.2
   },
-  "verdict_counts_by_capability": {
-    "blood_bank": {
-      "insufficient_evidence": 9770,
-      "claimed_only": 307
-    },
-    "cardiac": {
-      "insufficient_evidence": 9007,
-      "claimed_only": 1063,
-      "corroborated": 7
-    },
-    "dialysis": {
-      "insufficient_evidence": 9649,
-      "claimed_only": 428
-    },
-    "emergency": {
-      "insufficient_evidence": 8288,
-      "claimed_only": 1782,
-      "corroborated": 7
-    },
-    "general_surgery": {
-      "insufficient_evidence": 7637,
-      "claimed_only": 2434,
-      "corroborated": 6
-    },
-    "icu": {
-      "insufficient_evidence": 9480,
-      "claimed_only": 597
-    },
-    "maternity": {
-      "insufficient_evidence": 8556,
-      "claimed_only": 1520,
-      "corroborated": 1
-    },
-    "nicu": {
-      "insufficient_evidence": 9769,
-      "claimed_only": 308
-    },
-    "oncology": {
-      "insufficient_evidence": 9462,
-      "claimed_only": 605,
-      "corroborated": 10
-    },
-    "trauma": {
-      "insufficient_evidence": 9668,
-      "claimed_only": 408,
-      "corroborated": 1
-    }
-  }
+  "rows_with_contradiction_flags": 2276,
+  "contradiction_rule_applicable_pairs": 2656,
+  "pct_contradiction_of_applicable_pairs": 85.69,
+  "readiness_score_percentiles_matched_only": {
+    "25": 0.125,
+    "50": 0.1667,
+    "75": 0.3333,
+    "90": 0.4167,
+    "95": 0.5
+  },
+  "completeness_floor": 5,
+  "conditional_pass_rule": "distinct_tracer_count >= 2 AND distinct_source_field_count >= 2 -- requires corroboration across independent source fields (not just independent bullets: two bullets split from the same source field are still one underlying claim). Recalibrated twice from the brief's original 80%-mean/no-zero-domain rule; see findings doc.",
+  "interpretation": "readiness_score is informational (SARA-style, mean of domain scores); verdict is driven by completeness floor then conditional_pass, not by readiness_score directly. Every facility has a row for every capability -- a missing Stage 4 match always produces insufficient_evidence, never claimed_only, regardless of the facility's other evidence. claimed_only means usable evidence exists but doesn't clear the corroboration bar -- it is NOT limited to pairs with exactly one matched tracer; a pair with several tracers matched from a single bullet or a single source field also lands here."
 }

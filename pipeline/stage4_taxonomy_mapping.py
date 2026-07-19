@@ -39,6 +39,16 @@ LOCKED_CAPABILITY_IDS = {
     "cardiac",
     "general_surgery",
     "blood_bank",
+    "pediatric_intensive_care",
+    "stroke_care",
+    "neurosurgery",
+    "orthopaedic_surgery",
+    "respiratory_care",
+    "gastroenterology",
+    "urology",
+    "ophthalmology",
+    "diagnostic_imaging",
+    "mental_health",
 }
 LOCKED_DOMAINS = {"staff", "equipment", "procedures", "diagnostics"}
 MATCH_COLUMNS = [
@@ -386,6 +396,7 @@ def metrics_for(
     map_df: pd.DataFrame,
     scan_summary: dict[str, int],
     validation_sample: pd.DataFrame,
+    taxonomy_version: int = 1,
 ) -> dict[str, Any]:
     warnings = []
     if not map_df.empty:
@@ -408,7 +419,7 @@ def metrics_for(
     return {
         "status": "complete",
         "method": "deterministic distinct-text regex mapping",
-        "taxonomy_version": 1,
+        "taxonomy_version": taxonomy_version,
         "total_input_bullets": int(len(bullets)),
         "distinct_bullet_texts": int(len(bullets["text"].drop_duplicates())),
         **scan_summary,
@@ -491,7 +502,13 @@ def main() -> None:
         bullets,
         per_tracer=args.validation_per_tracer,
     )
-    metrics = metrics_for(bullets, map_df, scan_summary, validation_sample)
+    metrics = metrics_for(
+        bullets,
+        map_df,
+        scan_summary,
+        validation_sample,
+        taxonomy_version=int(taxonomy.get("version", 1)),
+    )
 
     args.output.parent.mkdir(parents=True, exist_ok=True)
     DOCS_DIR.mkdir(parents=True, exist_ok=True)

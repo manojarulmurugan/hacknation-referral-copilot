@@ -1,18 +1,18 @@
 {
   "status": "complete",
   "method": "deterministic distinct-text regex mapping",
-  "taxonomy_version": 1,
+  "taxonomy_version": 2,
   "total_input_bullets": 451110,
   "distinct_bullet_texts": 285967,
   "input_bullets": 451110,
   "distinct_texts_scanned": 285967,
   "distinct_texts_expected": 285967,
-  "distinct_texts_with_matches": 21269,
+  "distinct_texts_with_matches": 33254,
   "complete_distinct_text_coverage": true,
-  "matched_output_rows": 36763,
-  "bullets_with_at_least_one_match": 34291,
-  "facilities_with_at_least_one_match": 5220,
-  "matched_rows_excluded_by_stage3": 139,
+  "matched_output_rows": 60666,
+  "bullets_with_at_least_one_match": 55673,
+  "facilities_with_at_least_one_match": 6093,
+  "matched_rows_excluded_by_stage3": 196,
   "counts_by_capability": [
     {
       "capability_id": "blood_bank",
@@ -23,12 +23,20 @@
       "match_rows": 6944
     },
     {
+      "capability_id": "diagnostic_imaging",
+      "match_rows": 4580
+    },
+    {
       "capability_id": "dialysis",
       "match_rows": 1597
     },
     {
       "capability_id": "emergency",
       "match_rows": 5756
+    },
+    {
+      "capability_id": "gastroenterology",
+      "match_rows": 1402
     },
     {
       "capability_id": "general_surgery",
@@ -43,6 +51,14 @@
       "match_rows": 2689
     },
     {
+      "capability_id": "mental_health",
+      "match_rows": 531
+    },
+    {
+      "capability_id": "neurosurgery",
+      "match_rows": 528
+    },
+    {
       "capability_id": "nicu",
       "match_rows": 1714
     },
@@ -51,26 +67,50 @@
       "match_rows": 3808
     },
     {
+      "capability_id": "ophthalmology",
+      "match_rows": 5855
+    },
+    {
+      "capability_id": "orthopaedic_surgery",
+      "match_rows": 7888
+    },
+    {
+      "capability_id": "pediatric_intensive_care",
+      "match_rows": 473
+    },
+    {
+      "capability_id": "respiratory_care",
+      "match_rows": 1102
+    },
+    {
+      "capability_id": "stroke_care",
+      "match_rows": 328
+    },
+    {
       "capability_id": "trauma",
       "match_rows": 2002
+    },
+    {
+      "capability_id": "urology",
+      "match_rows": 1216
     }
   ],
   "counts_by_domain": [
     {
       "domain": "diagnostics",
-      "match_rows": 1135
+      "match_rows": 1834
     },
     {
       "domain": "equipment",
-      "match_rows": 13764
+      "match_rows": 18350
     },
     {
       "domain": "procedures",
-      "match_rows": 18796
+      "match_rows": 35236
     },
     {
       "domain": "staff",
-      "match_rows": 3068
+      "match_rows": 5246
     }
   ],
   "counts_by_tracer": [
@@ -147,6 +187,42 @@
       "match_rows": 503
     },
     {
+      "capability_id": "diagnostic_imaging",
+      "domain": "equipment",
+      "tracer_id": "ct_scanner",
+      "match_rows": 1551
+    },
+    {
+      "capability_id": "diagnostic_imaging",
+      "domain": "equipment",
+      "tracer_id": "mammography",
+      "match_rows": 259
+    },
+    {
+      "capability_id": "diagnostic_imaging",
+      "domain": "equipment",
+      "tracer_id": "mri_scanner",
+      "match_rows": 968
+    },
+    {
+      "capability_id": "diagnostic_imaging",
+      "domain": "equipment",
+      "tracer_id": "ultrasound",
+      "match_rows": 1070
+    },
+    {
+      "capability_id": "diagnostic_imaging",
+      "domain": "procedures",
+      "tracer_id": "radiology_service",
+      "match_rows": 527
+    },
+    {
+      "capability_id": "diagnostic_imaging",
+      "domain": "staff",
+      "tracer_id": "radiologist",
+      "match_rows": 205
+    },
+    {
       "capability_id": "dialysis",
       "domain": "diagnostics",
       "tracer_id": "renal_function_test",
@@ -211,6 +287,42 @@
       "domain": "staff",
       "tracer_id": "emergency_physician",
       "match_rows": 18
+    },
+    {
+      "capability_id": "gastroenterology",
+      "domain": "equipment",
+      "tracer_id": "endoscopy_unit",
+      "match_rows": 113
+    },
+    {
+      "capability_id": "gastroenterology",
+      "domain": "procedures",
+      "tracer_id": "colonoscopy",
+      "match_rows": 537
+    },
+    {
+      "capability_id": "gastroenterology",
+      "domain": "procedures",
+      "tracer_id": "ercp",
+      "match_rows": 266
+    },
+    {
+      "capability_id": "gastroenterology",
+      "domain": "procedures",
+      "tracer_id": "gastroenterology_service",
+      "match_rows": 105
+    },
+    {
+      "capability_id": "gastroenterology",
+      "domain": "procedures",
+      "tracer_id": "upper_gi_endoscopy",
+      "match_rows": 213
+    },
+    {
+      "capability_id": "gastroenterology",
+      "domain": "staff",
+      "tracer_id": "gastroenterologist",
+      "match_rows": 168
     },
     {
       "capability_id": "general_surgery",
@@ -339,6 +451,72 @@
       "match_rows": 1082
     },
     {
+      "capability_id": "mental_health",
+      "domain": "diagnostics",
+      "tracer_id": "psychiatric_assessment",
+      "match_rows": 14
+    },
+    {
+      "capability_id": "mental_health",
+      "domain": "procedures",
+      "tracer_id": "deaddiction_service",
+      "match_rows": 113
+    },
+    {
+      "capability_id": "mental_health",
+      "domain": "procedures",
+      "tracer_id": "psychiatry_service",
+      "match_rows": 79
+    },
+    {
+      "capability_id": "mental_health",
+      "domain": "procedures",
+      "tracer_id": "psychotherapy",
+      "match_rows": 131
+    },
+    {
+      "capability_id": "mental_health",
+      "domain": "staff",
+      "tracer_id": "clinical_psychologist",
+      "match_rows": 26
+    },
+    {
+      "capability_id": "mental_health",
+      "domain": "staff",
+      "tracer_id": "psychiatrist",
+      "match_rows": 168
+    },
+    {
+      "capability_id": "neurosurgery",
+      "domain": "equipment",
+      "tracer_id": "neuro_navigation",
+      "match_rows": 87
+    },
+    {
+      "capability_id": "neurosurgery",
+      "domain": "procedures",
+      "tracer_id": "craniotomy",
+      "match_rows": 144
+    },
+    {
+      "capability_id": "neurosurgery",
+      "domain": "procedures",
+      "tracer_id": "neurosurgery_service",
+      "match_rows": 119
+    },
+    {
+      "capability_id": "neurosurgery",
+      "domain": "procedures",
+      "tracer_id": "spine_surgery",
+      "match_rows": 7
+    },
+    {
+      "capability_id": "neurosurgery",
+      "domain": "staff",
+      "tracer_id": "neurosurgeon",
+      "match_rows": 171
+    },
+    {
       "capability_id": "nicu",
       "domain": "diagnostics",
       "tracer_id": "newborn_screening",
@@ -423,6 +601,180 @@
       "match_rows": 236
     },
     {
+      "capability_id": "ophthalmology",
+      "domain": "diagnostics",
+      "tracer_id": "retinal_imaging",
+      "match_rows": 192
+    },
+    {
+      "capability_id": "ophthalmology",
+      "domain": "equipment",
+      "tracer_id": "phaco_machine",
+      "match_rows": 65
+    },
+    {
+      "capability_id": "ophthalmology",
+      "domain": "equipment",
+      "tracer_id": "slit_lamp",
+      "match_rows": 260
+    },
+    {
+      "capability_id": "ophthalmology",
+      "domain": "procedures",
+      "tracer_id": "cataract_surgery",
+      "match_rows": 2572
+    },
+    {
+      "capability_id": "ophthalmology",
+      "domain": "procedures",
+      "tracer_id": "lasik",
+      "match_rows": 2069
+    },
+    {
+      "capability_id": "ophthalmology",
+      "domain": "procedures",
+      "tracer_id": "ophthalmology_service",
+      "match_rows": 240
+    },
+    {
+      "capability_id": "ophthalmology",
+      "domain": "staff",
+      "tracer_id": "ophthalmologist",
+      "match_rows": 457
+    },
+    {
+      "capability_id": "orthopaedic_surgery",
+      "domain": "equipment",
+      "tracer_id": "orthopaedic_c_arm",
+      "match_rows": 7
+    },
+    {
+      "capability_id": "orthopaedic_surgery",
+      "domain": "procedures",
+      "tracer_id": "arthroscopy",
+      "match_rows": 1636
+    },
+    {
+      "capability_id": "orthopaedic_surgery",
+      "domain": "procedures",
+      "tracer_id": "fracture_fixation",
+      "match_rows": 51
+    },
+    {
+      "capability_id": "orthopaedic_surgery",
+      "domain": "procedures",
+      "tracer_id": "joint_replacement",
+      "match_rows": 5101
+    },
+    {
+      "capability_id": "orthopaedic_surgery",
+      "domain": "procedures",
+      "tracer_id": "orthopaedic_service",
+      "match_rows": 702
+    },
+    {
+      "capability_id": "orthopaedic_surgery",
+      "domain": "staff",
+      "tracer_id": "orthopaedic_surgeon",
+      "match_rows": 391
+    },
+    {
+      "capability_id": "pediatric_intensive_care",
+      "domain": "equipment",
+      "tracer_id": "pediatric_ventilator",
+      "match_rows": 12
+    },
+    {
+      "capability_id": "pediatric_intensive_care",
+      "domain": "equipment",
+      "tracer_id": "picu_bed",
+      "match_rows": 4
+    },
+    {
+      "capability_id": "pediatric_intensive_care",
+      "domain": "procedures",
+      "tracer_id": "picu_service",
+      "match_rows": 438
+    },
+    {
+      "capability_id": "pediatric_intensive_care",
+      "domain": "staff",
+      "tracer_id": "pediatric_intensivist",
+      "match_rows": 19
+    },
+    {
+      "capability_id": "respiratory_care",
+      "domain": "diagnostics",
+      "tracer_id": "pulmonary_function_test",
+      "match_rows": 395
+    },
+    {
+      "capability_id": "respiratory_care",
+      "domain": "equipment",
+      "tracer_id": "bronchoscope",
+      "match_rows": 87
+    },
+    {
+      "capability_id": "respiratory_care",
+      "domain": "equipment",
+      "tracer_id": "spirometer",
+      "match_rows": 41
+    },
+    {
+      "capability_id": "respiratory_care",
+      "domain": "procedures",
+      "tracer_id": "bronchoscopy",
+      "match_rows": 370
+    },
+    {
+      "capability_id": "respiratory_care",
+      "domain": "procedures",
+      "tracer_id": "respiratory_service",
+      "match_rows": 58
+    },
+    {
+      "capability_id": "respiratory_care",
+      "domain": "staff",
+      "tracer_id": "pulmonologist",
+      "match_rows": 151
+    },
+    {
+      "capability_id": "stroke_care",
+      "domain": "diagnostics",
+      "tracer_id": "stroke_imaging",
+      "match_rows": 13
+    },
+    {
+      "capability_id": "stroke_care",
+      "domain": "equipment",
+      "tracer_id": "stroke_unit",
+      "match_rows": 34
+    },
+    {
+      "capability_id": "stroke_care",
+      "domain": "procedures",
+      "tracer_id": "mechanical_thrombectomy",
+      "match_rows": 12
+    },
+    {
+      "capability_id": "stroke_care",
+      "domain": "procedures",
+      "tracer_id": "stroke_service",
+      "match_rows": 57
+    },
+    {
+      "capability_id": "stroke_care",
+      "domain": "procedures",
+      "tracer_id": "thrombolysis",
+      "match_rows": 10
+    },
+    {
+      "capability_id": "stroke_care",
+      "domain": "staff",
+      "tracer_id": "neurologist",
+      "match_rows": 202
+    },
+    {
       "capability_id": "trauma",
       "domain": "diagnostics",
       "tracer_id": "trauma_imaging",
@@ -445,9 +797,51 @@
       "domain": "staff",
       "tracer_id": "trauma_surgeon",
       "match_rows": 403
+    },
+    {
+      "capability_id": "urology",
+      "domain": "diagnostics",
+      "tracer_id": "uroflowmetry",
+      "match_rows": 85
+    },
+    {
+      "capability_id": "urology",
+      "domain": "equipment",
+      "tracer_id": "lithotripter",
+      "match_rows": 28
+    },
+    {
+      "capability_id": "urology",
+      "domain": "procedures",
+      "tracer_id": "lithotripsy",
+      "match_rows": 374
+    },
+    {
+      "capability_id": "urology",
+      "domain": "procedures",
+      "tracer_id": "pcnl",
+      "match_rows": 232
+    },
+    {
+      "capability_id": "urology",
+      "domain": "procedures",
+      "tracer_id": "turp",
+      "match_rows": 163
+    },
+    {
+      "capability_id": "urology",
+      "domain": "procedures",
+      "tracer_id": "urology_service",
+      "match_rows": 114
+    },
+    {
+      "capability_id": "urology",
+      "domain": "staff",
+      "tracer_id": "urologist",
+      "match_rows": 220
     }
   ],
-  "validation_sample_rows": 181,
+  "validation_sample_rows": 358,
   "validation_sample_seed": 42,
   "validation_sample_per_tracer_max": 3,
   "validation_claim": "Bounded review sample for precision-oriented error inspection only; it does not establish population recall.",
@@ -455,6 +849,7 @@
     "blood_bank/blood_bank_unit contributes 88.7% of capability match rows; inspect for pattern dominance.",
     "icu/icu_service contributes 85.5% of capability match rows; inspect for pattern dominance.",
     "nicu/nicu_service contributes 82.1% of capability match rows; inspect for pattern dominance.",
+    "pediatric_intensive_care/picu_service contributes 92.6% of capability match rows; inspect for pattern dominance.",
     "trauma/trauma_care_service contributes 79.7% of capability match rows; inspect for pattern dominance."
   ]
 }
