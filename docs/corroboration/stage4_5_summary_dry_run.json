@@ -1,0 +1,12 @@
+{
+  "mode": "dry_run",
+  "candidate_pairs_available": 390,
+  "candidate_pairs_selected": 100,
+  "per_capability_cap": 10,
+  "total_cap": 100,
+  "live_api_calls": 0,
+  "status_counts": {
+    "dry_run": 100
+  },
+  "policy": "not_found/unverified is never interpreted as facility incapability; only verbatim quote-bound evidence can corroborate."
+}

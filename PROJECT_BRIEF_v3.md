@@ -529,6 +529,15 @@ trust signal and directly serves the 35% category.
 **Deliverable.** `bullet_provenance_flags` + a contamination-rate figure for the demo.
 **Note.** Highest-variance, highest-upside item in the build.
 
+**✅ MVP completed.** Audited 451,110 bullets across 10,077 distinct facilities with
+GeoNames-normalized explicit-location checks, contextual organization ownership rules, and
+long exact-duplicate detection. The conservative detector flagged 1,516 facilities (**15.04%**)
+with at least one suspected conflict and put 662 (**6.57%**) into review. This is a detector
+flag rate, not verified contamination prevalence. On the biased 25-row development sample it
+produced 5 TP / 0 FP / 1 nominal FN; the FN's saved rationale references bullets found in a
+different sampled row. Louvain was cut because 9,959 of 9,970 non-null `cluster_id` groups are
+singletons and the remaining 11 are duplicate pairs. See `docs/provenance/stage3_findings.md`.
+
 ---
 
 ### Stage 4 — Capability taxonomy and tracer items **[Manoj]**
@@ -737,12 +746,12 @@ Four checks. ~45 minutes. **Each can change the shape of the night.**
 
 | # | Question | Stage | Owner | Status | Recommendation |
 |---|---|---|---|---|---|
-| Q1 | Contamination rate? | 3 | Manoj | 🔲 | Spot-check 20 rows |
+| Q1 | Contamination rate? | 3 | Manoj | ✅ | 15.04% conservative detector flag rate; not true prevalence |
 | Q2 | Enough distinct sources for truth discovery? | 6 | Manoj | 🔲 | 5-min query |
 | Q3 | Does `specialties` align with `capability`? | 2 | Manoj | 🔲 | 15-min check |
 | Q4 | Regex recall per capability? | 4 | Manoj | 🔲 | Hand-check 100 bullets each |
 | Q5 | ~118 facilities without coordinates | 1 | Shivi | 🔲 | Centroid + explicit flag |
-| Q6 | Contaminated bullets: exclude/downweight/warn? | 3 | Manoj | 🔲 | Exclude, show as "rejected evidence" |
+| Q6 | Contaminated bullets: exclude/downweight/warn? | 3 | Manoj | ✅ | Exclude high-confidence conflicts; retain review; show rejected evidence |
 | Q7 | SARA domain weighting | 5 | Manoj | 🔲 | Equal weights |
 | Q8 | Hard-filter low-readiness candidates? | 9 | Manoj | 🔲 | Show with warning |
 | Q9 | Ambiguous place names | 8 | Manoj | 🔲 | User disambiguation click |
@@ -921,7 +930,7 @@ and detecting cold starts.
 
 | Manoj (on `fake_bullets`) | Status | Shivi | Status |
 |---|---|---|---|
-| Stage 3 · Provenance audit | 🔲 | Stage 1 · Silver + gazetteer | 🔲 |
+| Stage 3 · Provenance audit | ✅ | Stage 1 · Silver + gazetteer | 🔲 |
 | Stage 4 · Taxonomy + tracer items | 🔲 | Stage 2 · Bullet explosion | 🔲 |
 | | | Stage 13 · MLflow harness | 🔲 |
 | | | Stage 10b · App shell (early) | 🔲 |
@@ -935,8 +944,8 @@ and detecting cold starts.
 
 - [ ] 🔲 Shivi ships `evidence_bullets` + `distinct_bullets` conforming to C1
 - [ ] 🔲 Manoj swaps `fake_bullets` → real. **One import line.**
-- [ ] 🔲 Manoj re-runs Stages 3–4 on real data and reports the contamination rate
-- [ ] 🔲 **Decision point:** is Stage 3 the demo headline? Update §14 script accordingly.
+- [ ] 🔨 Stage 3 complete on raw evidence arrays; Stage 4 still pending
+- [x] ✅ **Decision point:** keep Stage 3 as a concise trust-layer demo beat; report the 15.04% detector flag rate with its limitation
 
 ### 13.6 Block 2 **[hour 3 → hour 7]**
 

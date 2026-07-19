@@ -1,0 +1,166 @@
+{
+  "summary": {
+    "n_sampled": 25,
+    "tier_a_obvious_count": 18,
+    "tier_a_borderline_count": 7,
+    "tier_c_genuine_contamination_count": 6,
+    "tier_a_obvious_confirmed_by_llm": 6,
+    "tier_a_obvious_rejected_by_llm": 12,
+    "tier_a_borderline_confirmed_by_llm": 0,
+    "tier_a_borderline_rejected_by_llm": 7,
+    "precision_of_tier_a_obvious_bucket": 0.333,
+    "recall_of_tier_a_obvious_bucket_on_llm_confirmed": 1.0
+  },
+  "rows": [
+    {
+      "unique_id": "14fb1802-6ba6-443b-ae3c-6cac18dea466",
+      "name": "Cardion Hospital",
+      "tier_a_bucket": "borderline",
+      "tier_c_genuine_contamination": false
+    },
+    {
+      "unique_id": "76291067-1c82-4c02-8160-f17e72d84e65",
+      "name": "Varanasi Hospital",
+      "tier_a_bucket": "borderline",
+      "tier_c_genuine_contamination": false
+    },
+    {
+      "unique_id": "34c1fc06-d8fc-4c14-991d-5d3f94c4159b",
+      "name": "Calcutta Medical Centre",
+      "tier_a_bucket": "borderline",
+      "tier_c_genuine_contamination": false
+    },
+    {
+      "unique_id": "cf328ef3-97c1-4e5d-8ce5-8f75132f6a0c",
+      "name": "Wadhwa Pathology Lab",
+      "tier_a_bucket": "obvious",
+      "tier_c_genuine_contamination": true
+    },
+    {
+      "unique_id": "0548e4f4-cfd5-4822-ac49-10ec1ee8eb25",
+      "name": "Sai Multispeciality Hospital Washim",
+      "tier_a_bucket": "borderline",
+      "tier_c_genuine_contamination": false
+    },
+    {
+      "unique_id": "1d3f5f2e-e990-4bd8-abef-bd6c2b2b8d84",
+      "name": "Dr. Jairaj's Hospital",
+      "tier_a_bucket": "obvious",
+      "tier_c_genuine_contamination": false
+    },
+    {
+      "unique_id": "08c8f9bb-2e33-468e-8b09-0b1d235ce426",
+      "name": "Saravana Hospital",
+      "tier_a_bucket": "obvious",
+      "tier_c_genuine_contamination": true
+    },
+    {
+      "unique_id": "202c3520-fc99-4391-a6e1-fad7e062e679",
+      "name": "Jaya Dental Clinic",
+      "tier_a_bucket": "obvious",
+      "tier_c_genuine_contamination": false
+    },
+    {
+      "unique_id": "a0081495-bbdd-49d9-92f2-2cc6a28e4ca0",
+      "name": "Sadamangalam Ayurvedic Panchakarma Clinic & Fertiveda",
+      "tier_a_bucket": "obvious",
+      "tier_c_genuine_contamination": false
+    },
+    {
+      "unique_id": "e517f93d-ff0f-4c90-b6ae-4b85343a1f25",
+      "name": "Redent Dental Clinic",
+      "tier_a_bucket": "obvious",
+      "tier_c_genuine_contamination": false
+    },
+    {
+      "unique_id": "06bdf654-fc15-49eb-89c5-e3c14010ebe1",
+      "name": "Rela Hospital",
+      "tier_a_bucket": "obvious",
+      "tier_c_genuine_contamination": true
+    },
+    {
+      "unique_id": "4d3a82b0-8b69-4918-b15f-58d7f579818c",
+      "name": "My Smile Dental Clinic",
+      "tier_a_bucket": "obvious",
+      "tier_c_genuine_contamination": false
+    },
+    {
+      "unique_id": "77edbf49-532f-4e03-a2d1-04bc2b34cbd6",
+      "name": "Upasana Hospital",
+      "tier_a_bucket": "obvious",
+      "tier_c_genuine_contamination": true
+    },
+    {
+      "unique_id": "83e6bce6-4fea-4d64-b059-cf4a052ba00d",
+      "name": "Rohilkhand Medical College and Hospital",
+      "tier_a_bucket": "borderline",
+      "tier_c_genuine_contamination": false
+    },
+    {
+      "unique_id": "e47ec8f1-74c2-418a-88cd-73967f0f1fc5",
+      "name": "Satya Aesthetics & Hair Solutions - Delhi",
+      "tier_a_bucket": "obvious",
+      "tier_c_genuine_contamination": false
+    },
+    {
+      "unique_id": "44d05b85-41b3-471a-ac6d-ceec8f9e96eb",
+      "name": "Anantshree Hospital",
+      "tier_a_bucket": "obvious",
+      "tier_c_genuine_contamination": false
+    },
+    {
+      "unique_id": "c15da265-c0a5-4986-ae91-7f8421abe308",
+      "name": "Nizam's Institute of Medical Sciences",
+      "tier_a_bucket": "obvious",
+      "tier_c_genuine_contamination": true
+    },
+    {
+      "unique_id": "e3279475-58c3-451b-b37b-5f9333d83380",
+      "name": "Nahar Medical Centre",
+      "tier_a_bucket": "obvious",
+      "tier_c_genuine_contamination": false
+    },
+    {
+      "unique_id": "b0d5a919-d6ff-4137-b0d6-8503a64c1f30",
+      "name": "Divine Touch Dental Hospital & Amp Research Centre",
+      "tier_a_bucket": "obvious",
+      "tier_c_genuine_contamination": false
+    },
+    {
+      "unique_id": "2844da4b-b15d-4173-aaff-11ca0ae02dd3",
+      "name": "Tulsi Dental Clinic",
+      "tier_a_bucket": "obvious",
+      "tier_c_genuine_contamination": false
+    },
+    {
+      "unique_id": "189f7645-d64a-4340-8715-852c1e40f414",
+      "name": "Prem Hospital Super Speciality & Trauma Centre",
+      "tier_a_bucket": "obvious",
+      "tier_c_genuine_contamination": false
+    },
+    {
+      "unique_id": "082b8d1b-e9b8-49e8-99d1-b22652a54e57",
+      "name": "Cosmos Hospital",
+      "tier_a_bucket": "obvious",
+      "tier_c_genuine_contamination": true
+    },
+    {
+      "unique_id": "3817a9c6-5019-458f-859b-9368f53bc31f",
+      "name": "Inspiria Laparoscopy & IVF Research Centre",
+      "tier_a_bucket": "borderline",
+      "tier_c_genuine_contamination": false
+    },
+    {
+      "unique_id": "8c2726fb-32b9-4edb-be98-dc6aede7fc3b",
+      "name": "Ratnagiri Test Tube Baby & Research Center",
+      "tier_a_bucket": "borderline",
+      "tier_c_genuine_contamination": false
+    },
+    {
+      "unique_id": "3e8efbf0-c7db-48bc-87e7-2897af0fecc3",
+      "name": "Kids Dental Clinic",
+      "tier_a_bucket": "obvious",
+      "tier_c_genuine_contamination": false
+    }
+  ]
+}

@@ -1,0 +1,4662 @@
+[
+  {
+    "unique_id": "a9968578-1d59-4a80-bea4-b04dde0c440a",
+    "name": "Burdwan Dental College & Hospital",
+    "len_specialties": 43,
+    "len_capability": 35,
+    "pairs": [
+      {
+        "index": 0,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Established in 2009"
+      },
+      {
+        "index": 1,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Affiliated to West Bengal University of Health Sciences"
+      },
+      {
+        "index": 2,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Recognized by the Dental Council of India"
+      },
+      {
+        "index": 3,
+        "specialties_i": "dentistry",
+        "capability_i": "Offers Bachelor of Dental Surgery (BDS) degree"
+      },
+      {
+        "index": 4,
+        "specialties_i": "pediatricDentistry",
+        "capability_i": "Annual intake of 125 BDS students"
+      },
+      {
+        "index": 5,
+        "specialties_i": "orthodontics",
+        "capability_i": "Has 9 specialised departments"
+      },
+      {
+        "index": 6,
+        "specialties_i": "dentistry",
+        "capability_i": "Provides free treatment through regular outreach programs and dental camps"
+      },
+      {
+        "index": 7,
+        "specialties_i": "oralMedicine",
+        "capability_i": "Government dental college administered by the state/UT administration"
+      },
+      {
+        "index": 8,
+        "specialties_i": "radiology",
+        "capability_i": "Established in 2009-10"
+      },
+      {
+        "index": 9,
+        "specialties_i": "oralAndMaxillofacialSurgery",
+        "capability_i": "Attached to Burdwan Medical College & Hospital"
+      },
+      {
+        "index": 10,
+        "specialties_i": "publicHealthDentistry",
+        "capability_i": "Affiliated to West Bengal University of Health Sciences"
+      },
+      {
+        "index": 11,
+        "specialties_i": "prosthodontics",
+        "capability_i": "Recognised by the Dental Council of India"
+      },
+      {
+        "index": 12,
+        "specialties_i": "periodontologyAndOralImplantology",
+        "capability_i": "Offers undergraduate BDS program (4 years plus 1 year internship) totaling 5 years"
+      },
+      {
+        "index": 13,
+        "specialties_i": "endodontics",
+        "capability_i": "Intake of 100 undergraduate BDS students per year"
+      },
+      {
+        "index": 14,
+        "specialties_i": "orthodontics",
+        "capability_i": "Total student enrollment around 550"
+      },
+      {
+        "index": 15,
+        "specialties_i": "oralAndMaxillofacialPathologyAndOralMicrobiology",
+        "capability_i": "Departments include Oral Medicine & Radiology; Oral & Maxillofacial Surgery; Public Health Dentistry; Prosthodontics and Crown and Bridge; Periodontology and Oral Implantology; Conservative Dentistry and Endodontics; Pediatric and Preventive Dentistry; Orthodontics and Dentofacial Orthopedics; Oral and Maxillofacial Pathology and Oral Microbiology"
+      },
+      {
+        "index": 16,
+        "specialties_i": "pediatricAndPreventiveDentistry",
+        "capability_i": "Operates as a dental college and hospital"
+      },
+      {
+        "index": 17,
+        "specialties_i": "pediatricDentistry",
+        "capability_i": "Has a Department of Oral and Maxillofacial Surgery with seven faculty members, including a Professor & H.O.D"
+      },
+      {
+        "index": 18,
+        "specialties_i": "conservativeDentistryAndEndodontics",
+        "capability_i": "Burdwan Dental College & Hospital (BDCH) is a dental college and hospital located in West Bengal, India"
+      },
+      {
+        "index": 19,
+        "specialties_i": "internalMedicine",
+        "capability_i": "BDCH has Department of Oral Pathology"
+      },
+      {
+        "index": 20,
+        "specialties_i": "internalMedicine",
+        "capability_i": "BDCH has Department of Prosthodontics and Crown and Bridge"
+      },
+      {
+        "index": 21,
+        "specialties_i": "dentistry",
+        "capability_i": "BDCH has Department of Public Health Dentistry"
+      },
+      {
+        "index": 22,
+        "specialties_i": "internalMedicine",
+        "capability_i": "BDCH has Department of Orthodontics"
+      },
+      {
+        "index": 23,
+        "specialties_i": "oralAndMaxillofacialSurgery",
+        "capability_i": "BDCH has Department of Oral Medicine and Radiology"
+      },
+      {
+        "index": 24,
+        "specialties_i": "internalMedicine",
+        "capability_i": "BDCH employs faculty in its departments, including Assistant Professors and a Head of Department / Professor in Oral Pathology"
+      },
+      {
+        "index": 25,
+        "specialties_i": "dentistry",
+        "capability_i": "Established in 2003"
+      },
+      {
+        "index": 26,
+        "specialties_i": "orthodontics",
+        "capability_i": "DCI approved"
+      },
+      {
+        "index": 27,
+        "specialties_i": "oralMedicine",
+        "capability_i": "Affiliated to West Bengal University of Health Sciences, Kolkata"
+      },
+      {
+        "index": 28,
+        "specialties_i": "endodontics",
+        "capability_i": "On-site health center with first-aid facilities for students"
+      },
+      {
+        "index": 29,
+        "specialties_i": "dentoalveolarSurgery",
+        "capability_i": "Bachelor of Dental Surgery (BDS) program offered with 125 seats"
+      },
+      {
+        "index": 30,
+        "specialties_i": "oralAndMaxillofacialSurgery",
+        "capability_i": "Admissions primarily via NEET"
+      },
+      {
+        "index": 31,
+        "specialties_i": "radiology",
+        "capability_i": "550 students enrolled and 55 faculty"
+      },
+      {
+        "index": 32,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Dental college and hospital"
+      },
+      {
+        "index": 33,
+        "specialties_i": "dentistry",
+        "capability_i": "Located in Bardhaman (Burdwan), West Bengal, India"
+      },
+      {
+        "index": 34,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Listed in Medindia's Bardhaman hospital directory"
+      },
+      {
+        "index": 35,
+        "specialties_i": "dentistry",
+        "capability_i": null
+      },
+      {
+        "index": 36,
+        "specialties_i": "internalMedicine",
+        "capability_i": null
+      },
+      {
+        "index": 37,
+        "specialties_i": "pediatricDentistry",
+        "capability_i": null
+      },
+      {
+        "index": 38,
+        "specialties_i": "internalMedicine",
+        "capability_i": null
+      },
+      {
+        "index": 39,
+        "specialties_i": "dentistry",
+        "capability_i": null
+      },
+      {
+        "index": 40,
+        "specialties_i": "dentistry",
+        "capability_i": null
+      },
+      {
+        "index": 41,
+        "specialties_i": "internalMedicine",
+        "capability_i": null
+      },
+      {
+        "index": 42,
+        "specialties_i": "internalMedicine",
+        "capability_i": null
+      }
+    ]
+  },
+  {
+    "unique_id": "67d311ae-eede-46e8-b5b4-2688a68d2a18",
+    "name": "Brookefield Hospital",
+    "len_specialties": 50,
+    "len_capability": 50,
+    "pairs": [
+      {
+        "index": 0,
+        "specialties_i": "dentistry",
+        "capability_i": "Brookefield Hospital is listed among Top Clinics In Kundalahalli on Practo"
+      },
+      {
+        "index": 1,
+        "specialties_i": "oralMedicine",
+        "capability_i": "Provides gynecology and obstetrics services"
+      },
+      {
+        "index": 2,
+        "specialties_i": "radiology",
+        "capability_i": "Treats diseases in pregnancy"
+      },
+      {
+        "index": 3,
+        "specialties_i": "orthodontics",
+        "capability_i": "Has gynecology and obstetrics consultant Dr Kakoli Guha Sen"
+      },
+      {
+        "index": 4,
+        "specialties_i": "endodontics",
+        "capability_i": "Located in Kundalahalli, Bangalore, Karnataka"
+      },
+      {
+        "index": 5,
+        "specialties_i": "oralAndMaxillofacialSurgery",
+        "capability_i": "Brookefield Hospital is listed as a top clinic in Bangalore on Practo"
+      },
+      {
+        "index": 6,
+        "specialties_i": "periodontics",
+        "capability_i": "Brookefield Hospital is a hospital in Bangalore"
+      },
+      {
+        "index": 7,
+        "specialties_i": "prosthodontics",
+        "capability_i": "Brookefield Hospital is listed as a Top Clinic in Bangalore on Practo"
+      },
+      {
+        "index": 8,
+        "specialties_i": "aestheticDentistry",
+        "capability_i": "24/7 emergency care"
+      },
+      {
+        "index": 9,
+        "specialties_i": "internalMedicine",
+        "capability_i": "State-of-the-art infrastructure"
+      },
+      {
+        "index": 10,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Highly qualified medical staff"
+      },
+      {
+        "index": 11,
+        "specialties_i": "pediatrics",
+        "capability_i": "Located in Bangalore, India"
+      },
+      {
+        "index": 12,
+        "specialties_i": "neonatologyPerinatalMedicine",
+        "capability_i": "11-50 employees"
+      },
+      {
+        "index": 13,
+        "specialties_i": "adolescentMedicine",
+        "capability_i": "Medical leadership includes Medical Director Pradeep Kumar"
+      },
+      {
+        "index": 14,
+        "specialties_i": "developmental\u2013behavioralPediatrics",
+        "capability_i": "24/7 emergency care"
+      },
+      {
+        "index": 15,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Endocrinology & Diabetes Care program"
+      },
+      {
+        "index": 16,
+        "specialties_i": "urology",
+        "capability_i": "Joint replacement & trauma care"
+      },
+      {
+        "index": 17,
+        "specialties_i": "nephrology",
+        "capability_i": "Neurology & Neurosurgery program"
+      },
+      {
+        "index": 18,
+        "specialties_i": "endocrinologyAndDiabetesAndMetabolism",
+        "capability_i": "Cancer Care Facility"
+      },
+      {
+        "index": 19,
+        "specialties_i": "plasticSurgery",
+        "capability_i": "Dialysis / Nephrology program"
+      },
+      {
+        "index": 20,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Dental surgery & cosmetic dentistry program"
+      },
+      {
+        "index": 21,
+        "specialties_i": "generalSurgery",
+        "capability_i": "Obstetrics, IVF & Pediatric program"
+      },
+      {
+        "index": 22,
+        "specialties_i": "gynecologyAndObstetrics",
+        "capability_i": "Gastroenterology & Laparoscopic Surgery program"
+      },
+      {
+        "index": 23,
+        "specialties_i": "otolaryngology",
+        "capability_i": "Dermatology & Maxillofacial Surgery program"
+      },
+      {
+        "index": 24,
+        "specialties_i": "urology",
+        "capability_i": "Health checkups program"
+      },
+      {
+        "index": 25,
+        "specialties_i": "aestheticAndCosmeticSurgery",
+        "capability_i": "Has 22 departments"
+      },
+      {
+        "index": 26,
+        "specialties_i": "orthopedicSurgery",
+        "capability_i": "Has 40+ doctors"
+      },
+      {
+        "index": 27,
+        "specialties_i": "ophthalmology",
+        "capability_i": "Has served 122250+ patients"
+      },
+      {
+        "index": 28,
+        "specialties_i": "fertility",
+        "capability_i": "Has 100-bed capacity"
+      },
+      {
+        "index": 29,
+        "specialties_i": "vascularSurgery",
+        "capability_i": "Unit of Sanjeevini Healthcare Pvt Ltd"
+      },
+      {
+        "index": 30,
+        "specialties_i": "dentistry",
+        "capability_i": "Brookefield Hospital is a hospital in Whitefield, Bangalore."
+      },
+      {
+        "index": 31,
+        "specialties_i": "gynecologyAndObstetrics",
+        "capability_i": "Brookefield Hospital is listed among hospitals in Whitefield Hope Farm Junction Bangalore"
+      },
+      {
+        "index": 32,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Provides 24/7 emergency care"
+      },
+      {
+        "index": 33,
+        "specialties_i": "orthopedicSurgery",
+        "capability_i": "Maintains a specialized ICU"
+      },
+      {
+        "index": 34,
+        "specialties_i": "jointReconstructionSurgery",
+        "capability_i": "Has an operation theatre"
+      },
+      {
+        "index": 35,
+        "specialties_i": "psychiatry",
+        "capability_i": "Offers 24/7 ambulance service"
+      },
+      {
+        "index": 36,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Provides 24/7 diagnostics and laboratory services"
+      },
+      {
+        "index": 37,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Offers obstetrics and IVF services"
+      },
+      {
+        "index": 38,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Has 100 beds"
+      },
+      {
+        "index": 39,
+        "specialties_i": "dermatology",
+        "capability_i": "Multi-specialty hospital"
+      },
+      {
+        "index": 40,
+        "specialties_i": "pulmonology",
+        "capability_i": "Unit of Sanjeevini Healthcare Pvt Ltd"
+      },
+      {
+        "index": 41,
+        "specialties_i": "gastroenterology",
+        "capability_i": "Located in Bengaluru, Karnataka, India"
+      },
+      {
+        "index": 42,
+        "specialties_i": "endocrinologyAndDiabetesAndMetabolism",
+        "capability_i": "Has 24/7 emergency care"
+      },
+      {
+        "index": 43,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Ambulance services available 24/7"
+      },
+      {
+        "index": 44,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Dialysis services available 24/7"
+      },
+      {
+        "index": 45,
+        "specialties_i": "dentistry",
+        "capability_i": "Operating status: Active"
+      },
+      {
+        "index": 46,
+        "specialties_i": "oralAndMaxillofacialSurgery",
+        "capability_i": "Acquired by Multiples"
+      },
+      {
+        "index": 47,
+        "specialties_i": "endodontics",
+        "capability_i": "Brookefield Hospital is listed among hospitals in Varthur Bangalore"
+      },
+      {
+        "index": 48,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Brookefield Hospital is included in the 'Best Hospitals in Varthur Bangalore' list"
+      },
+      {
+        "index": 49,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Brookefield Hospital is a multi-specialty hospital in Bangalore"
+      }
+    ]
+  },
+  {
+    "unique_id": "2fc17119-70d7-42c9-83df-72d8d77fdb6f",
+    "name": "Anantapur Orthopaedic Centre",
+    "len_specialties": 31,
+    "len_capability": 11,
+    "pairs": [
+      {
+        "index": 0,
+        "specialties_i": "orthopedicSurgery",
+        "capability_i": "Located in Aravindanagar, Anantapur, Andhra Pradesh, India."
+      },
+      {
+        "index": 1,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Provides 24/7 emergency care"
+      },
+      {
+        "index": 2,
+        "specialties_i": "orthopedicSurgery",
+        "capability_i": "Performs general and laparoscopic surgeries"
+      },
+      {
+        "index": 3,
+        "specialties_i": "familyMedicine",
+        "capability_i": "Provides medical consultations and preventive healthcare"
+      },
+      {
+        "index": 4,
+        "specialties_i": "orthopedicSurgery",
+        "capability_i": "Laboratory services including blood work, imaging, and pathology"
+      },
+      {
+        "index": 5,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Video consultations"
+      },
+      {
+        "index": 6,
+        "specialties_i": "orthopedicSurgery",
+        "capability_i": "Uses state-of-the-art medical technology"
+      },
+      {
+        "index": 7,
+        "specialties_i": "familyMedicine",
+        "capability_i": "Staff includes Dr. Saiswaroop (general and laparoscopic surgeon) and Dr. Radhika Sane (pediatrician)"
+      },
+      {
+        "index": 8,
+        "specialties_i": "orthopedicSurgery",
+        "capability_i": "Ananthapur Orthopaedic Centre is listed as a Clinic in the Andhra Pradesh health services directory."
+      },
+      {
+        "index": 9,
+        "specialties_i": "pediatrics",
+        "capability_i": "Specializes in orthopaedic care"
+      },
+      {
+        "index": 10,
+        "specialties_i": "generalSurgery",
+        "capability_i": "Provides trauma care services"
+      },
+      {
+        "index": 11,
+        "specialties_i": "internalMedicine",
+        "capability_i": null
+      },
+      {
+        "index": 12,
+        "specialties_i": "emergencyMedicine",
+        "capability_i": null
+      },
+      {
+        "index": 13,
+        "specialties_i": "pathology",
+        "capability_i": null
+      },
+      {
+        "index": 14,
+        "specialties_i": "internalMedicine",
+        "capability_i": null
+      },
+      {
+        "index": 15,
+        "specialties_i": "familyMedicine",
+        "capability_i": null
+      },
+      {
+        "index": 16,
+        "specialties_i": "generalSurgery",
+        "capability_i": null
+      },
+      {
+        "index": 17,
+        "specialties_i": "gynecologyAndObstetricsSurgery",
+        "capability_i": null
+      },
+      {
+        "index": 18,
+        "specialties_i": "orthopedicSurgeryAndProcedures",
+        "capability_i": null
+      },
+      {
+        "index": 19,
+        "specialties_i": "genitoUrinarySurgeries",
+        "capability_i": null
+      },
+      {
+        "index": 20,
+        "specialties_i": "neurosurgery",
+        "capability_i": null
+      },
+      {
+        "index": 21,
+        "specialties_i": "polyTrauma",
+        "capability_i": null
+      },
+      {
+        "index": 22,
+        "specialties_i": "internalMedicine",
+        "capability_i": null
+      },
+      {
+        "index": 23,
+        "specialties_i": "orthopedicSurgery",
+        "capability_i": null
+      },
+      {
+        "index": 24,
+        "specialties_i": "orthopedicSurgery",
+        "capability_i": null
+      },
+      {
+        "index": 25,
+        "specialties_i": "familyMedicine",
+        "capability_i": null
+      },
+      {
+        "index": 26,
+        "specialties_i": "orthopedicSurgery",
+        "capability_i": null
+      },
+      {
+        "index": 27,
+        "specialties_i": "criticalCareMedicine",
+        "capability_i": null
+      },
+      {
+        "index": 28,
+        "specialties_i": "internalMedicine",
+        "capability_i": null
+      },
+      {
+        "index": 29,
+        "specialties_i": "orthopedicSurgery",
+        "capability_i": null
+      },
+      {
+        "index": 30,
+        "specialties_i": "orthopedicSurgery",
+        "capability_i": null
+      }
+    ]
+  },
+  {
+    "unique_id": "d353e58e-bf7f-4d67-bc17-e92ead01462f",
+    "name": "Dr Chopra Dental Clinic",
+    "len_specialties": 26,
+    "len_capability": 18,
+    "pairs": [
+      {
+        "index": 0,
+        "specialties_i": "dentistry",
+        "capability_i": "Operates as a dental clinic"
+      },
+      {
+        "index": 1,
+        "specialties_i": "familyMedicine",
+        "capability_i": "Has 23+ years of dentistry experience"
+      },
+      {
+        "index": 2,
+        "specialties_i": "dentistry",
+        "capability_i": "Based in Jaipur, Rajasthan, India"
+      },
+      {
+        "index": 3,
+        "specialties_i": "familyMedicine",
+        "capability_i": "Offers dentistry services focused on functional and aesthetic outcomes"
+      },
+      {
+        "index": 4,
+        "specialties_i": "dentistry",
+        "capability_i": "Has over 20 years of dental practice experience"
+      },
+      {
+        "index": 5,
+        "specialties_i": "orthodontics",
+        "capability_i": "Operates as a dental clinic and dental office in Jaipur, Rajasthan, India"
+      },
+      {
+        "index": 6,
+        "specialties_i": "endodontics",
+        "capability_i": "Over 20 years of experience in cosmetic and implant dentistry"
+      },
+      {
+        "index": 7,
+        "specialties_i": "prosthodontics",
+        "capability_i": "Established in 2003"
+      },
+      {
+        "index": 8,
+        "specialties_i": "cosmeticDentistry",
+        "capability_i": "Founders are graduates of SMS Govt Medical College, Jaipur, Rajasthan"
+      },
+      {
+        "index": 9,
+        "specialties_i": "cosmeticDermatology",
+        "capability_i": "Affiliations with Indian Dental Association, Academy of Oral Implantology, Indian Academy of Aesthetic and Cosmetic Dentistry, and Indian Society for Oral Laser Application"
+      },
+      {
+        "index": 10,
+        "specialties_i": "pediatrics",
+        "capability_i": "Jaipur-based dental clinic"
+      },
+      {
+        "index": 11,
+        "specialties_i": "dentistry",
+        "capability_i": "Over 20 years of experience in cosmetic and implant dentistry"
+      },
+      {
+        "index": 12,
+        "specialties_i": "endodontics",
+        "capability_i": "Established in 2003"
+      },
+      {
+        "index": 13,
+        "specialties_i": "orthodontics",
+        "capability_i": "Affiliated with Indian Dental Association"
+      },
+      {
+        "index": 14,
+        "specialties_i": "prosthodontics",
+        "capability_i": "Affiliated with Academy of Oral Implantology"
+      },
+      {
+        "index": 15,
+        "specialties_i": "oralAndMaxillofacialSurgery",
+        "capability_i": "Affiliated with Indian Academy of Aesthetic and Cosmetic Dentistry"
+      },
+      {
+        "index": 16,
+        "specialties_i": "pediatricDentistry",
+        "capability_i": "Affiliated with Indian Society for Oral Laser Application"
+      },
+      {
+        "index": 17,
+        "specialties_i": "aestheticDentistry",
+        "capability_i": "Offers cosmetic and implant dentistry under one roof"
+      },
+      {
+        "index": 18,
+        "specialties_i": "familyMedicine",
+        "capability_i": null
+      },
+      {
+        "index": 19,
+        "specialties_i": "dentistry",
+        "capability_i": null
+      },
+      {
+        "index": 20,
+        "specialties_i": "orthodontics",
+        "capability_i": null
+      },
+      {
+        "index": 21,
+        "specialties_i": "endodontics",
+        "capability_i": null
+      },
+      {
+        "index": 22,
+        "specialties_i": "prosthodontics",
+        "capability_i": null
+      },
+      {
+        "index": 23,
+        "specialties_i": "cosmeticDermatology",
+        "capability_i": null
+      },
+      {
+        "index": 24,
+        "specialties_i": "pediatricDentistry",
+        "capability_i": null
+      },
+      {
+        "index": 25,
+        "specialties_i": "familyMedicine",
+        "capability_i": null
+      }
+    ]
+  },
+  {
+    "unique_id": "92e6b44e-982a-43fc-bf94-41eaf71249a9",
+    "name": "Keeran Eye Care",
+    "len_specialties": 11,
+    "len_capability": 10,
+    "pairs": [
+      {
+        "index": 0,
+        "specialties_i": "familyMedicine",
+        "capability_i": "Outpatient eye clinic"
+      },
+      {
+        "index": 1,
+        "specialties_i": "ophthalmology",
+        "capability_i": "Open hours: Monday to Saturday 12:30 PM\u20138:30 PM; Sunday 9:00 AM\u20138:30 PM"
+      },
+      {
+        "index": 2,
+        "specialties_i": "familyMedicine",
+        "capability_i": "Located in Zamrudpur-Greater Kailash 1, Delhi"
+      },
+      {
+        "index": 3,
+        "specialties_i": "ophthalmology",
+        "capability_i": "Ophthalmology and eye care services"
+      },
+      {
+        "index": 4,
+        "specialties_i": "cataractAndAnteriorSegmentSurgery",
+        "capability_i": "Keeran Eye Care employs Dr. Binita Verma, an ophthalmologist"
+      },
+      {
+        "index": 5,
+        "specialties_i": "retinaAndVitreoretinalOphthalmology",
+        "capability_i": "Provides online appointment booking for ophthalmology consultations"
+      },
+      {
+        "index": 6,
+        "specialties_i": "glaucomaOphthalmology",
+        "capability_i": "Dr. Binita Verma speaks English"
+      },
+      {
+        "index": 7,
+        "specialties_i": "ophthalmology",
+        "capability_i": "Operates as an eye care clinic"
+      },
+      {
+        "index": 8,
+        "specialties_i": "familyMedicine",
+        "capability_i": "Specializes in ophthalmology"
+      },
+      {
+        "index": 9,
+        "specialties_i": "ophthalmology",
+        "capability_i": "Based in Delhi, India"
+      },
+      {
+        "index": 10,
+        "specialties_i": "familyMedicine",
+        "capability_i": null
+      }
+    ]
+  },
+  {
+    "unique_id": "4332415d-1fc6-4ddd-b432-f9ed28e557c0",
+    "name": "IAS Medicare Hospital",
+    "len_specialties": 50,
+    "len_capability": 50,
+    "pairs": [
+      {
+        "index": 0,
+        "specialties_i": "internalMedicine",
+        "capability_i": "IAS Medicare Hospital is a unit of Indian Assistancy Services"
+      },
+      {
+        "index": 1,
+        "specialties_i": "generalSurgery",
+        "capability_i": "Has tie-ups with leading tertiary care hospitals for international and domestic patients and is associated with about 250 hospitals in India"
+      },
+      {
+        "index": 2,
+        "specialties_i": "urology",
+        "capability_i": "Plans to build five multispecialty hospital buildings in India"
+      },
+      {
+        "index": 3,
+        "specialties_i": "gynecologyAndObstetrics",
+        "capability_i": "Uses advanced medical equipment and technology"
+      },
+      {
+        "index": 4,
+        "specialties_i": "orthopedicSurgery",
+        "capability_i": "Has multiple specialist doctors including Dr. Anurag Chaturvedi (Gynaecologist and Fertility Consultant) and Dr. Lokesh Gupta"
+      },
+      {
+        "index": 5,
+        "specialties_i": "otolaryngology",
+        "capability_i": "Offers international patient services including accommodation, airport help desk, currency exchange, meals, interpretation services, and medical opinion"
+      },
+      {
+        "index": 6,
+        "specialties_i": "pediatrics",
+        "capability_i": "Operates 24/7 (Open 24 Hrs)"
+      },
+      {
+        "index": 7,
+        "specialties_i": "physicalMedicineAndRehabilitation",
+        "capability_i": "Has an emergency department (Emergency signage visible)"
+      },
+      {
+        "index": 8,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Has 10 years of healthcare experience"
+      },
+      {
+        "index": 9,
+        "specialties_i": "gynecologyAndObstetrics",
+        "capability_i": "Located in Gurgaon (Khandsa Road area)"
+      },
+      {
+        "index": 10,
+        "specialties_i": "pediatrics",
+        "capability_i": "IAS Medicare Hospital operates as a multi-speciality hospital"
+      },
+      {
+        "index": 11,
+        "specialties_i": "pulmonology",
+        "capability_i": "Has 7 doctors"
+      },
+      {
+        "index": 12,
+        "specialties_i": "neurology",
+        "capability_i": "Has 70 beds"
+      },
+      {
+        "index": 13,
+        "specialties_i": "cardiology",
+        "capability_i": "Has 1 ambulance"
+      },
+      {
+        "index": 14,
+        "specialties_i": "gastroenterology",
+        "capability_i": "Specializes in pediatrics, diabetology, general medicine, gynecology/ obstetrics, internal medicine, orthopedics, physiotherapy, and plastic surgery"
+      },
+      {
+        "index": 15,
+        "specialties_i": "nephrology",
+        "capability_i": "Emergency care facility"
+      },
+      {
+        "index": 16,
+        "specialties_i": "psychiatry",
+        "capability_i": "Critical care units"
+      },
+      {
+        "index": 17,
+        "specialties_i": "emergencyMedicine",
+        "capability_i": "Intensive Care Unit"
+      },
+      {
+        "index": 18,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Lab tests & diagnostics"
+      },
+      {
+        "index": 19,
+        "specialties_i": "internalMedicine",
+        "capability_i": "On-site pharmacy"
+      },
+      {
+        "index": 20,
+        "specialties_i": "pediatrics",
+        "capability_i": "Inpatient department"
+      },
+      {
+        "index": 21,
+        "specialties_i": "endocrinologyAndDiabetesAndMetabolism",
+        "capability_i": "Outpatient department"
+      },
+      {
+        "index": 22,
+        "specialties_i": "gynecologyAndObstetrics",
+        "capability_i": "Endocrinology & metabolism specialty services"
+      },
+      {
+        "index": 23,
+        "specialties_i": "internalMedicine",
+        "capability_i": "IAS Medicare multispeciality hospital network"
+      },
+      {
+        "index": 24,
+        "specialties_i": "orthopedicSurgery",
+        "capability_i": "IAS Medicare Hospital is listed as a Top Pediatric Hospital in Gurgaon"
+      },
+      {
+        "index": 25,
+        "specialties_i": "plasticSurgery",
+        "capability_i": "Multi-specialty hospital"
+      },
+      {
+        "index": 26,
+        "specialties_i": "generalSurgery",
+        "capability_i": "Located in Gurgaon, India"
+      },
+      {
+        "index": 27,
+        "specialties_i": "physicalMedicineAndRehabilitation",
+        "capability_i": "Offers IVF program"
+      },
+      {
+        "index": 28,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Provides gynecology and obstetrics services"
+      },
+      {
+        "index": 29,
+        "specialties_i": "endocrinologyAndDiabetesAndMetabolism",
+        "capability_i": "Provides pediatrics services"
+      },
+      {
+        "index": 30,
+        "specialties_i": "hepatopancreatobiliarySurgery",
+        "capability_i": "Provides general surgery services"
+      },
+      {
+        "index": 31,
+        "specialties_i": "cardiacSurgery",
+        "capability_i": "Provides orthopedics services"
+      },
+      {
+        "index": 32,
+        "specialties_i": "jointReconstructionSurgery",
+        "capability_i": "Provides ophthalmology services"
+      },
+      {
+        "index": 33,
+        "specialties_i": "orthopedicSurgery",
+        "capability_i": "Provides dental services"
+      },
+      {
+        "index": 34,
+        "specialties_i": "generalSurgery",
+        "capability_i": "Has 70 beds."
+      },
+      {
+        "index": 35,
+        "specialties_i": "gynecologyAndObstetrics",
+        "capability_i": "Has 1 ambulance."
+      },
+      {
+        "index": 36,
+        "specialties_i": "urology",
+        "capability_i": "Operates 24/7."
+      },
+      {
+        "index": 37,
+        "specialties_i": "nuclearMedicineAndBoneDensitometry",
+        "capability_i": "Is a multi-speciality hospital."
+      },
+      {
+        "index": 38,
+        "specialties_i": "reproductiveEndocrinologyAndInfertility",
+        "capability_i": "Located in Gurgaon, Haryana."
+      },
+      {
+        "index": 39,
+        "specialties_i": "pediatrics",
+        "capability_i": "Has 7 doctors."
+      },
+      {
+        "index": 40,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Specialties include pediatrician, diabetologist, general physician, gynecologist/obstetrician, internal medicine, orthopedist, physiotherapist, and plastic surgeon."
+      },
+      {
+        "index": 41,
+        "specialties_i": "gynecologyAndObstetrics",
+        "capability_i": "IAS Medicare Hospital is listed as a hospital in Gurgaon on Practo."
+      },
+      {
+        "index": 42,
+        "specialties_i": "pediatrics",
+        "capability_i": "Located in Gurgaon"
+      },
+      {
+        "index": 43,
+        "specialties_i": "reproductiveEndocrinologyAndInfertility",
+        "capability_i": "Listed as an IVF centre in the 2025 directory 'Best IVF & Fertility Centres in Alwar'"
+      },
+      {
+        "index": 44,
+        "specialties_i": "generalSurgery",
+        "capability_i": "Has 10 years in healthcare"
+      },
+      {
+        "index": 45,
+        "specialties_i": "orthopedicSurgery",
+        "capability_i": "Orthopedic hospital located in Railway Road, Gurgaon"
+      },
+      {
+        "index": 46,
+        "specialties_i": "ophthalmology",
+        "capability_i": "Listed among Top Orthopedic Hospitals In Railway Road in Gurgaon"
+      },
+      {
+        "index": 47,
+        "specialties_i": "dentistry",
+        "capability_i": "Listed on Practo as IAS Medicare Hospital in Gurgaon"
+      },
+      {
+        "index": 48,
+        "specialties_i": "internalMedicine",
+        "capability_i": "24x7 emergency care"
+      },
+      {
+        "index": 49,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Emergency care is provided at IAS Medicare Hospital Khandsa Road Gurugram"
+      }
+    ]
+  },
+  {
+    "unique_id": "67ca84cc-d95b-4078-97ea-0b384a6bab89",
+    "name": "Chintamani Hospital And Dental Clinic",
+    "len_specialties": 11,
+    "len_capability": 4,
+    "pairs": [
+      {
+        "index": 0,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Chintamani Dental Clinic is a multispeciality advanced clinic."
+      },
+      {
+        "index": 1,
+        "specialties_i": "dentistry",
+        "capability_i": "Located in Pune, Maharashtra, India."
+      },
+      {
+        "index": 2,
+        "specialties_i": "dentistry",
+        "capability_i": "Based in Pune, Maharashtra"
+      },
+      {
+        "index": 3,
+        "specialties_i": "familyMedicine",
+        "capability_i": "Dental clinic operating in the Chikhali area of Pune"
+      },
+      {
+        "index": 4,
+        "specialties_i": "dentistry",
+        "capability_i": null
+      },
+      {
+        "index": 5,
+        "specialties_i": "familyMedicine",
+        "capability_i": null
+      },
+      {
+        "index": 6,
+        "specialties_i": "dentistry",
+        "capability_i": null
+      },
+      {
+        "index": 7,
+        "specialties_i": "dentistry",
+        "capability_i": null
+      },
+      {
+        "index": 8,
+        "specialties_i": "familyMedicine",
+        "capability_i": null
+      },
+      {
+        "index": 9,
+        "specialties_i": "dentistry",
+        "capability_i": null
+      },
+      {
+        "index": 10,
+        "specialties_i": "familyMedicine",
+        "capability_i": null
+      }
+    ]
+  },
+  {
+    "unique_id": "3c430719-cc71-472f-a0ec-d1b2f568d728",
+    "name": "The Good Dentist",
+    "len_specialties": 6,
+    "len_capability": 3,
+    "pairs": [
+      {
+        "index": 0,
+        "specialties_i": "dentistry",
+        "capability_i": "Has 2 doctors on staff"
+      },
+      {
+        "index": 1,
+        "specialties_i": "endodontics",
+        "capability_i": "Has 2 years of operation in healthcare"
+      },
+      {
+        "index": 2,
+        "specialties_i": "dentoalveolarSurgery",
+        "capability_i": "The Good Dentist is a dental clinic."
+      },
+      {
+        "index": 3,
+        "specialties_i": "oralAndMaxillofacialSurgery",
+        "capability_i": null
+      },
+      {
+        "index": 4,
+        "specialties_i": "prosthodontics",
+        "capability_i": null
+      },
+      {
+        "index": 5,
+        "specialties_i": "dentistry",
+        "capability_i": null
+      }
+    ]
+  },
+  {
+    "unique_id": "09949ebf-b19b-4722-8828-6edee1efca89",
+    "name": "Sub District Hospital Beerwah",
+    "len_specialties": 50,
+    "len_capability": 45,
+    "pairs": [
+      {
+        "index": 0,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Provides obstetric/maternity services"
+      },
+      {
+        "index": 1,
+        "specialties_i": "gynecologyAndObstetrics",
+        "capability_i": "Government sub-district hospital located in Beerwah, Budgam district, Jammu and Kashmir"
+      },
+      {
+        "index": 2,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Signage identifies the facility as Government Sub District Hospital Beerwah"
+      },
+      {
+        "index": 3,
+        "specialties_i": "internalMedicine",
+        "capability_i": "As of Apr 5, 2023, there was a temporary redeployment of doctors to other facilities, resulting in reduced staff at SDH Beerwah"
+      },
+      {
+        "index": 4,
+        "specialties_i": "internalMedicine",
+        "capability_i": "As of Apr 5, 2023, the Chief Medical Officer (Budgam) stated that no doctors have been permanently transferred; they have only been sent to other facilities on a temporary basis and will return"
+      },
+      {
+        "index": 5,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Locals report that patients are referred to Srinagar hospitals or private hospitals due to non-availability of medicos at the hospital (as of Apr 5, 2023)"
+      },
+      {
+        "index": 6,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Name of facility is Sub District Hospital Hiranagar"
+      },
+      {
+        "index": 7,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Listed among Hospitals in Hiranagar"
+      },
+      {
+        "index": 8,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Distance from the listing is 7.4 KM"
+      },
+      {
+        "index": 9,
+        "specialties_i": "radiology",
+        "capability_i": "Sub District Hospital Sopore is a sub-district hospital in Sopore, north Kashmir."
+      },
+      {
+        "index": 10,
+        "specialties_i": "generalSurgery",
+        "capability_i": "Cares for dozens of villages in its catchment area."
+      },
+      {
+        "index": 11,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Was without a Block Medical Officer (BMO) for over a month as of February 17, 2021."
+      },
+      {
+        "index": 12,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Former BMO Dr. Asif Khanday left the SDH Sopore in January 2021."
+      },
+      {
+        "index": 13,
+        "specialties_i": "internalMedicine",
+        "capability_i": "An order appointing Dr. Aadil Kangoo as new BMO SDH Sopore was issued on January 29, 2021."
+      },
+      {
+        "index": 14,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Dr. Aadil Kangoo had not joined duties by February 17, 2021."
+      },
+      {
+        "index": 15,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Collaborates with Marham Foundation for community health outreach"
+      },
+      {
+        "index": 16,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Conducts adolescent health awareness programs targeting ages 10-24"
+      },
+      {
+        "index": 17,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Hosted health outreach events at Sub-district hospital Pattan"
+      },
+      {
+        "index": 18,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Facility designated as Sub District Hospital"
+      },
+      {
+        "index": 19,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Operates 24 hours a day"
+      },
+      {
+        "index": 20,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Sub District Hospital Beerwah is located in Sail, Budgam, Jammu and Kashmir, India"
+      },
+      {
+        "index": 21,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Is a government sub-district hospital."
+      },
+      {
+        "index": 22,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Covid-19 vaccination services"
+      },
+      {
+        "index": 23,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Sub District Hospital is listed as a hospital in Surankote, Jammu and Kashmir."
+      },
+      {
+        "index": 24,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Sub District Hospital is 6.1 km from Bhata Dhurian."
+      },
+      {
+        "index": 25,
+        "specialties_i": "internalMedicine",
+        "capability_i": "NABH Consultancy entry for Sub District Hospital (CHC) Akhnoor under Jammu region; Consultancy type Government"
+      },
+      {
+        "index": 26,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Applied for Pre-assessment under NABH Consultancy"
+      },
+      {
+        "index": 27,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Hosted a three-day Mega Health Mela at Sub District Hospital Bhaderwah in December 2019 to provide free medicines and free tests to about 2025 patients"
+      },
+      {
+        "index": 28,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Location: Bhaderwah, Jammu and Kashmir"
+      },
+      {
+        "index": 29,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Facility type: Sub District Hospital"
+      },
+      {
+        "index": 30,
+        "specialties_i": "preventiveMedicine",
+        "capability_i": "Open 24/7 / Always open"
+      },
+      {
+        "index": 31,
+        "specialties_i": "publicHealth",
+        "capability_i": "COVID-19 vaccination site in Baramulla district (first phase)"
+      },
+      {
+        "index": 32,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Sub-district hospital Beerwah is the only hospital in the Beerwah sub-district"
+      },
+      {
+        "index": 33,
+        "specialties_i": "internalMedicine",
+        "capability_i": "About 21 doctors are attached to other places for COVID duty"
+      },
+      {
+        "index": 34,
+        "specialties_i": "internalMedicine",
+        "capability_i": "About 20 paramedical staff are attached to other places for COVID duty"
+      },
+      {
+        "index": 35,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Approximately 100 villages depend on Sub-district hospital Beerwah"
+      },
+      {
+        "index": 36,
+        "specialties_i": "internalMedicine",
+        "capability_i": "COVID hospital for District Budgam designated at Chanapora; Beerwah staff redeployed to support Chanpora's COVID facility"
+      },
+      {
+        "index": 37,
+        "specialties_i": "psychiatry",
+        "capability_i": "Reported August 8, 2020"
+      },
+      {
+        "index": 38,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Facebook page for Sub District Hospital is listed as an unofficial page categorized as Hospital"
+      },
+      {
+        "index": 39,
+        "specialties_i": "radiology",
+        "capability_i": "Page shows 'Always open' indicating 24/7 availability"
+      },
+      {
+        "index": 40,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Inpatient care setting"
+      },
+      {
+        "index": 41,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Sub District Hospital"
+      },
+      {
+        "index": 42,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Government sub-district hospital"
+      },
+      {
+        "index": 43,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Located in Shangus, Jammu and Kashmir"
+      },
+      {
+        "index": 44,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Listed among Hospitals in Shangus"
+      },
+      {
+        "index": 45,
+        "specialties_i": "internalMedicine",
+        "capability_i": null
+      },
+      {
+        "index": 46,
+        "specialties_i": "internalMedicine",
+        "capability_i": null
+      },
+      {
+        "index": 47,
+        "specialties_i": "preventiveMedicine",
+        "capability_i": null
+      },
+      {
+        "index": 48,
+        "specialties_i": "infectiousDiseases",
+        "capability_i": null
+      },
+      {
+        "index": 49,
+        "specialties_i": "epidemiology",
+        "capability_i": null
+      }
+    ]
+  },
+  {
+    "unique_id": "7d4792a6-ef68-4d44-8c98-b6166632a087",
+    "name": "Branch - 2M&M Ortho Multispeciality Hospitals",
+    "len_specialties": 50,
+    "len_capability": 11,
+    "pairs": [
+      {
+        "index": 0,
+        "specialties_i": "orthopedicSurgery",
+        "capability_i": "Has 2 branches"
+      },
+      {
+        "index": 1,
+        "specialties_i": "jointReconstructionSurgery",
+        "capability_i": "Offers 24/7 availability for assistance"
+      },
+      {
+        "index": 2,
+        "specialties_i": "spineNeurosurgery",
+        "capability_i": "Multispeciality hospital focused on orthopedic care"
+      },
+      {
+        "index": 3,
+        "specialties_i": "neurosurgery",
+        "capability_i": "Offers 24/7 assistance"
+      },
+      {
+        "index": 4,
+        "specialties_i": "neurology",
+        "capability_i": "Telemedicine consultations are available"
+      },
+      {
+        "index": 5,
+        "specialties_i": "physicalMedicineAndRehabilitation",
+        "capability_i": "Provides multispeciality medical services including orthopaedics, spine surgery, neurology, pulmonology, cardiology, nephrology, plastic surgery, gastroenterology, ENT, dermatology, psychiatry, cardio-thoracic surgery, urology, and surgical gastroenterology"
+      },
+      {
+        "index": 6,
+        "specialties_i": "gynecology",
+        "capability_i": "Provides 24/7 availability and assistance"
+      },
+      {
+        "index": 7,
+        "specialties_i": "gynecologyAndObstetrics",
+        "capability_i": "Has two branches in Hyderabad/Attapur and Secunderabad, Telangana"
+      },
+      {
+        "index": 8,
+        "specialties_i": "reproductiveEndocrinologyAndInfertility",
+        "capability_i": "Orthopedic multispeciality hospital"
+      },
+      {
+        "index": 9,
+        "specialties_i": "generalSurgery",
+        "capability_i": "Orthopedics-focused multispeciality hospital"
+      },
+      {
+        "index": 10,
+        "specialties_i": "otolaryngology",
+        "capability_i": "Always open"
+      },
+      {
+        "index": 11,
+        "specialties_i": "dermatology",
+        "capability_i": null
+      },
+      {
+        "index": 12,
+        "specialties_i": "psychiatry",
+        "capability_i": null
+      },
+      {
+        "index": 13,
+        "specialties_i": "cardioThoracicSurgery",
+        "capability_i": null
+      },
+      {
+        "index": 14,
+        "specialties_i": "gastroenterology",
+        "capability_i": null
+      },
+      {
+        "index": 15,
+        "specialties_i": "nephrology",
+        "capability_i": null
+      },
+      {
+        "index": 16,
+        "specialties_i": "cardiology",
+        "capability_i": null
+      },
+      {
+        "index": 17,
+        "specialties_i": "pulmonology",
+        "capability_i": null
+      },
+      {
+        "index": 18,
+        "specialties_i": "urology",
+        "capability_i": null
+      },
+      {
+        "index": 19,
+        "specialties_i": "plasticSurgery",
+        "capability_i": null
+      },
+      {
+        "index": 20,
+        "specialties_i": "internalMedicine",
+        "capability_i": null
+      },
+      {
+        "index": 21,
+        "specialties_i": "orthopedicSurgery",
+        "capability_i": null
+      },
+      {
+        "index": 22,
+        "specialties_i": "jointReconstructionSurgery",
+        "capability_i": null
+      },
+      {
+        "index": 23,
+        "specialties_i": "orthopedicSpineSurgery",
+        "capability_i": null
+      },
+      {
+        "index": 24,
+        "specialties_i": "neurosurgery",
+        "capability_i": null
+      },
+      {
+        "index": 25,
+        "specialties_i": "neurology",
+        "capability_i": null
+      },
+      {
+        "index": 26,
+        "specialties_i": "physicalMedicineAndRehabilitation",
+        "capability_i": null
+      },
+      {
+        "index": 27,
+        "specialties_i": "pulmonology",
+        "capability_i": null
+      },
+      {
+        "index": 28,
+        "specialties_i": "cardiology",
+        "capability_i": null
+      },
+      {
+        "index": 29,
+        "specialties_i": "nephrology",
+        "capability_i": null
+      },
+      {
+        "index": 30,
+        "specialties_i": "plasticSurgery",
+        "capability_i": null
+      },
+      {
+        "index": 31,
+        "specialties_i": "gastroenterology",
+        "capability_i": null
+      },
+      {
+        "index": 32,
+        "specialties_i": "otolaryngology",
+        "capability_i": null
+      },
+      {
+        "index": 33,
+        "specialties_i": "dermatology",
+        "capability_i": null
+      },
+      {
+        "index": 34,
+        "specialties_i": "psychiatry",
+        "capability_i": null
+      },
+      {
+        "index": 35,
+        "specialties_i": "cardiothoracicSurgery",
+        "capability_i": null
+      },
+      {
+        "index": 36,
+        "specialties_i": "urology",
+        "capability_i": null
+      },
+      {
+        "index": 37,
+        "specialties_i": "gynecologyAndObstetrics",
+        "capability_i": null
+      },
+      {
+        "index": 38,
+        "specialties_i": "gynecology",
+        "capability_i": null
+      },
+      {
+        "index": 39,
+        "specialties_i": "reproductiveEndocrinologyAndInfertility",
+        "capability_i": null
+      },
+      {
+        "index": 40,
+        "specialties_i": "generalSurgery",
+        "capability_i": null
+      },
+      {
+        "index": 41,
+        "specialties_i": "internalMedicine",
+        "capability_i": null
+      },
+      {
+        "index": 42,
+        "specialties_i": "orthopedicSurgery",
+        "capability_i": null
+      },
+      {
+        "index": 43,
+        "specialties_i": "spineNeurosurgery",
+        "capability_i": null
+      },
+      {
+        "index": 44,
+        "specialties_i": "neurosurgery",
+        "capability_i": null
+      },
+      {
+        "index": 45,
+        "specialties_i": "neurology",
+        "capability_i": null
+      },
+      {
+        "index": 46,
+        "specialties_i": "physicalMedicineAndRehabilitation",
+        "capability_i": null
+      },
+      {
+        "index": 47,
+        "specialties_i": "pulmonology",
+        "capability_i": null
+      },
+      {
+        "index": 48,
+        "specialties_i": "cardiology",
+        "capability_i": null
+      },
+      {
+        "index": 49,
+        "specialties_i": "nephrology",
+        "capability_i": null
+      }
+    ]
+  },
+  {
+    "unique_id": "6a11c897-bc6e-4dc2-ad06-56a3ebbf243f",
+    "name": "Ram Ratan Hospital",
+    "len_specialties": 18,
+    "len_capability": 17,
+    "pairs": [
+      {
+        "index": 0,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Established in 1990."
+      },
+      {
+        "index": 1,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Located in Patna, Bihar, India."
+      },
+      {
+        "index": 2,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Admin Manager is Mr. Santosh Kumar."
+      },
+      {
+        "index": 3,
+        "specialties_i": "internalMedicine",
+        "capability_i": "RAM RATAN HOSPITAL is located in Patna, Bihar, India"
+      },
+      {
+        "index": 4,
+        "specialties_i": "orthopedicSurgery",
+        "capability_i": "Listed among Best Hospitals in Rajendra Nagar Patna"
+      },
+      {
+        "index": 5,
+        "specialties_i": "gynecologyAndObstetrics",
+        "capability_i": "Orthopedic care"
+      },
+      {
+        "index": 6,
+        "specialties_i": "generalSurgery",
+        "capability_i": "Arthritis management"
+      },
+      {
+        "index": 7,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Arthroscopic procedures"
+      },
+      {
+        "index": 8,
+        "specialties_i": "pathology",
+        "capability_i": "Gynecology and obstetrics care"
+      },
+      {
+        "index": 9,
+        "specialties_i": "radiology",
+        "capability_i": "General and laparoscopic surgery"
+      },
+      {
+        "index": 10,
+        "specialties_i": "physicalMedicineAndRehabilitation",
+        "capability_i": "Medicine services"
+      },
+      {
+        "index": 11,
+        "specialties_i": "rheumatology",
+        "capability_i": "Clinical pathology services"
+      },
+      {
+        "index": 12,
+        "specialties_i": "nephrology",
+        "capability_i": "Radiology services with X-ray and ultrasound"
+      },
+      {
+        "index": 13,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Dialysis services"
+      },
+      {
+        "index": 14,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Physiotherapy services"
+      },
+      {
+        "index": 15,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Accepts ICICI Lombard General Insurance"
+      },
+      {
+        "index": 16,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Ram Ratan Hospital is a hospital in Shareef Colony, Patna"
+      },
+      {
+        "index": 17,
+        "specialties_i": "internalMedicine",
+        "capability_i": null
+      }
+    ]
+  },
+  {
+    "unique_id": "c8cc5bbb-96a2-4d90-bb53-88d9135f11eb",
+    "name": "Muzaffarnagar Medical College",
+    "len_specialties": 50,
+    "len_capability": 49,
+    "pairs": [
+      {
+        "index": 0,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Muzaffarnagar Medical College provides medical education, research, and healthcare"
+      },
+      {
+        "index": 1,
+        "specialties_i": "generalSurgery",
+        "capability_i": "Departments include General Medicine, General Surgery, Dental Surgery, Dermatology, Psychiatry, Pediatrics, Ophthalmology, Orthopedics, E.N.T., Anaesthesiology, Radio-diagnosis, Respiratory Medicine, Obstetrics & Gynaecology, Emergency Medicine, Cardiology, and PMR"
+      },
+      {
+        "index": 2,
+        "specialties_i": "dentistry",
+        "capability_i": "Offers General Medicine"
+      },
+      {
+        "index": 3,
+        "specialties_i": "dermatology",
+        "capability_i": "Offers Physical Medicine and Rehabilitation (PMR)"
+      },
+      {
+        "index": 4,
+        "specialties_i": "psychiatry",
+        "capability_i": "Offers General Surgery"
+      },
+      {
+        "index": 5,
+        "specialties_i": "pediatrics",
+        "capability_i": "Offers Dental Surgery"
+      },
+      {
+        "index": 6,
+        "specialties_i": "ophthalmology",
+        "capability_i": "Offers Dermatology"
+      },
+      {
+        "index": 7,
+        "specialties_i": "orthopedicSurgery",
+        "capability_i": "Offers Psychiatry"
+      },
+      {
+        "index": 8,
+        "specialties_i": "otolaryngology",
+        "capability_i": "Offers Pediatrics"
+      },
+      {
+        "index": 9,
+        "specialties_i": "anesthesia",
+        "capability_i": "Offers Ophthalmology"
+      },
+      {
+        "index": 10,
+        "specialties_i": "radiology",
+        "capability_i": "Offers Orthopedics"
+      },
+      {
+        "index": 11,
+        "specialties_i": "pulmonology",
+        "capability_i": "Offers ENT"
+      },
+      {
+        "index": 12,
+        "specialties_i": "gynecologyAndObstetrics",
+        "capability_i": "Offers Anaesthesiology"
+      },
+      {
+        "index": 13,
+        "specialties_i": "emergencyMedicine",
+        "capability_i": "Offers Radio-diagnosis"
+      },
+      {
+        "index": 14,
+        "specialties_i": "cardiology",
+        "capability_i": "Offers Respiratory Medicine"
+      },
+      {
+        "index": 15,
+        "specialties_i": "physicalMedicineAndRehabilitation",
+        "capability_i": "Offers Obstetrics & Gynaecology"
+      },
+      {
+        "index": 16,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Offers Emergency Medicine"
+      },
+      {
+        "index": 17,
+        "specialties_i": "physicalMedicineAndRehabilitation",
+        "capability_i": "Offers Cardiology"
+      },
+      {
+        "index": 18,
+        "specialties_i": "generalSurgery",
+        "capability_i": "Muzaffarnagar Medical College is a private medical college located on the outskirts of Muzaffarnagar city."
+      },
+      {
+        "index": 19,
+        "specialties_i": "dentistry",
+        "capability_i": ""
+      },
+      {
+        "index": 20,
+        "specialties_i": "dermatology",
+        "capability_i": "Muzaffarnagar Medical College (MMC) is located in Muzaffarnagar, Uttar Pradesh"
+      },
+      {
+        "index": 21,
+        "specialties_i": "psychiatry",
+        "capability_i": "Located in Muzaffarnagar, Uttar Pradesh"
+      },
+      {
+        "index": 22,
+        "specialties_i": "pediatrics",
+        "capability_i": "Acronym MMC stands for Muzaffarnagar Medical College"
+      },
+      {
+        "index": 23,
+        "specialties_i": "ophthalmology",
+        "capability_i": "Provides emergency and elective services"
+      },
+      {
+        "index": 24,
+        "specialties_i": "orthopedicSurgery",
+        "capability_i": "Provides round-the-clock doctor availability"
+      },
+      {
+        "index": 25,
+        "specialties_i": "otolaryngology",
+        "capability_i": "Offers treatment packages"
+      },
+      {
+        "index": 26,
+        "specialties_i": "anesthesia",
+        "capability_i": "Dr Kapil Dev is a General Medicine Physician MBBS at Muzaffarnagar Medical College & Hospital (govt.hosp)"
+      },
+      {
+        "index": 27,
+        "specialties_i": "radiology",
+        "capability_i": "Address is not publicly listed; viewing address requires login"
+      },
+      {
+        "index": 28,
+        "specialties_i": "gynecologyAndObstetrics",
+        "capability_i": "Muzaffarnagar Medical College is located in Muzaffarnagar, Uttar Pradesh"
+      },
+      {
+        "index": 29,
+        "specialties_i": "emergencyMedicine",
+        "capability_i": "MCI approved"
+      },
+      {
+        "index": 30,
+        "specialties_i": "cardiology",
+        "capability_i": "Offers MD postgraduate programs"
+      },
+      {
+        "index": 31,
+        "specialties_i": "pathology",
+        "capability_i": "Founded in 2006"
+      },
+      {
+        "index": 32,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Promoted by Fateh Chand Charitable Trust"
+      },
+      {
+        "index": 33,
+        "specialties_i": "pediatrics",
+        "capability_i": "Offers MBBS program"
+      },
+      {
+        "index": 34,
+        "specialties_i": "gynecologyAndObstetrics",
+        "capability_i": "Specialties include General Medicine, Ophthalmology, Radiology, Forensic Medicine, Microbiology, ENT, Pediatrics, Pharmacology, Pathology, General Surgery, Community Medicine, Obstetrics and Gynecology, Psychiatry, Respiratory Medicine, Dental Surgery, Orthopedics, Cardiology, MBBS, and Post Graduation"
+      },
+      {
+        "index": 35,
+        "specialties_i": "generalSurgery",
+        "capability_i": "Has 1,001-5,000 employees"
+      },
+      {
+        "index": 36,
+        "specialties_i": "psychiatry",
+        "capability_i": "Headquarters in Muzaffarnagar, Uttar Pradesh, India"
+      },
+      {
+        "index": 37,
+        "specialties_i": "ophthalmology",
+        "capability_i": "Muzaffarnagar Medical College, Muzaffarnagar is listed in the UP NEET-UG 2024-25 Non-Minority Colleges Fees Structure for MBBS/BDS."
+      },
+      {
+        "index": 38,
+        "specialties_i": "otolaryngology",
+        "capability_i": "MBBS tuition fee at Muzaffarnagar Medical College, Muzaffarnagar is 12.31 Lakhs."
+      },
+      {
+        "index": 39,
+        "specialties_i": "orthopedicSurgery",
+        "capability_i": "Hostel/Mess fee is 1.50 Lakhs."
+      },
+      {
+        "index": 40,
+        "specialties_i": "radiology",
+        "capability_i": "Security fee is 1.75 Lakhs."
+      },
+      {
+        "index": 41,
+        "specialties_i": "anesthesia",
+        "capability_i": "Additional fees are 3 Lakhs."
+      },
+      {
+        "index": 42,
+        "specialties_i": "dentistry",
+        "capability_i": "Ist Year Total is 17.86 Lakhs."
+      },
+      {
+        "index": 43,
+        "specialties_i": "physicalMedicineAndRehabilitation",
+        "capability_i": "Muzaffarnagar Medical College is listed in Medindia's Muzaffarnagar hospital directory under 'More Hospitals in Muzaffarnagar'."
+      },
+      {
+        "index": 44,
+        "specialties_i": "pathology",
+        "capability_i": "Cardiology Department exists at Muzaffarnagar Medical College & Hospital"
+      },
+      {
+        "index": 45,
+        "specialties_i": "dermatology",
+        "capability_i": "Cardiology Department is associated with GBNHI"
+      },
+      {
+        "index": 46,
+        "specialties_i": "pulmonology",
+        "capability_i": "Cardiology Department is marked as always open on its Facebook page (24/7 access)"
+      },
+      {
+        "index": 47,
+        "specialties_i": "emergencyMedicine",
+        "capability_i": "Muzaffarnagar Medical College is listed as a hospital in Muzaffarnagar, Uttar Pradesh."
+      },
+      {
+        "index": 48,
+        "specialties_i": "cardiology",
+        "capability_i": "Muzaffarnagar Medical College, Muzaffarnagar is listed in Skillza Education's MBBS in India directory under MBBS in Uttar Pradesh"
+      },
+      {
+        "index": 49,
+        "specialties_i": "internalMedicine",
+        "capability_i": null
+      }
+    ]
+  },
+  {
+    "unique_id": "ad846973-faaa-4f3b-93c0-ef6d7e336bde",
+    "name": "Vaatsalya Hospitals",
+    "len_specialties": 50,
+    "len_capability": 50,
+    "pairs": [
+      {
+        "index": 0,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Vaatsalya Hospitals operates a network of hospitals in small towns and cities in Karnataka, India."
+      },
+      {
+        "index": 1,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Founded in 2004 by Dr Ashwin Naik and Dr Veerendra Hiremath."
+      },
+      {
+        "index": 2,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Provides primary and secondary healthcare through a network of low-frills, low-price hospitals serving semi-urban and rural India."
+      },
+      {
+        "index": 3,
+        "specialties_i": "gynecology",
+        "capability_i": "As of approximately 2008, had nine hospitals across seven districts in Karnataka."
+      },
+      {
+        "index": 4,
+        "specialties_i": "pediatrics",
+        "capability_i": "Has capacity for more than 450 beds."
+      },
+      {
+        "index": 5,
+        "specialties_i": "generalSurgery",
+        "capability_i": "Treated close to 175,000 patients."
+      },
+      {
+        "index": 6,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Largest chain of its kind of low-frills, affordable private hospitals in semi-urban and rural Karnataka."
+      },
+      {
+        "index": 7,
+        "specialties_i": "nephrology",
+        "capability_i": "Located in Hubli, Dharwad"
+      },
+      {
+        "index": 8,
+        "specialties_i": "endocrinologyAndDiabetesAndMetabolism",
+        "capability_i": "Listed among hospitals in Gadag"
+      },
+      {
+        "index": 9,
+        "specialties_i": "criticalCareMedicine",
+        "capability_i": "Operates nine hospitals across Karnataka with over 450 beds"
+      },
+      {
+        "index": 10,
+        "specialties_i": "neurosurgery",
+        "capability_i": "Has treated about 175,000 patients"
+      },
+      {
+        "index": 11,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Employs local doctors and staff"
+      },
+      {
+        "index": 12,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Cater to four basic specializations: gynaecology, paediatrics, general surgery, and general medicine"
+      },
+      {
+        "index": 13,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Uses hub-and-spoke model with Gadag full-service hub, Karwar outpatient clinic, and Hubli day-care facility"
+      },
+      {
+        "index": 14,
+        "specialties_i": "radiology",
+        "capability_i": "Hub hospitals provide Dialysis, Intensive Care Units, Diabetology, and Neurosurgery"
+      },
+      {
+        "index": 15,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Hospitals offer inpatient and outpatient services"
+      },
+      {
+        "index": 16,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Plans to expand to reach more underserved communities across multiple Indian states"
+      },
+      {
+        "index": 17,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Private hospital"
+      },
+      {
+        "index": 18,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Operates 8 hospitals across Karnataka and Andhra Pradesh"
+      },
+      {
+        "index": 19,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Has a network-wide capacity of 500+ beds"
+      },
+      {
+        "index": 20,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Has 12+ years of experience"
+      },
+      {
+        "index": 21,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Has performed 5000+ painless labor deliveries"
+      },
+      {
+        "index": 22,
+        "specialties_i": "pulmonology",
+        "capability_i": "Provides 24/7 emergency care"
+      },
+      {
+        "index": 23,
+        "specialties_i": "sleepMedicine",
+        "capability_i": "Provides 24/7 laboratory services"
+      },
+      {
+        "index": 24,
+        "specialties_i": "criticalCareMedicine",
+        "capability_i": "Provides 24/7 ambulance services"
+      },
+      {
+        "index": 25,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Award-winning social enterprise"
+      },
+      {
+        "index": 26,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Mission is to provide affordable, accessible and appropriate healthcare to underserved areas"
+      },
+      {
+        "index": 27,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Largest hospital network of its kind in India with a mission to build a nationwide network of hospitals across Tier 2 and Tier 3 towns"
+      },
+      {
+        "index": 28,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Provides 24/7 emergency care"
+      },
+      {
+        "index": 29,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Has 19 years of operation in healthcare"
+      },
+      {
+        "index": 30,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Has 19 years in healthcare"
+      },
+      {
+        "index": 31,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Accepts Bajaj Allianz General Insurance"
+      },
+      {
+        "index": 32,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Has in-house pharmacy"
+      },
+      {
+        "index": 33,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Vaatsalya Hospital is a hospital"
+      },
+      {
+        "index": 34,
+        "specialties_i": "gynecologyAndObstetrics",
+        "capability_i": "Operates eight hospitals across Karnataka and Andhra Pradesh"
+      },
+      {
+        "index": 35,
+        "specialties_i": "maternalFetalMedicineOrPerinatology",
+        "capability_i": "Has 500+ beds across its hospital network"
+      },
+      {
+        "index": 36,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Offers 24/7 emergency services"
+      },
+      {
+        "index": 37,
+        "specialties_i": "pediatrics",
+        "capability_i": "Offers 24/7 laboratory services"
+      },
+      {
+        "index": 38,
+        "specialties_i": "generalSurgery",
+        "capability_i": "Offers 24/7 ambulance services"
+      },
+      {
+        "index": 39,
+        "specialties_i": "gynecologyAndObstetrics",
+        "capability_i": "Provides paediatrics, general medicine, general surgery, and gynecology services"
+      },
+      {
+        "index": 40,
+        "specialties_i": "emergencyMedicine",
+        "capability_i": "Award-winning social enterprise focused on building a network of Tier 2 and Tier 3 hospitals"
+      },
+      {
+        "index": 41,
+        "specialties_i": "pathology",
+        "capability_i": "Has 12+ years of experience"
+      },
+      {
+        "index": 42,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Operates a hospital in Chikkamagaluru"
+      },
+      {
+        "index": 43,
+        "specialties_i": "gynecologyAndObstetrics",
+        "capability_i": "Operates hospitals in Hubli, Gadag and Karwar (North Karnataka)"
+      },
+      {
+        "index": 44,
+        "specialties_i": "pediatrics",
+        "capability_i": "Expanding to additional locations across the country soon"
+      },
+      {
+        "index": 45,
+        "specialties_i": "neonatologyPerinatalMedicine",
+        "capability_i": "Builds and manages hospitals and clinics in semi-urban and rural areas"
+      },
+      {
+        "index": 46,
+        "specialties_i": "dermatology",
+        "capability_i": "Located in Hassan, Karnataka"
+      },
+      {
+        "index": 47,
+        "specialties_i": "orthopedicSurgery",
+        "capability_i": "Vaatsalya Hospital is located in Pandavapura, Karnataka, India"
+      },
+      {
+        "index": 48,
+        "specialties_i": "cardiology",
+        "capability_i": "Operates an on-site emergency department"
+      },
+      {
+        "index": 49,
+        "specialties_i": "generalSurgery",
+        "capability_i": "Provides 24/7 emergency care"
+      }
+    ]
+  },
+  {
+    "unique_id": "33a75ed9-18ea-4fc6-b2fa-039491bfa421",
+    "name": "Anandaloke Multi Speciality Hospital",
+    "len_specialties": 33,
+    "len_capability": 21,
+    "pairs": [
+      {
+        "index": 0,
+        "specialties_i": "endocrinologyAndDiabetesAndMetabolism",
+        "capability_i": "Has 21 years in healthcare"
+      },
+      {
+        "index": 1,
+        "specialties_i": "nephrology",
+        "capability_i": "Multispecialty hospital (as indicated by the name Anandaloke Multispecialty Hospital)"
+      },
+      {
+        "index": 2,
+        "specialties_i": "neurology",
+        "capability_i": "Listed on Sehat.com as a hospital in Siliguri"
+      },
+      {
+        "index": 3,
+        "specialties_i": "rheumatology",
+        "capability_i": "Private hospital with 200 beds"
+      },
+      {
+        "index": 4,
+        "specialties_i": "ophthalmology",
+        "capability_i": "ICU facility on site"
+      },
+      {
+        "index": 5,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Specializes in neurology and urology"
+      },
+      {
+        "index": 6,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Provides inpatient services"
+      },
+      {
+        "index": 7,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Cares for approximately 80,000 patients annually"
+      },
+      {
+        "index": 8,
+        "specialties_i": "ophthalmology",
+        "capability_i": "Anandaloke MultiSpeciality Hospital is a hospital"
+      },
+      {
+        "index": 9,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Anandaloke MultiSpeciality Hospital is listed on Facebook as a hospital"
+      },
+      {
+        "index": 10,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Multispeciality hospital"
+      },
+      {
+        "index": 11,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Neonatal care"
+      },
+      {
+        "index": 12,
+        "specialties_i": "ophthalmology",
+        "capability_i": "Pediatric care"
+      },
+      {
+        "index": 13,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Pediatric surgery"
+      },
+      {
+        "index": 14,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Neurological surgeries"
+      },
+      {
+        "index": 15,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Is a multispeciality hospital"
+      },
+      {
+        "index": 16,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Operates 24/7"
+      },
+      {
+        "index": 17,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Has served patients since 2003"
+      },
+      {
+        "index": 18,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Is a multi-speciality hospital"
+      },
+      {
+        "index": 19,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Located in Siliguri"
+      },
+      {
+        "index": 20,
+        "specialties_i": "cardiology",
+        "capability_i": "Has 21 years of operation in healthcare"
+      },
+      {
+        "index": 21,
+        "specialties_i": "internalMedicine",
+        "capability_i": null
+      },
+      {
+        "index": 22,
+        "specialties_i": "internalMedicine",
+        "capability_i": null
+      },
+      {
+        "index": 23,
+        "specialties_i": "pediatrics",
+        "capability_i": null
+      },
+      {
+        "index": 24,
+        "specialties_i": "neonatologyPerinatalMedicine",
+        "capability_i": null
+      },
+      {
+        "index": 25,
+        "specialties_i": "pediatricSurgery",
+        "capability_i": null
+      },
+      {
+        "index": 26,
+        "specialties_i": "pediatricNeurosurgery",
+        "capability_i": null
+      },
+      {
+        "index": 27,
+        "specialties_i": "internalMedicine",
+        "capability_i": null
+      },
+      {
+        "index": 28,
+        "specialties_i": "internalMedicine",
+        "capability_i": null
+      },
+      {
+        "index": 29,
+        "specialties_i": "hematology",
+        "capability_i": null
+      },
+      {
+        "index": 30,
+        "specialties_i": "internalMedicine",
+        "capability_i": null
+      },
+      {
+        "index": 31,
+        "specialties_i": "urology",
+        "capability_i": null
+      },
+      {
+        "index": 32,
+        "specialties_i": "internalMedicine",
+        "capability_i": null
+      }
+    ]
+  },
+  {
+    "unique_id": "82d65280-4538-4359-a1a3-19ee557d263c",
+    "name": "Dr. Ahuja's Dental and Implant Clinic",
+    "len_specialties": 16,
+    "len_capability": 9,
+    "pairs": [
+      {
+        "index": 0,
+        "specialties_i": "familyMedicine",
+        "capability_i": "Outpatient dental care"
+      },
+      {
+        "index": 1,
+        "specialties_i": "familyMedicine",
+        "capability_i": "Multi-speciality dental clinic"
+      },
+      {
+        "index": 2,
+        "specialties_i": "dentistry",
+        "capability_i": "Specializes in oral and maxillofacial surgery and orthodontics"
+      },
+      {
+        "index": 3,
+        "specialties_i": "oralAndMaxillofacialSurgery",
+        "capability_i": "Advanced, multi-speciality dental & implant clinic in Indirapuram, Ghaziabad, Uttar Pradesh, India"
+      },
+      {
+        "index": 4,
+        "specialties_i": "orthodontics",
+        "capability_i": "Offers dental implant services"
+      },
+      {
+        "index": 5,
+        "specialties_i": "endodontics",
+        "capability_i": "Advanced, Multi-Speciality Dental & Implant Clinic"
+      },
+      {
+        "index": 6,
+        "specialties_i": "prosthodontics",
+        "capability_i": "Operates as a dental and implant clinic"
+      },
+      {
+        "index": 7,
+        "specialties_i": "cosmeticDentistry",
+        "capability_i": "Provides outpatient dental care"
+      },
+      {
+        "index": 8,
+        "specialties_i": "familyMedicine",
+        "capability_i": "Specializes in dental implants"
+      },
+      {
+        "index": 9,
+        "specialties_i": "dentistry",
+        "capability_i": null
+      },
+      {
+        "index": 10,
+        "specialties_i": "familyMedicine",
+        "capability_i": null
+      },
+      {
+        "index": 11,
+        "specialties_i": "dentistry",
+        "capability_i": null
+      },
+      {
+        "index": 12,
+        "specialties_i": "prosthodontics",
+        "capability_i": null
+      },
+      {
+        "index": 13,
+        "specialties_i": "familyMedicine",
+        "capability_i": null
+      },
+      {
+        "index": 14,
+        "specialties_i": "dentistry",
+        "capability_i": null
+      },
+      {
+        "index": 15,
+        "specialties_i": "familyMedicine",
+        "capability_i": null
+      }
+    ]
+  },
+  {
+    "unique_id": "afb30370-f173-43c4-a865-b3989c31952b",
+    "name": "Health Centre Palkot",
+    "len_specialties": 50,
+    "len_capability": 35,
+    "pairs": [
+      {
+        "index": 0,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Government health center (Community Health Center) in Murhu, Khunti district, Jharkhand"
+      },
+      {
+        "index": 1,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Served as venue for MESU Adopt-A-Village Eye Camps to deliver cataract surgeries in rural Jharkhand (April 2025)."
+      },
+      {
+        "index": 2,
+        "specialties_i": "familyMedicine",
+        "capability_i": "CHC Patan is an Ayushman Card Empanelled Hospital in Palamau, Jharkhand"
+      },
+      {
+        "index": 3,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Located in Latehar district, Jharkhand, India."
+      },
+      {
+        "index": 4,
+        "specialties_i": "ophthalmology",
+        "capability_i": "Facility type: Community Health Center"
+      },
+      {
+        "index": 5,
+        "specialties_i": "familyMedicine",
+        "capability_i": "Located in Bakhartali, Ranishwar, Dumka district, Jharkhand, India"
+      },
+      {
+        "index": 6,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Near NH-114A"
+      },
+      {
+        "index": 7,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Public Primary Health Centre Banjhi is a government health center near Darla in Rajmahal block, Sahebganj district, Jharkhand, India"
+      },
+      {
+        "index": 8,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Listed as a hospital named Community Health Center in Ranchi, Jharkhand, India"
+      },
+      {
+        "index": 9,
+        "specialties_i": "internalMedicine",
+        "capability_i": "CHC Palkot is a government Community Health Centre located in Palkot, Gumla district, Jharkhand, India."
+      },
+      {
+        "index": 10,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Outpatient and inpatient services"
+      },
+      {
+        "index": 11,
+        "specialties_i": "familyMedicine",
+        "capability_i": "Specialties include General Medicine, Maternal and Child Health, and Emergency Services"
+      },
+      {
+        "index": 12,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Serves as a link between primary health care and specialized services"
+      },
+      {
+        "index": 13,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Operates as a government hospital"
+      },
+      {
+        "index": 14,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Located in Godda, Jharkhand"
+      },
+      {
+        "index": 15,
+        "specialties_i": "internalMedicine",
+        "capability_i": "PHC-level primary health center"
+      },
+      {
+        "index": 16,
+        "specialties_i": "maternalAndChildHealth",
+        "capability_i": "Medindia hospital directory lists Primary Health Center/Primary Health Centre in Sahibganj, Jharkhand with entries 84229, 84257, and 84271"
+      },
+      {
+        "index": 17,
+        "specialties_i": "emergencyMedicine",
+        "capability_i": "Listed as a hospital in Dumka, Jharkhand in Medindia's hospital directory"
+      },
+      {
+        "index": 18,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Listed in Medindia's directory as Community Health Center in Hazaribagh, Jharkhand"
+      },
+      {
+        "index": 19,
+        "specialties_i": "familyMedicine",
+        "capability_i": "PHC facility type: Primary Health Center located in Ghatiari, Godda district, Jharkhand, India"
+      },
+      {
+        "index": 20,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Primary Health Centre is listed as a hospital category in the Sadar Hospital, Giridih district health facilities catalog, with a count of 12."
+      },
+      {
+        "index": 21,
+        "specialties_i": "familyMedicine",
+        "capability_i": "PHC Palkot is listed as a Primary Health Center (PHC) facility in Palkot, Jharkhand 835220, India."
+      },
+      {
+        "index": 22,
+        "specialties_i": "internalMedicine",
+        "capability_i": "PHC Palkot appears in the Hospitals in Basia listing."
+      },
+      {
+        "index": 23,
+        "specialties_i": "internalMedicine",
+        "capability_i": "PHC Palkot has a listed distance of 18.2 KM."
+      },
+      {
+        "index": 24,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Listed in Medindia's hospital directory as Urban Primary Health Centre in Giridih, Jharkhand"
+      },
+      {
+        "index": 25,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Listed in Medindia's hospital directory as Community Health Center in Lohardaga, Jharkhand"
+      },
+      {
+        "index": 26,
+        "specialties_i": "internalMedicine",
+        "capability_i": "There are 12 Community Health Centres listed in Giridih district hospital inventory."
+      },
+      {
+        "index": 27,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Listed in Medindia's Hospital Directory for Additional Primary Health Centre in Hazaribagh, Jharkhand."
+      },
+      {
+        "index": 28,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Primary Health Sub-Centre in Silam village has 1 doctor and 3 paramedical staff"
+      },
+      {
+        "index": 29,
+        "specialties_i": "infectiousDiseases",
+        "capability_i": "Emergency services available"
+      },
+      {
+        "index": 30,
+        "specialties_i": "pediatrics",
+        "capability_i": "Specializes in General Medicine, Obstetrics & Gynaecology, Paediatric Medical Management"
+      },
+      {
+        "index": 31,
+        "specialties_i": "gynecologyAndObstetrics",
+        "capability_i": "Community Health Centre is listed in Medindia's hospital directory as a hospital in Dumka, Jharkhand"
+      },
+      {
+        "index": 32,
+        "specialties_i": "maternalAndChildHealth",
+        "capability_i": "Listed in Medindia's hospital directory as Community Health Center in Giridih, Jharkhand."
+      },
+      {
+        "index": 33,
+        "specialties_i": "radiology",
+        "capability_i": "Is a government hospital"
+      },
+      {
+        "index": 34,
+        "specialties_i": "familyPlanningAndComplexContraception",
+        "capability_i": "Is a Community Health Center (CHC) in Chandwa, Latehar, Jharkhand"
+      },
+      {
+        "index": 35,
+        "specialties_i": "familyMedicine",
+        "capability_i": null
+      },
+      {
+        "index": 36,
+        "specialties_i": "familyMedicine",
+        "capability_i": null
+      },
+      {
+        "index": 37,
+        "specialties_i": "internalMedicine",
+        "capability_i": null
+      },
+      {
+        "index": 38,
+        "specialties_i": "familyMedicine",
+        "capability_i": null
+      },
+      {
+        "index": 39,
+        "specialties_i": "internalMedicine",
+        "capability_i": null
+      },
+      {
+        "index": 40,
+        "specialties_i": "internalMedicine",
+        "capability_i": null
+      },
+      {
+        "index": 41,
+        "specialties_i": "internalMedicine",
+        "capability_i": null
+      },
+      {
+        "index": 42,
+        "specialties_i": "internalMedicine",
+        "capability_i": null
+      },
+      {
+        "index": 43,
+        "specialties_i": "familyMedicine",
+        "capability_i": null
+      },
+      {
+        "index": 44,
+        "specialties_i": "internalMedicine",
+        "capability_i": null
+      },
+      {
+        "index": 45,
+        "specialties_i": "internalMedicine",
+        "capability_i": null
+      },
+      {
+        "index": 46,
+        "specialties_i": "internalMedicine",
+        "capability_i": null
+      },
+      {
+        "index": 47,
+        "specialties_i": "internalMedicine",
+        "capability_i": null
+      },
+      {
+        "index": 48,
+        "specialties_i": "internalMedicine",
+        "capability_i": null
+      },
+      {
+        "index": 49,
+        "specialties_i": "familyMedicine",
+        "capability_i": null
+      }
+    ]
+  },
+  {
+    "unique_id": "01031f1a-4e5b-48d5-ba69-0013e18c7672",
+    "name": "Home n Health",
+    "len_specialties": 15,
+    "len_capability": 23,
+    "pairs": [
+      {
+        "index": 0,
+        "specialties_i": "familyMedicine",
+        "capability_i": "Homeopathy clinic"
+      },
+      {
+        "index": 1,
+        "specialties_i": "dermatology",
+        "capability_i": "Offers online and international patient consultations"
+      },
+      {
+        "index": 2,
+        "specialties_i": "pediatrics",
+        "capability_i": "Has Dr. Pankil Dhruv on staff"
+      },
+      {
+        "index": 3,
+        "specialties_i": "gynecologyAndObstetrics",
+        "capability_i": "Online appointment booking available"
+      },
+      {
+        "index": 4,
+        "specialties_i": "geriatricsInternalMedicine",
+        "capability_i": "Provides in-person and online consultations"
+      },
+      {
+        "index": 5,
+        "specialties_i": "familyMedicine",
+        "capability_i": "Clinic located in Mumbai; online reach worldwide"
+      },
+      {
+        "index": 6,
+        "specialties_i": "dermatology",
+        "capability_i": "Patients from 12+ countries"
+      },
+      {
+        "index": 7,
+        "specialties_i": "pediatrics",
+        "capability_i": "1200+ happy patients"
+      },
+      {
+        "index": 8,
+        "specialties_i": "gynecologyAndObstetrics",
+        "capability_i": "Fengshui consultation offered"
+      },
+      {
+        "index": 9,
+        "specialties_i": "urology",
+        "capability_i": "Advanced Healing Science tailors medicines to physical and emotional symptoms"
+      },
+      {
+        "index": 10,
+        "specialties_i": "geriatricInternalMedicine",
+        "capability_i": "Nano-pharmacology with remedies prepared in FDA-approved laboratories"
+      },
+      {
+        "index": 11,
+        "specialties_i": "pediatricAllergyAndImmunology",
+        "capability_i": "Safe and affordable treatment"
+      },
+      {
+        "index": 12,
+        "specialties_i": "familyMedicine",
+        "capability_i": "Care and quality treatment"
+      },
+      {
+        "index": 13,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Complete system of medicine: homeopathy as a holistic system"
+      },
+      {
+        "index": 14,
+        "specialties_i": "familyMedicine",
+        "capability_i": "Personalized remedies for over 150+ diseases"
+      },
+      {
+        "index": 15,
+        "specialties_i": null,
+        "capability_i": "Treats skin health, child health, women\u2019s health, men\u2019s health, and elderly health conditions"
+      },
+      {
+        "index": 16,
+        "specialties_i": null,
+        "capability_i": "Reached every city in India"
+      },
+      {
+        "index": 17,
+        "specialties_i": null,
+        "capability_i": "Has a clinic in Mumbai"
+      },
+      {
+        "index": 18,
+        "specialties_i": null,
+        "capability_i": "Provides in-person and online consultations"
+      },
+      {
+        "index": 19,
+        "specialties_i": null,
+        "capability_i": "Treats patients from 12+ countries"
+      },
+      {
+        "index": 20,
+        "specialties_i": null,
+        "capability_i": "Has treated over 1200 patients"
+      },
+      {
+        "index": 21,
+        "specialties_i": null,
+        "capability_i": "Offers Feng Shui consultations as part of care"
+      },
+      {
+        "index": 22,
+        "specialties_i": null,
+        "capability_i": "Treats a wide range of diseases across skin, pediatrics, women's health, men's health, and elderly health"
+      }
+    ]
+  },
+  {
+    "unique_id": "8e8a4d0d-420c-4a6b-b827-b3ea81d1421f",
+    "name": "Feliz Dentistry",
+    "len_specialties": 21,
+    "len_capability": 7,
+    "pairs": [
+      {
+        "index": 0,
+        "specialties_i": "oralAndMaxillofacialSurgery",
+        "capability_i": "Outpatient dental clinic."
+      },
+      {
+        "index": 1,
+        "specialties_i": "endodontics",
+        "capability_i": "Has 18 years of healthcare experience."
+      },
+      {
+        "index": 2,
+        "specialties_i": "orthodontics",
+        "capability_i": "Located in Kannur, Kerala."
+      },
+      {
+        "index": 3,
+        "specialties_i": "orthognathicSurgery",
+        "capability_i": "Has 19 years in healthcare"
+      },
+      {
+        "index": 4,
+        "specialties_i": "pediatricDentistry",
+        "capability_i": "Operates as a dental clinic and hospital"
+      },
+      {
+        "index": 5,
+        "specialties_i": "dentoalveolarSurgery",
+        "capability_i": "Dental clinic and hospital"
+      },
+      {
+        "index": 6,
+        "specialties_i": "prosthodontics",
+        "capability_i": "Based in Kannur, Kerala, India"
+      },
+      {
+        "index": 7,
+        "specialties_i": "cosmeticDentistry",
+        "capability_i": null
+      },
+      {
+        "index": 8,
+        "specialties_i": "dentistry",
+        "capability_i": null
+      },
+      {
+        "index": 9,
+        "specialties_i": "familyMedicine",
+        "capability_i": null
+      },
+      {
+        "index": 10,
+        "specialties_i": "dentistry",
+        "capability_i": null
+      },
+      {
+        "index": 11,
+        "specialties_i": "dentistry",
+        "capability_i": null
+      },
+      {
+        "index": 12,
+        "specialties_i": "endodontics",
+        "capability_i": null
+      },
+      {
+        "index": 13,
+        "specialties_i": "prosthodontics",
+        "capability_i": null
+      },
+      {
+        "index": 14,
+        "specialties_i": "cosmeticDentistry",
+        "capability_i": null
+      },
+      {
+        "index": 15,
+        "specialties_i": "aestheticDentistry",
+        "capability_i": null
+      },
+      {
+        "index": 16,
+        "specialties_i": "radiology",
+        "capability_i": null
+      },
+      {
+        "index": 17,
+        "specialties_i": "dentistry",
+        "capability_i": null
+      },
+      {
+        "index": 18,
+        "specialties_i": "dentistry",
+        "capability_i": null
+      },
+      {
+        "index": 19,
+        "specialties_i": "familyMedicine",
+        "capability_i": null
+      },
+      {
+        "index": 20,
+        "specialties_i": "dentistry",
+        "capability_i": null
+      }
+    ]
+  },
+  {
+    "unique_id": "7ada9d68-8727-459f-9633-5460a0387ce7",
+    "name": "Asha Hospital",
+    "len_specialties": 50,
+    "len_capability": 50,
+    "pairs": [
+      {
+        "index": 0,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Provides psychiatric clinical services"
+      },
+      {
+        "index": 1,
+        "specialties_i": "psychiatry",
+        "capability_i": "Has consultant psychiatrist Dr P Raghurami Reddy affiliated with Asha Hospital"
+      },
+      {
+        "index": 2,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Located in Hyderabad, India"
+      },
+      {
+        "index": 3,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Located in Hyderabad, Andhra Pradesh"
+      },
+      {
+        "index": 4,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Has a 96-bed hospital facility offering acute psychiatric care"
+      },
+      {
+        "index": 5,
+        "specialties_i": "dentistry",
+        "capability_i": "Has a 40-bed Geriatric Care Centre"
+      },
+      {
+        "index": 6,
+        "specialties_i": "geriatricPsychiatry",
+        "capability_i": "Has a 150-bed Long Term Rehabilitation facility"
+      },
+      {
+        "index": 7,
+        "specialties_i": "physicalMedicineAndRehabilitation",
+        "capability_i": "Has a 25-bed De-addiction Centre"
+      },
+      {
+        "index": 8,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Operates 6 separate campuses"
+      },
+      {
+        "index": 9,
+        "specialties_i": "gynecologyAndObstetrics",
+        "capability_i": "Provides 24/7 Emergency care and High Dependency Unit (HDU)"
+      },
+      {
+        "index": 10,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Provides inpatient and outpatient (IP care and outpatient services)"
+      },
+      {
+        "index": 11,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Specialty clinics include Asha Schizophrenia Clinic, Asha Bipolar & OCD Clinic, Asha Geriatric Clinic, Asha De-addiction Clinic, Child Guidance Clinic, Asha Emergency Psychiatry"
+      },
+      {
+        "index": 12,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Neuromodulation Unit located at Gachibowli"
+      },
+      {
+        "index": 13,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Pioneer in pharmaceutical drug trials conducting Phase II and Phase III trials since 1998"
+      },
+      {
+        "index": 14,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Serves over 1.5 million patients"
+      },
+      {
+        "index": 15,
+        "specialties_i": "psychiatry",
+        "capability_i": "Staffing includes over 50 doctors, 35+ nursing staff and 400+ support staff"
+      },
+      {
+        "index": 16,
+        "specialties_i": "childAndAdolescentPsychiatry",
+        "capability_i": "Six campuses across locations in Telangana"
+      },
+      {
+        "index": 17,
+        "specialties_i": "geriatricPsychiatry",
+        "capability_i": "Listed as a top hospital in Hyderabad on Practo"
+      },
+      {
+        "index": 18,
+        "specialties_i": "neuropsychiatry",
+        "capability_i": "Asha Hospital is located in Hyderabad, Telangana, India"
+      },
+      {
+        "index": 19,
+        "specialties_i": "addictionPsychiatry",
+        "capability_i": "Asha Hospital has an Asha Bipolar Clinic within its facilities"
+      },
+      {
+        "index": 20,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Prasad Rao G is a Consultant Psychiatrist and Director of Asha Hospital, Hyderabad, Telangana, India"
+      },
+      {
+        "index": 21,
+        "specialties_i": "dentistry",
+        "capability_i": "Chandrasekhar K is a Consultant Psychiatrist and Director of Asha Hospital, Hyderabad, Telangana, India"
+      },
+      {
+        "index": 22,
+        "specialties_i": "prosthodontics",
+        "capability_i": "MS Reddy is a Consultant Psychiatrist and Director of Asha Bipolar Clinic at Asha Hospital, Hyderabad, Telangana, India"
+      },
+      {
+        "index": 23,
+        "specialties_i": "pediatricDentistry",
+        "capability_i": "Raksha Hospital LB Nagar Hyderabad is listed among government and private hospitals in Hyderabad."
+      },
+      {
+        "index": 24,
+        "specialties_i": "oralAndMaxillofacialSurgery",
+        "capability_i": "Raksha Hospital LB Nagar Hyderabad is located in the LB Nagar area of Hyderabad."
+      },
+      {
+        "index": 25,
+        "specialties_i": "endodontics",
+        "capability_i": "Operates 6 campuses across India"
+      },
+      {
+        "index": 26,
+        "specialties_i": "orthodontics",
+        "capability_i": "Offers 24/7 emergency care and HDU"
+      },
+      {
+        "index": 27,
+        "specialties_i": "periodontics",
+        "capability_i": "Neuromodulation Unit located in Gachibowli"
+      },
+      {
+        "index": 28,
+        "specialties_i": "oralPathology",
+        "capability_i": "Provides inpatient and outpatient psychiatric services"
+      },
+      {
+        "index": 29,
+        "specialties_i": "oralRadiologyAndDiagnosis",
+        "capability_i": "Has a 96-bed hospital facility with 40-bed Geriatric Care Centre, 150-bed Long Term Rehab facility, and 25-bed Deaddiction Centre"
+      },
+      {
+        "index": 30,
+        "specialties_i": "preventiveAndCommunityDentistry",
+        "capability_i": "Has 50+ doctors, 35+ nursing staff, and 400+ supportive staff"
+      },
+      {
+        "index": 31,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Pioneers in pharmaceutical drug trials (Phase II and III)"
+      },
+      {
+        "index": 32,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Specialty clinics include Asha Schizophrenia Clinic, Asha Bipolar & OCD Clinic, Asha Geriatric Clinic, Asha De-addiction Centre, Child Guidance Clinic, and Asha Emergency Psychiatry"
+      },
+      {
+        "index": 33,
+        "specialties_i": "psychiatry",
+        "capability_i": "Over 1.5 million patients served"
+      },
+      {
+        "index": 34,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Listed among best hospitals in AS Rao Nagar Hyderabad"
+      },
+      {
+        "index": 35,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Asha Hospital is listed as a Top Clinic in Srinagar Colony, Hyderabad"
+      },
+      {
+        "index": 36,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Listed among Top Hospitals in Vijayawada"
+      },
+      {
+        "index": 37,
+        "specialties_i": "cardiacSurgery",
+        "capability_i": "Located in Hyderabad"
+      },
+      {
+        "index": 38,
+        "specialties_i": "spineNeurosurgery",
+        "capability_i": "Hosted DNB Psychiatry training at Asha Hospital in 2017"
+      },
+      {
+        "index": 39,
+        "specialties_i": "neurosurgery",
+        "capability_i": "Listed among Top Hospitals In Hyderabad"
+      },
+      {
+        "index": 40,
+        "specialties_i": "orthopedicSurgery",
+        "capability_i": "Located in Hyderabad"
+      },
+      {
+        "index": 41,
+        "specialties_i": "ophthalmology",
+        "capability_i": "Wheelchair accessible facility"
+      },
+      {
+        "index": 42,
+        "specialties_i": "otolaryngology",
+        "capability_i": "Located in Sircilla, Telangana"
+      },
+      {
+        "index": 43,
+        "specialties_i": "urology",
+        "capability_i": "Located in Banjara Hills, Hyderabad, India"
+      },
+      {
+        "index": 44,
+        "specialties_i": "hepatopancreatobiliarySurgery",
+        "capability_i": "Listed among Top Clinics in Hyderabad on Practo"
+      },
+      {
+        "index": 45,
+        "specialties_i": "transplantSurgery",
+        "capability_i": "Located in Tadipatri, Andhra Pradesh"
+      },
+      {
+        "index": 46,
+        "specialties_i": "surgicalOncology",
+        "capability_i": "Coordinates 14.9069421, 78.0117210"
+      },
+      {
+        "index": 47,
+        "specialties_i": "medicalOncology",
+        "capability_i": "Listed on LatLong.net Tadipatri hospitals page"
+      },
+      {
+        "index": 48,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Asha Hospital is listed as a related hospital with coordinates 14.9069421, 78.0117210."
+      },
+      {
+        "index": 49,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Ashwa Hospital is listed as a top hospital in Pushpa Hotel Road, Vijayawada"
+      }
+    ]
+  },
+  {
+    "unique_id": "521943e3-a89f-48bd-a1df-bbd9ec9c8a51",
+    "name": "Kolkata Super Speciality Mental Nursing Home",
+    "len_specialties": 17,
+    "len_capability": 14,
+    "pairs": [
+      {
+        "index": 0,
+        "specialties_i": "psychiatry",
+        "capability_i": "Inpatient facility spanning 10,000 sq ft"
+      },
+      {
+        "index": 1,
+        "specialties_i": "emergencyPsychiatry",
+        "capability_i": "Separate male and female wards"
+      },
+      {
+        "index": 2,
+        "specialties_i": "childAndAdolescentPsychiatry",
+        "capability_i": "24/7 availability of psychiatrists, psychologists, and general doctors"
+      },
+      {
+        "index": 3,
+        "specialties_i": "substanceAbuseAndAddictionTreatment",
+        "capability_i": "Open 24 hours"
+      },
+      {
+        "index": 4,
+        "specialties_i": "physicalMedicineAndRehabilitation",
+        "capability_i": "Led by Dr Sagnik Mukherjee, a certified psychiatrist"
+      },
+      {
+        "index": 5,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Offers comprehensive 24/7 emergency psychiatric care and advanced mental health therapy programs"
+      },
+      {
+        "index": 6,
+        "specialties_i": "psychiatry",
+        "capability_i": "Inpatient care"
+      },
+      {
+        "index": 7,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Emergency care available 24/7"
+      },
+      {
+        "index": 8,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Mental health care team includes psychiatrists, psychologists, therapists, and nurses"
+      },
+      {
+        "index": 9,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Substance abuse and addiction treatment programs"
+      },
+      {
+        "index": 10,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Child and adolescent mental health care"
+      },
+      {
+        "index": 11,
+        "specialties_i": "psychiatry",
+        "capability_i": "Women mental health care"
+      },
+      {
+        "index": 12,
+        "specialties_i": "pediatrics",
+        "capability_i": "Rehabilitation treatment programs"
+      },
+      {
+        "index": 13,
+        "specialties_i": "addictionPsychiatry",
+        "capability_i": "Relapse prevention programs"
+      },
+      {
+        "index": 14,
+        "specialties_i": "physicalMedicineAndRehabilitation",
+        "capability_i": null
+      },
+      {
+        "index": 15,
+        "specialties_i": "emergencyMedicine",
+        "capability_i": null
+      },
+      {
+        "index": 16,
+        "specialties_i": "internalMedicine",
+        "capability_i": null
+      }
+    ]
+  },
+  {
+    "unique_id": "40362fab-2b65-48e0-8034-f330dd5e2625",
+    "name": "Lotus Diagnostic Centre",
+    "len_specialties": 23,
+    "len_capability": 24,
+    "pairs": [
+      {
+        "index": 0,
+        "specialties_i": "otolaryngology",
+        "capability_i": "Operates as a polyclinic and diagnostic center"
+      },
+      {
+        "index": 1,
+        "specialties_i": "urology",
+        "capability_i": "Has over two decades of experience in Bangalore"
+      },
+      {
+        "index": 2,
+        "specialties_i": "psychiatry",
+        "capability_i": "Has experts from over 25 specialties consult at Lotus Diagnostic Centre"
+      },
+      {
+        "index": 3,
+        "specialties_i": "orthopedicSurgery",
+        "capability_i": "End-to-end diagnostic centre offering imaging, testing and doctor consultations"
+      },
+      {
+        "index": 4,
+        "specialties_i": "radiology",
+        "capability_i": "Same-day online reporting for routine tests"
+      },
+      {
+        "index": 5,
+        "specialties_i": "pathology",
+        "capability_i": "NABL accreditation"
+      },
+      {
+        "index": 6,
+        "specialties_i": "preventiveMedicine",
+        "capability_i": "Home collection available"
+      },
+      {
+        "index": 7,
+        "specialties_i": "familyMedicine",
+        "capability_i": "Koramangala and Indiranagar branches in Bangalore"
+      },
+      {
+        "index": 8,
+        "specialties_i": "internalMedicine",
+        "capability_i": "20+ years of service"
+      },
+      {
+        "index": 9,
+        "specialties_i": "cardiology",
+        "capability_i": "50+ doctors across 25+ specialties"
+      },
+      {
+        "index": 10,
+        "specialties_i": "endocrinologyAndDiabetesAndMetabolism",
+        "capability_i": "Partnerships with SAP, Larsen & Toubro, Cognizant, United Healthcare, Medi Assist, DRDO, Kotak"
+      },
+      {
+        "index": 11,
+        "specialties_i": "reproductiveEndocrinologyAndInfertility",
+        "capability_i": "Founded in 2007"
+      },
+      {
+        "index": 12,
+        "specialties_i": "maternalFetalMedicineOrPerinatology",
+        "capability_i": "Based in Bengaluru, India"
+      },
+      {
+        "index": 13,
+        "specialties_i": "geriatricsInternalMedicine",
+        "capability_i": "Unfunded"
+      },
+      {
+        "index": 14,
+        "specialties_i": "infectiousDiseases",
+        "capability_i": "Pathology lab and diagnostic center"
+      },
+      {
+        "index": 15,
+        "specialties_i": "radiology",
+        "capability_i": "Associated with Varun Diagnostic LLP"
+      },
+      {
+        "index": 16,
+        "specialties_i": "pathology",
+        "capability_i": "NABL accreditation for biochemistry, hematology, clinical pathology and molecular biology."
+      },
+      {
+        "index": 17,
+        "specialties_i": "familyMedicine",
+        "capability_i": "Doctor panel with 25+ specialties including general medicine, gynecology, pediatrics, orthopedics, neurology, dermatology, fetal medicine, pulmonology, diabetology, nephrology, urology, infertility, andrology, cardiology, ophthalmology, ENT, oncology, psychiatry, geriatrics, proctology."
+      },
+      {
+        "index": 18,
+        "specialties_i": "pathology",
+        "capability_i": "Offers home collection service."
+      },
+      {
+        "index": 19,
+        "specialties_i": "diagnosticRadiology",
+        "capability_i": "Lab reports are accessible online via login and printouts are available."
+      },
+      {
+        "index": 20,
+        "specialties_i": "familyMedicine",
+        "capability_i": "Lotus Diagnostic Centre operates as a diagnostic imaging center in Indiranagar, Bangalore"
+      },
+      {
+        "index": 21,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Offers health checkup packages including Full Body Pro Package for Men, Full Body Pro Package for Women, and Master Health Check Pro Package for Men"
+      },
+      {
+        "index": 22,
+        "specialties_i": "familyMedicine",
+        "capability_i": "Diagnostic centre"
+      },
+      {
+        "index": 23,
+        "specialties_i": null,
+        "capability_i": "Outpatient clinic in Murugeshpalya, Bangalore"
+      }
+    ]
+  },
+  {
+    "unique_id": "3b80a709-664c-4d34-b786-de3ba31bc040",
+    "name": "MEDI health POINT",
+    "len_specialties": 13,
+    "len_capability": 6,
+    "pairs": [
+      {
+        "index": 0,
+        "specialties_i": "familyMedicine",
+        "capability_i": "Provides broad medical attention across a range of medical needs"
+      },
+      {
+        "index": 1,
+        "specialties_i": "pathology",
+        "capability_i": "Categorized as a Diagnostic Center on its Facebook page"
+      },
+      {
+        "index": 2,
+        "specialties_i": "radiology",
+        "capability_i": "Offers online booking"
+      },
+      {
+        "index": 3,
+        "specialties_i": "familyMedicine",
+        "capability_i": "Lists doctors on its Facebook page"
+      },
+      {
+        "index": 4,
+        "specialties_i": "pathology",
+        "capability_i": "Maintains an official website at medihealthpoint.com"
+      },
+      {
+        "index": 5,
+        "specialties_i": "radiology",
+        "capability_i": "Provides multidisciplinary healthcare services including pathology, X-ray imaging, USG, echocardiography, PFT, ECG, uroflowmetry, endoscopy, colonoscopy, dentistry, RT-PCR testing, physiotherapy care, and doctor consultations."
+      },
+      {
+        "index": 6,
+        "specialties_i": "cardiothoracicRadiology",
+        "capability_i": null
+      },
+      {
+        "index": 7,
+        "specialties_i": "pulmonology",
+        "capability_i": null
+      },
+      {
+        "index": 8,
+        "specialties_i": "cardiology",
+        "capability_i": null
+      },
+      {
+        "index": 9,
+        "specialties_i": "urology",
+        "capability_i": null
+      },
+      {
+        "index": 10,
+        "specialties_i": "gastroenterology",
+        "capability_i": null
+      },
+      {
+        "index": 11,
+        "specialties_i": "dentistry",
+        "capability_i": null
+      },
+      {
+        "index": 12,
+        "specialties_i": "physicalMedicineAndRehabilitation",
+        "capability_i": null
+      }
+    ]
+  },
+  {
+    "unique_id": "65e7d8a9-9413-4d9f-ac41-15fe98af2b7c",
+    "name": "We Care Diagnostic & Polyclinic",
+    "len_specialties": 10,
+    "len_capability": 13,
+    "pairs": [
+      {
+        "index": 0,
+        "specialties_i": "familyMedicine",
+        "capability_i": "Outpatient diagnostic center offering pathology, ECG, USG and X-ray services"
+      },
+      {
+        "index": 1,
+        "specialties_i": "familyMedicine",
+        "capability_i": "Free home sample collection by experts"
+      },
+      {
+        "index": 2,
+        "specialties_i": "pathology",
+        "capability_i": "Has 25 super speciality doctors on staff"
+      },
+      {
+        "index": 3,
+        "specialties_i": "radiology",
+        "capability_i": "Super Speciality Polyclinic"
+      },
+      {
+        "index": 4,
+        "specialties_i": "cardiology",
+        "capability_i": "Always open"
+      },
+      {
+        "index": 5,
+        "specialties_i": "familyMedicine",
+        "capability_i": "NABL and CAP accredited labs"
+      },
+      {
+        "index": 6,
+        "specialties_i": "gynecologyAndObstetrics",
+        "capability_i": "ICMR approved lab"
+      },
+      {
+        "index": 7,
+        "specialties_i": "dermatology",
+        "capability_i": "Home sample collection service by experts"
+      },
+      {
+        "index": 8,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Super speciality polyclinic"
+      },
+      {
+        "index": 9,
+        "specialties_i": "familyMedicine",
+        "capability_i": "25 super speciality doctors are available"
+      },
+      {
+        "index": 10,
+        "specialties_i": null,
+        "capability_i": "Always open"
+      },
+      {
+        "index": 11,
+        "specialties_i": null,
+        "capability_i": "Pathology services associated with Thyrocare"
+      },
+      {
+        "index": 12,
+        "specialties_i": null,
+        "capability_i": "Diagnostic center"
+      }
+    ]
+  },
+  {
+    "unique_id": "89db437e-bac1-43b5-b7e3-26aba9074c73",
+    "name": "Artios Hospital",
+    "len_specialties": 50,
+    "len_capability": 43,
+    "pairs": [
+      {
+        "index": 0,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Artios Hospital is a unit of Karmm Health Care Pvt. Ltd."
+      },
+      {
+        "index": 1,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Empanelled hospital listed in Haryana Employees' State Insurance (ESI) network"
+      },
+      {
+        "index": 2,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Cardiology"
+      },
+      {
+        "index": 3,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Gastroenterology"
+      },
+      {
+        "index": 4,
+        "specialties_i": "neurosurgery",
+        "capability_i": "Nephrology"
+      },
+      {
+        "index": 5,
+        "specialties_i": "neuropsychiatry",
+        "capability_i": "Neurosurgery"
+      },
+      {
+        "index": 6,
+        "specialties_i": "cardiology",
+        "capability_i": "Urology"
+      },
+      {
+        "index": 7,
+        "specialties_i": "gynecologyAndObstetrics",
+        "capability_i": "Artios Hospital, Haryana hosted an OPD session featuring Dr Ashish Baweja on January 30, 2025."
+      },
+      {
+        "index": 8,
+        "specialties_i": "anesthesia",
+        "capability_i": "Neurosurgery Department at Artios Hospital, Panipat"
+      },
+      {
+        "index": 9,
+        "specialties_i": "radiology",
+        "capability_i": "Outpatient neurosurgery services"
+      },
+      {
+        "index": 10,
+        "specialties_i": "dentistry",
+        "capability_i": "Accepts TPA and Health Insurance"
+      },
+      {
+        "index": 11,
+        "specialties_i": "pediatrics",
+        "capability_i": "Led by Dr. Narinder Ahlawat, Director of Artios Hospital"
+      },
+      {
+        "index": 12,
+        "specialties_i": "generalSurgery",
+        "capability_i": "Departments include Neuro Surgeon, Consultant Physician, Neuro Psychiatrist, Cardiologist, Gynecologist, Radiodiagnosis"
+      },
+      {
+        "index": 13,
+        "specialties_i": "headacheMedicine",
+        "capability_i": "Panipat, Haryana location"
+      },
+      {
+        "index": 14,
+        "specialties_i": "epilepsyNeurology",
+        "capability_i": "Provides outpatient (OPD) services at Artios Hospital in Panipat, Haryana"
+      },
+      {
+        "index": 15,
+        "specialties_i": "neurology",
+        "capability_i": "NABH accreditation"
+      },
+      {
+        "index": 16,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Offers outpatient and inpatient services"
+      },
+      {
+        "index": 17,
+        "specialties_i": "internalMedicine",
+        "capability_i": "24/7 emergency care"
+      },
+      {
+        "index": 18,
+        "specialties_i": "neurosurgery",
+        "capability_i": "Trauma center"
+      },
+      {
+        "index": 19,
+        "specialties_i": "orthopedicSurgery",
+        "capability_i": "Cashless hospital with tie-ups to Government & Private insurance providers"
+      },
+      {
+        "index": 20,
+        "specialties_i": "neuropsychiatry",
+        "capability_i": "Cardiology services"
+      },
+      {
+        "index": 21,
+        "specialties_i": "cardiology",
+        "capability_i": "Neurology services"
+      },
+      {
+        "index": 22,
+        "specialties_i": "dentistry",
+        "capability_i": "Orthopedics services"
+      },
+      {
+        "index": 23,
+        "specialties_i": "gynecologyAndObstetrics",
+        "capability_i": "Pediatrics services"
+      },
+      {
+        "index": 24,
+        "specialties_i": "anesthesia",
+        "capability_i": "Critical Care services"
+      },
+      {
+        "index": 25,
+        "specialties_i": "radiology",
+        "capability_i": "Gynecology services"
+      },
+      {
+        "index": 26,
+        "specialties_i": "pediatrics",
+        "capability_i": "Radiology services"
+      },
+      {
+        "index": 27,
+        "specialties_i": "dermatology",
+        "capability_i": "Psychiatry services"
+      },
+      {
+        "index": 28,
+        "specialties_i": "generalSurgery",
+        "capability_i": "Dermatology services"
+      },
+      {
+        "index": 29,
+        "specialties_i": "physicalMedicineAndRehabilitation",
+        "capability_i": "Located in Panipat, Haryana"
+      },
+      {
+        "index": 30,
+        "specialties_i": "emergencyMedicine",
+        "capability_i": "Dermatology services are offered"
+      },
+      {
+        "index": 31,
+        "specialties_i": "neurology",
+        "capability_i": "General medical services are offered"
+      },
+      {
+        "index": 32,
+        "specialties_i": "psychiatry",
+        "capability_i": "Pediatric services are offered"
+      },
+      {
+        "index": 33,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Gynecology and obstetrics services are offered"
+      },
+      {
+        "index": 34,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Neurology services are offered"
+      },
+      {
+        "index": 35,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Orthopedics services are offered"
+      },
+      {
+        "index": 36,
+        "specialties_i": "dermatology",
+        "capability_i": "Artios Hospital is a multispecialty hospital."
+      },
+      {
+        "index": 37,
+        "specialties_i": "pediatrics",
+        "capability_i": "Provides 24/7 Emergency services."
+      },
+      {
+        "index": 38,
+        "specialties_i": "gynecologyAndObstetrics",
+        "capability_i": "Specialties include General Physicians, Neuro and Spine Surgery, Cardiology, Orthopedic surgery, Gynecology, Psychiatry, and Dentistry."
+      },
+      {
+        "index": 39,
+        "specialties_i": "neurology",
+        "capability_i": "Headquartered in Panipat, Haryana."
+      },
+      {
+        "index": 40,
+        "specialties_i": "orthopedicSurgery",
+        "capability_i": "Founded in 2020."
+      },
+      {
+        "index": 41,
+        "specialties_i": "neurosurgery",
+        "capability_i": "Dental care is provided at Artios Hospital in Panipat, Haryana, India"
+      },
+      {
+        "index": 42,
+        "specialties_i": "psychiatry",
+        "capability_i": "Dr. Supreeti Malik, BDS, MDS, is the dental surgeon at Artios Hospital"
+      },
+      {
+        "index": 43,
+        "specialties_i": "addictionPsychiatry",
+        "capability_i": null
+      },
+      {
+        "index": 44,
+        "specialties_i": "internalMedicine",
+        "capability_i": null
+      },
+      {
+        "index": 45,
+        "specialties_i": "internalMedicine",
+        "capability_i": null
+      },
+      {
+        "index": 46,
+        "specialties_i": "internalMedicine",
+        "capability_i": null
+      },
+      {
+        "index": 47,
+        "specialties_i": "emergencyMedicine",
+        "capability_i": null
+      },
+      {
+        "index": 48,
+        "specialties_i": "cardiology",
+        "capability_i": null
+      },
+      {
+        "index": 49,
+        "specialties_i": "neurology",
+        "capability_i": null
+      }
+    ]
+  },
+  {
+    "unique_id": "9eabad3a-0f25-4a4e-88e7-e0f46d563488",
+    "name": "Ambay Eye Care & Lasik Centre",
+    "len_specialties": 6,
+    "len_capability": 2,
+    "pairs": [
+      {
+        "index": 0,
+        "specialties_i": "ophthalmology",
+        "capability_i": "Chain of super-specialty eye hospitals"
+      },
+      {
+        "index": 1,
+        "specialties_i": "cataractAndAnteriorSegmentSurgery",
+        "capability_i": "Specializes in cataract surgery and LASIK"
+      },
+      {
+        "index": 2,
+        "specialties_i": "refractiveSurgeryOphthalmology",
+        "capability_i": null
+      },
+      {
+        "index": 3,
+        "specialties_i": "internalMedicine",
+        "capability_i": null
+      },
+      {
+        "index": 4,
+        "specialties_i": "refractiveSurgeryOphthalmology",
+        "capability_i": null
+      },
+      {
+        "index": 5,
+        "specialties_i": "familyMedicine",
+        "capability_i": null
+      }
+    ]
+  },
+  {
+    "unique_id": "7bb249be-cd13-4b32-a841-87f5659b67ad",
+    "name": "Retina Foundation",
+    "len_specialties": 16,
+    "len_capability": 17,
+    "pairs": [
+      {
+        "index": 0,
+        "specialties_i": "retinaAndVitreoretinalOphthalmology",
+        "capability_i": "Outpatient services (OPD)"
+      },
+      {
+        "index": 1,
+        "specialties_i": "retinaAndVitreoretinalOphthalmology",
+        "capability_i": "NABH certificate"
+      },
+      {
+        "index": 2,
+        "specialties_i": "cataractAndAnteriorSegmentSurgery",
+        "capability_i": "Academic and training programs in ophthalmology (Training and Fellowships, Research Papers, Surgical Videos, Ocular Images)"
+      },
+      {
+        "index": 3,
+        "specialties_i": "corneaOphthalmology",
+        "capability_i": "Voluntary services including Orbis Flying Eye Hospital, Eye Research Center, and Aso Palov Eye Bank"
+      },
+      {
+        "index": 4,
+        "specialties_i": "pediatricsAndStrabismusOphthalmology",
+        "capability_i": "NABH accreditation"
+      },
+      {
+        "index": 5,
+        "specialties_i": "uveitisOphthalmology",
+        "capability_i": "Emergency trauma eye care with ocular wound repair and intraocular foreign body management"
+      },
+      {
+        "index": 6,
+        "specialties_i": "glaucomaOphthalmology",
+        "capability_i": "In-house optical outlet within the premises"
+      },
+      {
+        "index": 7,
+        "specialties_i": "eyeTraumaAndEmergencyEyeCare",
+        "capability_i": "Academic programs including training and fellowships"
+      },
+      {
+        "index": 8,
+        "specialties_i": "refractiveSurgeryOphthalmology",
+        "capability_i": "Provide both inpatient and outpatient services"
+      },
+      {
+        "index": 9,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Specializes in advanced eye care with a focus on retina-related issues"
+      },
+      {
+        "index": 10,
+        "specialties_i": "ophthalmology",
+        "capability_i": "Offers cataract surgery and LASIK"
+      },
+      {
+        "index": 11,
+        "specialties_i": "retinaAndVitreoretinalOphthalmology",
+        "capability_i": "Located in Ahmedabad, India"
+      },
+      {
+        "index": 12,
+        "specialties_i": "cataractAndAnteriorSegmentSurgery",
+        "capability_i": "Has 11-50 employees"
+      },
+      {
+        "index": 13,
+        "specialties_i": "refractiveSurgeryOphthalmology",
+        "capability_i": "Led by Dr. Manish Nagpal"
+      },
+      {
+        "index": 14,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Uses state-of-the-art technology for retina care"
+      },
+      {
+        "index": 15,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Retina Foundation is an Eye Care Hospital"
+      },
+      {
+        "index": 16,
+        "specialties_i": null,
+        "capability_i": "Located in Ahmedabad, India"
+      }
+    ]
+  },
+  {
+    "unique_id": "35ec756c-849c-4500-9a9e-a0ed93d03dad",
+    "name": "Kavungal Speciality Dental and Skin Clinic",
+    "len_specialties": 22,
+    "len_capability": 4,
+    "pairs": [
+      {
+        "index": 0,
+        "specialties_i": "familyMedicine",
+        "capability_i": "Outpatient dental clinic"
+      },
+      {
+        "index": 1,
+        "specialties_i": "dentistry",
+        "capability_i": "Dental clinic in Aluva, Kerala, India"
+      },
+      {
+        "index": 2,
+        "specialties_i": "dermatology",
+        "capability_i": "Multi-speciality dental and skin clinic"
+      },
+      {
+        "index": 3,
+        "specialties_i": "familyMedicine",
+        "capability_i": "Multi-speciality dental and skin clinic"
+      },
+      {
+        "index": 4,
+        "specialties_i": "dermatology",
+        "capability_i": null
+      },
+      {
+        "index": 5,
+        "specialties_i": "dentistry",
+        "capability_i": null
+      },
+      {
+        "index": 6,
+        "specialties_i": "dentistry",
+        "capability_i": null
+      },
+      {
+        "index": 7,
+        "specialties_i": "dermatology",
+        "capability_i": null
+      },
+      {
+        "index": 8,
+        "specialties_i": "dentistry",
+        "capability_i": null
+      },
+      {
+        "index": 9,
+        "specialties_i": "dermatology",
+        "capability_i": null
+      },
+      {
+        "index": 10,
+        "specialties_i": "familyMedicine",
+        "capability_i": null
+      },
+      {
+        "index": 11,
+        "specialties_i": "familyMedicine",
+        "capability_i": null
+      },
+      {
+        "index": 12,
+        "specialties_i": "familyMedicine",
+        "capability_i": null
+      },
+      {
+        "index": 13,
+        "specialties_i": "familyMedicine",
+        "capability_i": null
+      },
+      {
+        "index": 14,
+        "specialties_i": "familyMedicine",
+        "capability_i": null
+      },
+      {
+        "index": 15,
+        "specialties_i": "dentistry",
+        "capability_i": null
+      },
+      {
+        "index": 16,
+        "specialties_i": "dermatology",
+        "capability_i": null
+      },
+      {
+        "index": 17,
+        "specialties_i": "familyMedicine",
+        "capability_i": null
+      },
+      {
+        "index": 18,
+        "specialties_i": "dentistry",
+        "capability_i": null
+      },
+      {
+        "index": 19,
+        "specialties_i": "dermatology",
+        "capability_i": null
+      },
+      {
+        "index": 20,
+        "specialties_i": "familyMedicine",
+        "capability_i": null
+      },
+      {
+        "index": 21,
+        "specialties_i": "familyMedicine",
+        "capability_i": null
+      }
+    ]
+  },
+  {
+    "unique_id": "08344cdb-f455-4c22-8d31-a0a8e849124b",
+    "name": "MOSC Medical College Hospital",
+    "len_specialties": 50,
+    "len_capability": 50,
+    "pairs": [
+      {
+        "index": 0,
+        "specialties_i": "internalMedicine",
+        "capability_i": "1100-bed super specialty tertiary care medical college hospital"
+      },
+      {
+        "index": 1,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Multi-specialty medical college hospital"
+      },
+      {
+        "index": 2,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Has access to clinical, pre-clinical, para-clinical and super specialty departments"
+      },
+      {
+        "index": 3,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Multi-specialty, tertiary care medical college hospital"
+      },
+      {
+        "index": 4,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Originally established as Medical Mission Hospital in 1970 with 100 beds"
+      },
+      {
+        "index": 5,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Has access to clinical, pre-clinical, para-clinical and super specialty departments"
+      },
+      {
+        "index": 6,
+        "specialties_i": "radiology",
+        "capability_i": "Principal is Prof. Thomas P.V"
+      },
+      {
+        "index": 7,
+        "specialties_i": "emergencyMedicine",
+        "capability_i": "Secretary and CEO is Mr. Joy P Jacob"
+      },
+      {
+        "index": 8,
+        "specialties_i": "physicalMedicineAndRehabilitation",
+        "capability_i": "MOSC Institute of Allied Health Sciences, established in 2017, is affiliated to Kerala University of Health Sciences (KUHS) Thrissur and offers the Master of Hospital Administration (MHA) program"
+      },
+      {
+        "index": 9,
+        "specialties_i": "addictionMedicinePM",
+        "capability_i": "Has 1100-bed multi-specialty MOSC Medical College Hospital"
+      },
+      {
+        "index": 10,
+        "specialties_i": "publicHealth",
+        "capability_i": "Hospital started in 1970 with 100 beds"
+      },
+      {
+        "index": 11,
+        "specialties_i": "cardiology",
+        "capability_i": "Emergency Medicine department is present"
+      },
+      {
+        "index": 12,
+        "specialties_i": "cardiacSurgery",
+        "capability_i": "Ambulance service is available"
+      },
+      {
+        "index": 13,
+        "specialties_i": "anesthesia",
+        "capability_i": "On-site 24/7 Pharmacy"
+      },
+      {
+        "index": 14,
+        "specialties_i": "radiology",
+        "capability_i": "Offers interventional cardiology procedures including TAVI"
+      },
+      {
+        "index": 15,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Has 90 years of healthcare experience"
+      },
+      {
+        "index": 16,
+        "specialties_i": "gynecologyAndObstetrics",
+        "capability_i": "Medical Mission Hospital is a multispecialty hospital and 1100-bed super specialty tertiary care medical college hospital"
+      },
+      {
+        "index": 17,
+        "specialties_i": "radiology",
+        "capability_i": "Associated with MOSC Medical Mission established by the Malankara Orthodox Syrian Church"
+      },
+      {
+        "index": 18,
+        "specialties_i": "emergencyMedicine",
+        "capability_i": "Hospital was formally consecrated on 14 September 1970 with 100 beds"
+      },
+      {
+        "index": 19,
+        "specialties_i": "publicHealth",
+        "capability_i": "Has access to clinical, pre-clinical, para-clinical and super specialty departments"
+      },
+      {
+        "index": 20,
+        "specialties_i": "addictionInternalMedicine",
+        "capability_i": "24x7 emergency cardiac care"
+      },
+      {
+        "index": 21,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Interventional cardiology services including coronary angiography and complex PCI"
+      },
+      {
+        "index": 22,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Pacemaker, CRT, ICD, and CRT-D services"
+      },
+      {
+        "index": 23,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Valve interventions including TAVI and other valvular therapies"
+      },
+      {
+        "index": 24,
+        "specialties_i": "radiology",
+        "capability_i": "Device closure for ASD/VSD/PDA/PFO and paravalvular leaks"
+      },
+      {
+        "index": 25,
+        "specialties_i": "emergencyMedicine",
+        "capability_i": "Hybrid procedures including EVAR and TEVAR"
+      },
+      {
+        "index": 26,
+        "specialties_i": "publicHealth",
+        "capability_i": "Peripheral and renal angioplasty"
+      },
+      {
+        "index": 27,
+        "specialties_i": "physicalMedicineAndRehabilitation",
+        "capability_i": "Inpatient and intensive care capabilities"
+      },
+      {
+        "index": 28,
+        "specialties_i": "addictionMedicinePM",
+        "capability_i": "Comprehensive cardiac care program and daily outpatient unit"
+      },
+      {
+        "index": 29,
+        "specialties_i": "radiology",
+        "capability_i": "On-site laboratory backup"
+      },
+      {
+        "index": 30,
+        "specialties_i": "publicHealth",
+        "capability_i": "Staffing includes 4 cardiologists, 2 cardiovascular surgeons, and a cardiac anaesthetist; supported by trained nurses and technicians"
+      },
+      {
+        "index": 31,
+        "specialties_i": "physicalMedicineAndRehabilitation",
+        "capability_i": "Located at Thiruvalla Market Junction near the railway station"
+      },
+      {
+        "index": 32,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Open 24 Hrs"
+      },
+      {
+        "index": 33,
+        "specialties_i": "ophthalmology",
+        "capability_i": "Has 90 years in healthcare"
+      },
+      {
+        "index": 34,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Institute of Advanced Orthopedics at MOSC Hospital and Medical College, Kochi provides joint replacement and sports medicine services"
+      },
+      {
+        "index": 35,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Dr Sujit Jos is Senior Consultant of Orthopaedics in the Division of Joint Replacement and Sports Medicine with over 20 years of experience"
+      },
+      {
+        "index": 36,
+        "specialties_i": "shoulderAndElbowOrthopedicSurgery",
+        "capability_i": "Joint clinic affiliation at MOSC Hospital & Medical College, Kochi"
+      },
+      {
+        "index": 37,
+        "specialties_i": "orthopedicSurgery",
+        "capability_i": "Offers total joint replacements of the hip, knee, shoulder, ankle and elbow"
+      },
+      {
+        "index": 38,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Located in Pathanamthitta"
+      },
+      {
+        "index": 39,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Medical Mission Hospital is a multi-specialty, tertiary care medical college hospital."
+      },
+      {
+        "index": 40,
+        "specialties_i": "internalMedicine",
+        "capability_i": "MOSC Medical College Hospital has an associated MOSC Institute of Allied Health Sciences."
+      },
+      {
+        "index": 41,
+        "specialties_i": "internalMedicine",
+        "capability_i": "MOSC Institute of Allied Health Sciences established in 2017."
+      },
+      {
+        "index": 42,
+        "specialties_i": "gynecologyAndObstetrics",
+        "capability_i": "MOSC Institute of Allied Health Sciences is affiliated to Kerala University of Health Sciences (KUHS), Thrissur."
+      },
+      {
+        "index": 43,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Offers Master of Hospital Administration (MHA) program."
+      },
+      {
+        "index": 44,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Secretary and CEO: Mr. Joy P Jacob."
+      },
+      {
+        "index": 45,
+        "specialties_i": "pediatrics",
+        "capability_i": "Principal: Prof. Thomas P.V."
+      },
+      {
+        "index": 46,
+        "specialties_i": "developmental\u2013behavioralPediatrics",
+        "capability_i": "Medical Mission Hospital was consecrated on 14 September 1970 with 100 beds."
+      },
+      {
+        "index": 47,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Medical Mission Hospital is established by the Malankara Orthodox Syrian Church."
+      },
+      {
+        "index": 48,
+        "specialties_i": "familyMedicine",
+        "capability_i": ""
+      },
+      {
+        "index": 49,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Thiruvalla Medical Mission Hospital is located in Thiruvalla, Pathanamthitta"
+      }
+    ]
+  },
+  {
+    "unique_id": "a3acb101-c070-4cbd-9fda-524af67db75d",
+    "name": "Sona Skin Care",
+    "len_specialties": 5,
+    "len_capability": 4,
+    "pairs": [
+      {
+        "index": 0,
+        "specialties_i": "dermatology",
+        "capability_i": "Outpatient dermatology clinic"
+      },
+      {
+        "index": 1,
+        "specialties_i": "familyMedicine",
+        "capability_i": "Staffed by Dr. Satwinder Kaur, M.D. (Dermatology)"
+      },
+      {
+        "index": 2,
+        "specialties_i": "familyMedicine",
+        "capability_i": "Operates as a dermatology and cosmetology clinic"
+      },
+      {
+        "index": 3,
+        "specialties_i": "dermatology",
+        "capability_i": "Sona Skin Care - Dr Satwinder Kaur (MD Dermatology) is a dermatology clinic located in Ludhiana, Punjab, India"
+      },
+      {
+        "index": 4,
+        "specialties_i": "familyMedicine",
+        "capability_i": null
+      }
+    ]
+  },
+  {
+    "unique_id": "6af06390-8b56-43d4-9a74-abead5d17c51",
+    "name": "Tesla Scans And Healthcare",
+    "len_specialties": 28,
+    "len_capability": 12,
+    "pairs": [
+      {
+        "index": 0,
+        "specialties_i": "radiology",
+        "capability_i": "Outpatient services with an outpatient department"
+      },
+      {
+        "index": 1,
+        "specialties_i": "radiology",
+        "capability_i": "Imaging services including digital X-ray, MRI, CT, and ultrasound"
+      },
+      {
+        "index": 2,
+        "specialties_i": "orthopedicSurgery",
+        "capability_i": "Ultrasound services including Doppler and 3D/4D ultrasound"
+      },
+      {
+        "index": 3,
+        "specialties_i": "cardiology",
+        "capability_i": "Laboratory testing capabilities including haematology, immunochemistry, endocrinology, microbiology, biochemistry, electrolyte analysis, parasitology, serology, tumor marker testing, and pathology"
+      },
+      {
+        "index": 4,
+        "specialties_i": "neurology",
+        "capability_i": "Images reviewed by expert radiologists"
+      },
+      {
+        "index": 5,
+        "specialties_i": "nephrology",
+        "capability_i": "Serves Thrissur district including Chalakudy, Irinjalakuda, Kunnamkulam, and Amballur"
+      },
+      {
+        "index": 6,
+        "specialties_i": "gastroenterology",
+        "capability_i": "Operates a diagnostic center"
+      },
+      {
+        "index": 7,
+        "specialties_i": "endocrinologyAndDiabetesAndMetabolism",
+        "capability_i": "Outpatient care in General Medicine, Gastroenterology, Orthopedics, Neurology, Nephrology, and Radiology"
+      },
+      {
+        "index": 8,
+        "specialties_i": "hematology",
+        "capability_i": "Laboratory testing capabilities including Haematology, Immunochemistry, Endocrinology, Microbiology, Biochemistry, Electrolyte Analysis, Parasitology, Serology, Tumor Marker testing, and Pathology"
+      },
+      {
+        "index": 9,
+        "specialties_i": "pathology",
+        "capability_i": "Home sample collection service"
+      },
+      {
+        "index": 10,
+        "specialties_i": "familyMedicine",
+        "capability_i": "Lab-to-lab sample collection"
+      },
+      {
+        "index": 11,
+        "specialties_i": "internalMedicine",
+        "capability_i": "Operates across Kerala for 7+ years"
+      },
+      {
+        "index": 12,
+        "specialties_i": "internalMedicine",
+        "capability_i": null
+      },
+      {
+        "index": 13,
+        "specialties_i": "radiology",
+        "capability_i": null
+      },
+      {
+        "index": 14,
+        "specialties_i": "gastroenterology",
+        "capability_i": null
+      },
+      {
+        "index": 15,
+        "specialties_i": "orthopedicSurgery",
+        "capability_i": null
+      },
+      {
+        "index": 16,
+        "specialties_i": "cardiology",
+        "capability_i": null
+      },
+      {
+        "index": 17,
+        "specialties_i": "neurology",
+        "capability_i": null
+      },
+      {
+        "index": 18,
+        "specialties_i": "nephrology",
+        "capability_i": null
+      },
+      {
+        "index": 19,
+        "specialties_i": "pathology",
+        "capability_i": null
+      },
+      {
+        "index": 20,
+        "specialties_i": "hematology",
+        "capability_i": null
+      },
+      {
+        "index": 21,
+        "specialties_i": "microbiology",
+        "capability_i": null
+      },
+      {
+        "index": 22,
+        "specialties_i": "biochemistry",
+        "capability_i": null
+      },
+      {
+        "index": 23,
+        "specialties_i": "endocrinologyAndDiabetesAndMetabolism",
+        "capability_i": null
+      },
+      {
+        "index": 24,
+        "specialties_i": "parasitology",
+        "capability_i": null
+      },
+      {
+        "index": 25,
+        "specialties_i": "serology",
+        "capability_i": null
+      },
+      {
+        "index": 26,
+        "specialties_i": "tumorMarker",
+        "capability_i": null
+      },
+      {
+        "index": 27,
+        "specialties_i": "radiology",
+        "capability_i": null
+      }
+    ]
+  }
+]

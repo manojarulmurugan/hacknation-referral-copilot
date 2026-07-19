@@ -1,0 +1,25 @@
+{
+  "method": "conservative deterministic provenance audit",
+  "total_facilities": 10077,
+  "total_bullets": 451110,
+  "suspected_conflict_bullets": 4556,
+  "review_bullets": 989,
+  "facilities_with_suspected_conflict": 1516,
+  "suspected_conflict_facility_rate_pct": 15.0442,
+  "facilities_with_review_flags": 662,
+  "review_facility_rate_pct": 6.5694,
+  "gazetteer_source": "GeoNames IN.zip (CC BY 4.0); restricted to facility-address places",
+  "gazetteer_place_count": 1734,
+  "gazetteer_alias_count": 3064,
+  "tier_c_development_comparison": {
+    "sample_size": 25,
+    "true_positive": 5,
+    "false_positive": 0,
+    "false_negative": 1,
+    "true_negative": 19,
+    "precision": 1.0,
+    "recall_on_six_claude_confirmed_cases": 0.8333,
+    "caveat": "Biased development sample drawn from previously flagged rows; not an estimate of population prevalence."
+  },
+  "interpretation": "The reported rate is the share of facilities flagged by this deterministic audit, not verified contamination prevalence."
+}

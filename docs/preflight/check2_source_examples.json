@@ -1,0 +1,144 @@
+[
+  {
+    "unique_id": "b8a5401f-42f1-422a-8cd9-686a15b4cb76",
+    "name": "Aravind Eye Hospital",
+    "source_types_raw_len": 50,
+    "source_types_distinct": [
+      "constant",
+      "dynamic",
+      "mongo_facility",
+      "overture"
+    ],
+    "source_ids_raw_len": 50,
+    "source_ids_distinct_count": 11,
+    "source_content_id": "c2ada12b-11f7-45f2-93b6-94f7e8853c7a",
+    "source_content_id_type": "scalar (single string, not an array)"
+  },
+  {
+    "unique_id": "06d5fb63-b2f1-4001-9c7c-a9fea7241dc3",
+    "name": "Fortis Hospital, Gurugram",
+    "source_types_raw_len": 50,
+    "source_types_distinct": [
+      "constant",
+      "dynamic",
+      "overture"
+    ],
+    "source_ids_raw_len": 50,
+    "source_ids_distinct_count": 14,
+    "source_content_id": "a3168d54-bc65-4ebc-9553-91859010d1a7",
+    "source_content_id_type": "scalar (single string, not an array)"
+  },
+  {
+    "unique_id": "29b6dbe0-f471-4650-a488-10906b6ac873",
+    "name": "Fortis Hospital Anandapur",
+    "source_types_raw_len": 50,
+    "source_types_distinct": [
+      "dynamic",
+      "overture"
+    ],
+    "source_ids_raw_len": 50,
+    "source_ids_distinct_count": 14,
+    "source_content_id": "39dd607d-6956-44f2-b98d-10c2ad00a937",
+    "source_content_id_type": "scalar (single string, not an array)"
+  },
+  {
+    "unique_id": "3ac5ae50-9ce2-4de3-a13c-d95a4ef218ee",
+    "name": "Wockhardt Hospital Nagpur",
+    "source_types_raw_len": 50,
+    "source_types_distinct": [
+      "constant",
+      "dynamic",
+      "overture"
+    ],
+    "source_ids_raw_len": 50,
+    "source_ids_distinct_count": 10,
+    "source_content_id": "d8d93d78-a04c-42b8-899e-740ba6fc56c3",
+    "source_content_id_type": "scalar (single string, not an array)"
+  },
+  {
+    "unique_id": "59b6c976-2d44-4705-bcff-a83605983487",
+    "name": "RAM HOSPITAL & RESEARCH CENTRE, KANPUR",
+    "source_types_raw_len": 50,
+    "source_types_distinct": [
+      "constant",
+      "dynamic",
+      "overture"
+    ],
+    "source_ids_raw_len": 50,
+    "source_ids_distinct_count": 7,
+    "source_content_id": "52529dfe-ce5d-4699-b343-22a318f5d92a",
+    "source_content_id_type": "scalar (single string, not an array)"
+  },
+  {
+    "unique_id": "77a4e680-bf90-4cd0-b4b5-32bcdd7cf61c",
+    "name": "HCG Manavata Cancer Centre",
+    "source_types_raw_len": 50,
+    "source_types_distinct": [
+      "constant",
+      "dynamic",
+      "overture"
+    ],
+    "source_ids_raw_len": 50,
+    "source_ids_distinct_count": 13,
+    "source_content_id": "f26101bc-562d-434e-87f4-a429b1d0cb2a",
+    "source_content_id_type": "scalar (single string, not an array)"
+  },
+  {
+    "unique_id": "88c2565a-8801-4899-9745-6070316eb745",
+    "name": "Rajarajeswari Medical College and Hospital",
+    "source_types_raw_len": 50,
+    "source_types_distinct": [
+      "constant",
+      "dynamic",
+      "overture"
+    ],
+    "source_ids_raw_len": 50,
+    "source_ids_distinct_count": 15,
+    "source_content_id": "b153afe6-dff3-4879-b968-b61a55912993",
+    "source_content_id_type": "scalar (single string, not an array)"
+  },
+  {
+    "unique_id": "8b4d0b3f-896c-4010-8b7e-b5ebd781fb29",
+    "name": "Medanta The Medicity, Gurgaon, Haryana",
+    "source_types_raw_len": 50,
+    "source_types_distinct": [
+      "constant",
+      "dynamic",
+      "mongo_facility",
+      "overture"
+    ],
+    "source_ids_raw_len": 50,
+    "source_ids_distinct_count": 20,
+    "source_content_id": "715c4326-7f5e-4f03-be20-7a342d0bcdeb",
+    "source_content_id_type": "scalar (single string, not an array)"
+  },
+  {
+    "unique_id": "d9bc3999-4523-4969-aac0-abd6bc415f2e",
+    "name": "Sumitra Hospital",
+    "source_types_raw_len": 50,
+    "source_types_distinct": [
+      "constant",
+      "dynamic",
+      "mongo_facility",
+      "overture"
+    ],
+    "source_ids_raw_len": 50,
+    "source_ids_distinct_count": 14,
+    "source_content_id": "796f9d7d-97a4-400c-aa83-d06f2c5dd94a",
+    "source_content_id_type": "scalar (single string, not an array)"
+  },
+  {
+    "unique_id": "e0fcd8ad-b818-4cef-975d-afdfd2e6d413",
+    "name": "Government Medical College, Thiruvananthapuram",
+    "source_types_raw_len": 50,
+    "source_types_distinct": [
+      "constant",
+      "dynamic",
+      "overture"
+    ],
+    "source_ids_raw_len": 50,
+    "source_ids_distinct_count": 8,
+    "source_content_id": "40b7453f-a76f-49d0-aca3-d20b614f6b54",
+    "source_content_id_type": "scalar (single string, not an array)"
+  }
+]

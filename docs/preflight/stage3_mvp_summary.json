@@ -1,0 +1,43 @@
+{
+  "total_facilities_dedup": 10077,
+  "facility_conflict": 1856,
+  "facility_review": 2039,
+  "facility_no_conflict": 6182,
+  "pct_facility_conflict": 18.42,
+  "pct_facility_review": 20.23,
+  "pct_facility_flagged_conflict_or_review": 38.65,
+  "conflict_bullets": 224,
+  "review_bullets": 15991,
+  "city_vocab_size_cleaned": 1633,
+  "org_vocab_size_cleaned": 9460,
+  "disclaimer": "These are DETECTOR FLAG RATES for a conservative MVP, NOT a measured true contamination prevalence. Use with smoke-test precision notes; do not put raw % in the demo without caveats.",
+  "smoke_test": {
+    "must_surface_pass": [
+      "Wadhwa Pathology Lab",
+      "Saravana Hospital",
+      "Upasana Hospital",
+      "Nizam's Institute of Medical Sciences",
+      "Cosmos Hospital"
+    ],
+    "must_surface_fail": [],
+    "must_not_conflict_pass": [
+      "Dr. Jairaj's Hospital",
+      "Jaya Dental Clinic",
+      "Sadamangalam Ayurvedic Panchakarma Clinic & Fertiveda",
+      "Redent Dental Clinic",
+      "My Smile Dental Clinic",
+      "Nahar Medical Centre",
+      "Divine Touch Dental Hospital & Amp Research Centre",
+      "Kids Dental Clinic"
+    ],
+    "must_not_conflict_fail": [],
+    "surface_recall_on_known_positives": 1.0,
+    "false_conflict_avoidance": 1.0,
+    "dev_confusion": {
+      "tp": 5,
+      "fp": 0,
+      "tn": 19,
+      "fn": 1
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "sample_facilities": 200,
+  "matched_bullet_rows": 1279,
+  "hits_by_capability": {
+    "general_surgery": 461,
+    "cardiac": 185,
+    "emergency": 157,
+    "oncology": 117,
+    "icu": 106,
+    "maternity": 94,
+    "nicu": 49,
+    "dialysis": 46,
+    "blood_bank": 36,
+    "trauma": 28
+  },
+  "capabilities_defined": [
+    "dialysis",
+    "icu",
+    "maternity",
+    "nicu",
+    "emergency",
+    "trauma",
+    "oncology",
+    "cardiac",
+    "general_surgery",
+    "blood_bank"
+  ],
+  "note": "Starter sample only (SEED=42, n=200 facilities). Not a precision/recall table yet \u2014 hand-check next."
+}
