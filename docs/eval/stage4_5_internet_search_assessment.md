@@ -10,16 +10,16 @@ At most, externally sourced information could be presented as a separately attri
 
 Because the proposal does not clear both feasibility and rubric validity, this document intentionally contains no implementation plan.
 
-## 1. What “4.5” actually meant in the project brief
+## 1. Terminology: “Stage 4.5”
 
-There is no pipeline **Stage 4.5** or **Phase 4.5** in `PROJECT_BRIEF_v3.md`.
+The proposed web feature is not an existing pipeline **Stage 4.5** or **Phase 4.5**.
 
-The early `4.5` reference is section **4.5, “Prediction intervals” → Wilson score interval**. It describes the Wilson interval as the preferred uncertainty interval for binomial proportions, especially for small samples or proportions near zero or one. It is a statistical method for honest regional uncertainty, not internet search, scraping, geocoding, or data enrichment.
+The earlier `4.5` label was a section number for **“Prediction intervals” → Wilson score interval**. It describes the Wilson interval as the preferred uncertainty interval for binomial proportions, especially for small samples or proportions near zero or one. It is a statistical method for honest regional uncertainty, not internet search, scraping, geocoding, or data enrichment.
 
 Two nearby labels are also distinct:
 
 - **Stage 4** is deterministic capability taxonomy and tracer mapping over dataset evidence.
-- **Stage 4b** was an offline cell-ranking precompute. The authoritative solo roadmap later cut it as premature optimization.
+- **Stage 4b** was an offline cell-ranking precompute that was not included because it was premature optimization.
 
 Calling the proposed feature “Stage 4.5” would therefore overwrite an existing meaning and make the architecture harder to explain. “External web enrichment” would be the accurate name if the idea were ever revisited.
 
@@ -173,7 +173,6 @@ The stronger submission story is: the team recognized that external “verificat
 
 ## Sources reviewed
 
-- `PROJECT_BRIEF_v3.md`, especially §§4.5, 5, 6, 9, 14.5, and 15.
 - `Hackathon Prompt.pdf`, especially §§2, 3, 4, 5, and 6.
 - `app/llm_query.py`.
 - Databricks, “Free Edition limitations”: <https://docs.databricks.com/aws/en/getting-started/free-edition-limitations>

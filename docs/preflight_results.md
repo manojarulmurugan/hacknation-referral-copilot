@@ -1,8 +1,7 @@
 # Pre-flight diagnostic results
 
-Ran per `PROJECT_BRIEF_v3.md` §10 (pre-flight checks), scoped to Manoj's three
-checks (Q1/Q2/Q3). **Diagnostics only** — no taxonomy, provenance-audit, or
-scoring logic was built in this session.
+This report records three reproducible data-quality diagnostics (Q1/Q2/Q3)
+performed before taxonomy mapping, provenance auditing, and readiness scoring.
 
 - Data: `data/facilities_local.parquet`, 10,088 rows × 51 columns (verified against the expected shape before any check ran).
 - All scripts live in `pipeline/preflight_*.py` and are re-runnable; every tier writes its raw output to `docs/preflight/` (not just this summary) so numbers can be audited independently.
