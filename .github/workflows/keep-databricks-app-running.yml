@@ -2,9 +2,9 @@ name: Keep Databricks App running
 
 on:
   schedule:
-    # GitHub cron cannot express "every 20-22 hours" directly. Check every two
-    # hours and restart only when the app's last update is at least 20 hours old.
-    - cron: "23 */2 * * *"
+    # Check frequently so an unexpected Free Edition stop has a short outage.
+    # Offset from the top of the hour to reduce GitHub scheduler congestion.
+    - cron: "7-57/10 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -27,13 +27,13 @@ jobs:
       - name: Install Databricks CLI
         uses: databricks/setup-cli@v1.3.0
 
-      - name: Restart app when stopped or at least 20 hours old
+      - name: Recover stopped app or refresh it after 20 hours
         shell: bash
         run: |
           set -euo pipefail
 
           app_json="$(databricks apps get "$APP_NAME" -o json)"
-          read -r app_state compute_state update_epoch < <(
+          read -r app_state compute_state update_epoch source_path < <(
             APP_JSON="$app_json" python - <<'PY'
           import datetime
           import json
@@ -45,6 +45,7 @@ jobs:
               app["app_status"]["state"],
               app["compute_status"]["state"],
               int(updated.timestamp()),
+              app["default_source_code_path"],
           )
           PY
           )
@@ -57,16 +58,34 @@ jobs:
           now_epoch="$(date -u +%s)"
           age_hours="$(( (now_epoch - update_epoch) / 3600 ))"
 
-          if [[ "$GITHUB_EVENT_NAME" != "workflow_dispatch" &&
-                "$app_state" == "RUNNING" &&
-                "$age_hours" -lt 20 ]]; then
-            echo "App is running and was updated ${age_hours} hours ago; no restart needed."
-            exit 0
-          fi
-
           if [[ "$app_state" == "RUNNING" ]]; then
-            databricks apps stop "$APP_NAME" --timeout 10m
+            if [[ "$GITHUB_EVENT_NAME" != "workflow_dispatch" && "$age_hours" -lt 20 ]]; then
+              echo "App is running and was updated ${age_hours} hours ago; no refresh needed."
+              exit 0
+            fi
+
+            # Refresh with a rolling deployment instead of deliberately stopping
+            # healthy compute and creating an avoidable outage.
+            databricks apps deploy "$APP_NAME" \
+              --source-code-path "$source_path" \
+              --mode SNAPSHOT \
+              --timeout 20m
+          else
+            databricks apps start "$APP_NAME" --timeout 20m
           fi
 
-          databricks apps start "$APP_NAME" --timeout 20m
-          databricks apps get "$APP_NAME" -o json
+          for _ in {1..60}; do
+            final_json="$(databricks apps get "$APP_NAME" -o json)"
+            final_state="$(
+              APP_JSON="$final_json" python -c \
+                'import json, os; print(json.loads(os.environ["APP_JSON"])["app_status"]["state"])'
+            )"
+            if [[ "$final_state" == "RUNNING" ]]; then
+              echo "App is RUNNING."
+              exit 0
+            fi
+            sleep 10
+          done
+
+          echo "App did not reach RUNNING state within 10 minutes." >&2
+          exit 1
