@@ -1,0 +1,72 @@
+name: Keep Databricks App running
+
+on:
+  schedule:
+    # GitHub cron cannot express "every 20-22 hours" directly. Check every two
+    # hours and restart only when the app's last update is at least 20 hours old.
+    - cron: "23 */2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: keep-data-legend-app-running
+  cancel-in-progress: false
+
+jobs:
+  restart-if-due:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      APP_NAME: data-legend-app
+      DATABRICKS_HOST: ${{ secrets.DATABRICKS_HOST }}
+      DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_TOKEN }}
+
+    steps:
+      - name: Install Databricks CLI
+        uses: databricks/setup-cli@v1.3.0
+
+      - name: Restart app when stopped or at least 20 hours old
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          app_json="$(databricks apps get "$APP_NAME" -o json)"
+          read -r app_state compute_state update_epoch < <(
+            APP_JSON="$app_json" python - <<'PY'
+          import datetime
+          import json
+          import os
+
+          app = json.loads(os.environ["APP_JSON"])
+          updated = datetime.datetime.fromisoformat(app["update_time"].replace("Z", "+00:00"))
+          print(
+              app["app_status"]["state"],
+              app["compute_status"]["state"],
+              int(updated.timestamp()),
+          )
+          PY
+          )
+
+          if [[ "$compute_state" == "UPDATING" ]]; then
+            echo "App compute is already updating; skipping this check."
+            exit 0
+          fi
+
+          now_epoch="$(date -u +%s)"
+          age_hours="$(( (now_epoch - update_epoch) / 3600 ))"
+
+          if [[ "$GITHUB_EVENT_NAME" != "workflow_dispatch" &&
+                "$app_state" == "RUNNING" &&
+                "$age_hours" -lt 20 ]]; then
+            echo "App is running and was updated ${age_hours} hours ago; no restart needed."
+            exit 0
+          fi
+
+          if [[ "$app_state" == "RUNNING" ]]; then
+            databricks apps stop "$APP_NAME" --timeout 10m
+          fi
+
+          databricks apps start "$APP_NAME" --timeout 20m
+          databricks apps get "$APP_NAME" -o json
